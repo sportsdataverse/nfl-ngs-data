@@ -97,3 +97,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,PRE,3,2026082951,60497,08/29/2026,2200,IND,1540,DET,visitor,1,DOB302360,1540,DET,Joshua Dobbs,J.Dobbs,https://static.www.nfl.com/image/upload/{formatInstructions}/league/twaqqjexyi0vgyfbvzis,QB,6,128,19,15,0,2
 2026,PRE,3,2026082952,60498,08/29/2026,2100,TEN,0810,CHI,home,1,LEV604187,2100,TEN,Will Levis,W.Levis,https://static.www.nfl.com/image/upload/{formatInstructions}/league/npovrxpll0gqlkptsn6r,QB,8,143,22,14,0,0
 2026,PRE,3,2026082952,60498,08/29/2026,2100,TEN,0810,CHI,visitor,1,BAG565656,0810,CHI,Tyson Bagent,T.Bagent,https://static.www.nfl.com/image/upload/{formatInstructions}/league/ymimvligfyrucu0v3p6a,QB,17,208,17,16,0,2
+2026,REG,1,2026090900,60178,09/09/2026,4600,SEA,3200,NE,home,1,LOC374482,4600,SEA,Drew Lock,D.Lock,https://static.www.nfl.com/image/upload/{formatInstructions}/league/vdixnkk1uglfpwowalf8,QB,2,187,22,16,0,1
+2026,REG,1,2026090900,60178,09/09/2026,4600,SEA,3200,NE,visitor,1,MAY289639,3200,NE,Drake Maye,D.Maye,https://static.www.nfl.com/image/upload/{formatInstructions}/league/s1nmoon2xnrc3bnyulv4,QB,10,178,33,23,3,1
