@@ -1,0 +1,26 @@
+# Built datasets under ngs/ (parquet + csv + manifests) ARE committed -- the
+# repo is the git mirror of what the release tags carry. Do not "fix" this.
+
+# HTTPS read-through cache of the raw tree (per-run, never committed)
+.ngs_raw_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Scratch / experiments
+dev/
+
+# Claude Code personal wiring (machine-specific paths)
+.claude/settings.local.json
+
+# Agent / tooling state
+.omc/
+**/.omc/
+.understand-anything/
+**/.understand-anything/

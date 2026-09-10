@@ -1,0 +1,44 @@
+name: tests
+
+# Offline test gate: every raw read goes through an injected downloader.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          # ngs/ is the committed dataset mirror; nothing under tests/ reads it.
+          sparse-checkout: |
+            python
+            tests
+            scripts
+            pyproject.toml
+            uv.lock
+          sparse-checkout-cone-mode: false
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          python-version: '3.12'
+          cache-dependency-glob: uv.lock
+
+      - name: Install
+        run: uv sync --frozen --dev
+
+      - name: Tests
+        run: uv run --no-sync pytest -q -m "not archive"
+
+      - name: Lint
+        run: uv run --no-sync ruff check python tests
+
+      - name: Shell syntax
+        run: bash -n scripts/*.sh

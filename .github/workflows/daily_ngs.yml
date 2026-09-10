@@ -1,0 +1,83 @@
+name: Update NFL NGS Data
+
+# The scheduled + dispatched compile. Reads nfl-ngs-raw over
+# raw.githubusercontent.com (never a clone) and publishes every nfl_ngs_*
+# tag on sportsdataverse-data. Fired by:
+#   - repository_dispatch from nfl-ngs-raw's nfl_ngs_data_trigger.yml on every
+#     raw push (season range parsed from the forwarded commit subject);
+#   - a daily cron during the NFL calendar (Aug-Feb), an hour after the raw
+#     side's droplet cron, for the current season;
+#   - workflow_dispatch with an explicit range (backfills).
+#
+# Serialize everything that commits to this repo; queue, never cancel -- a run
+# cancelled mid-upload leaves a tag half-updated.
+concurrency:
+  group: ${{ github.repository }}-commit
+  cancel-in-progress: false
+
+on:
+  schedule:
+    - cron: '45 12 * 8 *'        # August -- preseason
+    - cron: '45 12 * 9-12 *'     # Sept-Dec -- regular season
+    - cron: '45 12 * 1,2 *'      # Jan-Feb -- playoffs + Super Bowl
+  repository_dispatch:
+    types: [daily_nfl_ngs_data]
+  workflow_dispatch:
+    inputs:
+      start_year:
+        description: 'Start season, STARTING year (default: current)'
+        required: false
+        type: string
+      end_year:
+        description: 'End season (default: same as start)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  update_ngs_data:
+    runs-on: ubuntu-latest
+    name: Update NFL NGS Data ${{ inputs.start_year }}-${{ inputs.end_year }}
+    env:
+      START_YEAR: ${{ inputs.start_year }}
+      END_YEAR: ${{ inputs.end_year }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Set up uv + Python
+        uses: astral-sh/setup-uv@v6
+        with:
+          python-version: '3.12'
+          cache-dependency-glob: uv.lock
+
+      - name: Install
+        run: uv sync --frozen
+
+      - name: Extract years from the raw repo's dispatch
+        if: ${{ github.event.client_payload.event_name == 'daily_nfl_ngs_data' }}
+        env:
+          COMMIT_MESSAGE: ${{ github.event.client_payload.commit_message }}
+        run: |
+          # Anchored to the canonical "NGS Raw Update (Start: YYYY End: YYYY)"
+          # subject so embedded numbers elsewhere cannot shadow the years. A
+          # code-change push carries no such tokens -> current season.
+          start=$(printf '%s' "$COMMIT_MESSAGE" | grep -oP 'Start:\s*\K[0-9]{4}' | head -1 || true)
+          end=$(printf '%s' "$COMMIT_MESSAGE"   | grep -oP 'End:\s*\K[0-9]{4}'   | head -1 || true)
+          echo "START_YEAR=$start" >> "$GITHUB_ENV"
+          echo "END_YEAR=$end"     >> "$GITHUB_ENV"
+
+      - name: Default year inputs if empty
+        if: ${{ env.START_YEAR == '' }}
+        run: |
+          y=$(uv run --no-sync python -c 'from sportsdataverse.nfl.utils_date import most_recent_nfl_season as m; print(m())')
+          echo "START_YEAR=$y" >> "$GITHUB_ENV"
+          echo "END_YEAR=$y"   >> "$GITHUB_ENV"
+
+      - name: Build + publish ${{ env.START_YEAR }}-${{ env.END_YEAR }}
+        env:
+          GH_TOKEN: ${{ secrets.SDV_GH_TOKEN }}   # gh release upload to sportsdataverse-data
+          SDV_VENV_PYTHON: .venv/bin/python
+          SDV_PY_HTTP_TIMEOUT: '30'
+        run: bash scripts/daily_ngs_data_processor.sh -s "$START_YEAR" -e "${END_YEAR:-$START_YEAR}"
