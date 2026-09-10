@@ -83,7 +83,13 @@ REGISTRY: dict[str, DatasetSpec] = {
     ),
 }
 
-# Release sidecar: which loader a consumer reaches the data through. No sdv-py
-# loader ships yet (consumer-side follow-up, see README) -- these name the
-# INTENDED loader, and the publish test pins that every tag has an entry.
-PKG_FUNCTION: dict[str, str] = {spec.tag: f"sportsdataverse.nfl.load_nfl_ngs_{key}()" for key, spec in REGISTRY.items()}
+# Release sidecar: which loader a consumer reaches the data through -- the
+# unified sdv-py loader, selected by dataset= (sportsdataverse-py
+# feat/nfl-ngs-sdv-loader). Per-dataset names were deliberately NOT used:
+# sdv-py already ships deprecated load_nfl_ngs_{passing,rushing,receiving}
+# aliases that read nflverse's republished statboards, and reusing those names
+# would silently change their source. The publish test pins that every tag
+# has an entry.
+PKG_FUNCTION: dict[str, str] = {
+    spec.tag: f"sportsdataverse.nfl.load_nfl_ngs(dataset={key!r})" for key, spec in REGISTRY.items()
+}
