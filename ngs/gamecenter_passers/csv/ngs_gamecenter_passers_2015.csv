@@ -1,0 +1,619 @@
+season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,visitor_team_id,visitor_team_abbr,side,rank,esb_id,team_id,team_abbr,player_name,headshot,position,jersey_number,pass_yards,attempts,completions,interceptions,touchdowns
+2015,PRE,0,2015080951,56759,08/09/2015,3000,MIN,3900,PIT,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,0,2015080951,56759,08/09/2015,3000,MIN,3900,PIT,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081351,56760,08/13/2015,0325,BAL,3300,NO,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081351,56760,08/13/2015,0325,BAL,3300,NO,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081352,56761,08/13/2015,1540,DET,3430,NYJ,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081352,56761,08/13/2015,1540,DET,3430,NYJ,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081353,56762,08/13/2015,3200,NE,1800,GB,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081353,56762,08/13/2015,3200,NE,1800,GB,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081354,56763,08/13/2015,1050,CLE,5110,WAS,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081354,56763,08/13/2015,1050,CLE,5110,WAS,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081355,56764,08/13/2015,0810,CHI,2700,MIA,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081355,56764,08/13/2015,0810,CHI,2700,MIA,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081356,56765,08/13/2015,4400,SD,1200,DAL,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081356,56765,08/13/2015,4400,SD,1200,DAL,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081451,56766,08/14/2015,0200,ATL,2100,TEN,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081451,56766,08/14/2015,0200,ATL,2100,TEN,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081452,56767,08/14/2015,0610,BUF,0750,CAR,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081452,56767,08/14/2015,0610,BUF,0750,CAR,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081453,56768,08/14/2015,0920,CIN,3410,NYG,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081453,56768,08/14/2015,0920,CIN,3410,NYG,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081454,56769,08/14/2015,2250,JAX,3900,PIT,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081454,56769,08/14/2015,2250,JAX,3900,PIT,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081455,56770,08/14/2015,2520,OAK,2510,STL,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081455,56770,08/14/2015,2520,OAK,2510,STL,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081456,56771,08/14/2015,4600,SEA,1400,DEN,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081456,56771,08/14/2015,4600,SEA,1400,DEN,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081551,56772,08/15/2015,3000,MIN,4900,TB,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081551,56772,08/15/2015,3000,MIN,4900,TB,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081552,56773,08/15/2015,2120,HOU,4500,SF,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081552,56773,08/15/2015,2120,HOU,4500,SF,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081553,56774,08/15/2015,3800,ARI,2310,KC,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081553,56774,08/15/2015,3800,ARI,2310,KC,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081651,56775,08/16/2015,3700,PHI,2200,IND,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,1,2015081651,56775,08/16/2015,3700,PHI,2200,IND,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082051,56776,08/20/2015,5110,WAS,1540,DET,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082051,56776,08/20/2015,5110,WAS,1540,DET,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082052,56777,08/20/2015,1050,CLE,0610,BUF,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082052,56777,08/20/2015,1050,CLE,0610,BUF,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082151,56778,08/21/2015,3430,NYJ,0200,ATL,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082151,56778,08/21/2015,3430,NYJ,0200,ATL,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082152,56779,08/21/2015,2310,KC,4600,SEA,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082152,56779,08/21/2015,2310,KC,4600,SEA,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082251,56780,08/22/2015,0750,CAR,2700,MIA,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082251,56780,08/22/2015,0750,CAR,2700,MIA,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082252,56781,08/22/2015,3700,PHI,0325,BAL,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082252,56781,08/22/2015,3700,PHI,0325,BAL,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082253,56782,08/22/2015,2200,IND,0810,CHI,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082253,56782,08/22/2015,2200,IND,0810,CHI,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082254,56783,08/22/2015,3300,NO,3200,NE,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082254,56783,08/22/2015,3300,NO,3200,NE,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082255,56784,08/22/2015,3410,NYG,2250,JAX,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082255,56784,08/22/2015,3410,NYG,2250,JAX,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082256,56785,08/22/2015,2120,HOU,1400,DEN,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082256,56785,08/22/2015,2120,HOU,1400,DEN,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082257,56786,08/22/2015,3000,MIN,2520,OAK,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082257,56786,08/22/2015,3000,MIN,2520,OAK,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082258,56787,08/22/2015,3800,ARI,4400,SD,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082258,56787,08/22/2015,3800,ARI,4400,SD,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082351,56788,08/23/2015,3900,PIT,1800,GB,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082351,56788,08/23/2015,3900,PIT,1800,GB,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082352,56789,08/23/2015,4500,SF,1200,DAL,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082352,56789,08/23/2015,4500,SF,1200,DAL,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082353,56790,08/23/2015,2100,TEN,2510,STL,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082353,56790,08/23/2015,2100,TEN,2510,STL,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082451,56791,08/24/2015,4900,TB,0920,CIN,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,2,2015082451,56791,08/24/2015,4900,TB,0920,CIN,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082851,56792,08/28/2015,0750,CAR,3200,NE,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082851,56792,08/28/2015,0750,CAR,3200,NE,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082852,56793,08/28/2015,2250,JAX,1540,DET,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082852,56793,08/28/2015,2250,JAX,1540,DET,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082853,56794,08/28/2015,2310,KC,2100,TEN,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082853,56794,08/28/2015,2310,KC,2100,TEN,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082951,56795,08/29/2015,0610,BUF,3900,PIT,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082951,56795,08/29/2015,0610,BUF,3900,PIT,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082952,56796,08/29/2015,1200,DAL,3000,MIN,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082952,56796,08/29/2015,1200,DAL,3000,MIN,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082953,56797,08/29/2015,2700,MIA,0200,ATL,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082953,56797,08/29/2015,2700,MIA,0200,ATL,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082954,56798,08/29/2015,3410,NYG,3430,NYJ,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082954,56798,08/29/2015,3410,NYG,3430,NYJ,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082955,56799,08/29/2015,4900,TB,1050,CLE,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082955,56799,08/29/2015,4900,TB,1050,CLE,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082956,56800,08/29/2015,0325,BAL,5110,WAS,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082956,56800,08/29/2015,0325,BAL,5110,WAS,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082957,56801,08/29/2015,0920,CIN,0810,CHI,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082957,56801,08/29/2015,0920,CIN,0810,CHI,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082958,56802,08/29/2015,1800,GB,3700,PHI,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082958,56802,08/29/2015,1800,GB,3700,PHI,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082959,56803,08/29/2015,2510,STL,2200,IND,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082959,56803,08/29/2015,2510,STL,2200,IND,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082960,56804,08/29/2015,4400,SD,4600,SEA,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082960,56804,08/29/2015,4400,SD,4600,SEA,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082961,56805,08/29/2015,1400,DEN,4500,SF,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015082961,56805,08/29/2015,1400,DEN,4500,SF,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015083051,56806,08/30/2015,3300,NO,2120,HOU,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015083051,56806,08/30/2015,3300,NO,2120,HOU,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015083052,56807,08/30/2015,2520,OAK,3800,ARI,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,3,2015083052,56807,08/30/2015,2520,OAK,3800,ARI,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090351,56808,09/03/2015,0200,ATL,0325,BAL,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090351,56808,09/03/2015,0200,ATL,0325,BAL,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090352,56809,09/03/2015,1800,GB,3300,NO,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090352,56809,09/03/2015,1800,GB,3300,NO,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090353,56810,09/03/2015,2200,IND,0920,CIN,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090353,56810,09/03/2015,2200,IND,0920,CIN,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090354,56811,09/03/2015,2700,MIA,4900,TB,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090354,56811,09/03/2015,2700,MIA,4900,TB,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090355,56812,09/03/2015,3430,NYJ,3700,PHI,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090355,56812,09/03/2015,3430,NYJ,3700,PHI,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090356,56813,09/03/2015,1540,DET,0610,BUF,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090356,56813,09/03/2015,1540,DET,0610,BUF,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090357,56814,09/03/2015,3200,NE,3410,NYG,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090357,56814,09/03/2015,3200,NE,3410,NYG,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090358,56815,09/03/2015,3900,PIT,0750,CAR,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090358,56815,09/03/2015,3900,PIT,0750,CAR,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090359,56816,09/03/2015,5110,WAS,2250,JAX,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090359,56816,09/03/2015,5110,WAS,2250,JAX,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090360,56817,09/03/2015,0810,CHI,1050,CLE,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090360,56817,09/03/2015,0810,CHI,1050,CLE,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090361,56818,09/03/2015,1200,DAL,2120,HOU,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090361,56818,09/03/2015,1200,DAL,2120,HOU,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090362,56819,09/03/2015,2510,STL,2310,KC,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090362,56819,09/03/2015,2510,STL,2310,KC,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090363,56820,09/03/2015,2100,TEN,3000,MIN,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090363,56820,09/03/2015,2100,TEN,3000,MIN,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090364,56821,09/03/2015,1400,DEN,3800,ARI,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090364,56821,09/03/2015,1400,DEN,3800,ARI,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090365,56822,09/03/2015,4500,SF,4400,SD,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090365,56822,09/03/2015,4500,SF,4400,SD,visitor,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090366,56823,09/03/2015,4600,SEA,2520,OAK,home,1,,,,,,,,0,0,0,0,0
+2015,PRE,4,2015090366,56823,09/03/2015,4600,SEA,2520,OAK,visitor,1,,,,,,,,0,0,0,0,0
+2015,REG,1,2015091000,56503,09/10/2015,3200,NE,3900,PIT,home,1,BRA371156,3200,NE,Tom Brady,https://static.www.nfl.com/image/private/{formatInstructions}/league/apkxya5ptb0zalrskshq,QB,12,0,0,0,0,0
+2015,REG,1,2015091000,56503,09/10/2015,3200,NE,3900,PIT,visitor,1,ROE750381,3900,PIT,Ben Roethlisberger,https://static.www.nfl.com/image/private/{formatInstructions}/league/myft4pwoxwrxbeh1exyy,QB,7,0,0,0,0,0
+2015,REG,1,2015091300,56505,09/13/2015,0810,CHI,1800,GB,home,1,CUT288111,0810,CHI,Jay Cutler,https://static.www.nfl.com/image/private/{formatInstructions}/league/ks6n7gvw4vccihlse6bn,QB,6,0,0,0,0,0
+2015,REG,1,2015091300,56505,09/13/2015,0810,CHI,1800,GB,visitor,1,ROD339293,1800,GB,Aaron Rodgers,https://static.www.nfl.com/image/private/{formatInstructions}/league/ejjiyjumtzwxiffdhkgz,QB,12,0,0,0,0,0
+2015,REG,1,2015091302,56507,09/13/2015,2250,JAX,0750,CAR,home,1,BOR650964,2250,JAC,Blake Bortles,https://static.www.nfl.com/image/private/{formatInstructions}/league/qycdzdjsokwmamzwsmeq,QB,5,0,0,0,0,0
+2015,REG,1,2015091302,56507,09/13/2015,2250,JAX,0750,CAR,visitor,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,0,0,0,0,0
+2015,REG,1,2015091303,56510,09/13/2015,5110,WAS,2700,MIA,home,1,COU709400,5110,WAS,Kirk Cousins,https://static.www.nfl.com/image/private/{formatInstructions}/league/yoi19theqqakt4zpw9r4,QB,8,0,0,0,0,0
+2015,REG,1,2015091303,56510,09/13/2015,5110,WAS,2700,MIA,visitor,1,TAN298716,2700,MIA,Ryan Tannehill,https://static.www.nfl.com/image/private/{formatInstructions}/league/e2b84kobkdgravu7u6qy,QB,17,0,0,0,0,0
+2015,REG,1,2015091304,56504,09/13/2015,0610,BUF,2200,IND,home,1,TAY764868,0610,BUF,Tyrod Taylor,https://static.www.nfl.com/image/private/{formatInstructions}/league/xsaawztp6k1dv3xlbgpx,QB,5,0,0,0,0,0
+2015,REG,1,2015091304,56504,09/13/2015,0610,BUF,2200,IND,visitor,1,LUC524055,2200,IND,Andrew Luck,https://static.www.nfl.com/image/private/{formatInstructions}/league/ojix2ha2u58zqozaw756,QB,12,0,0,0,0,0
+2015,REG,1,2015091305,56508,09/13/2015,3430,NYJ,1050,CLE,home,1,FIT792915,3430,NYJ,Ryan Fitzpatrick,https://static.www.nfl.com/image/private/{formatInstructions}/league/joilglqul2ldsy2pfjey,QB,14,179,24,15,1,2
+2015,REG,1,2015091305,56508,09/13/2015,3430,NYJ,1050,CLE,visitor,1,MAN794607,1050,CLE,Johnny Manziel,https://static.www.nfl.com/image/private/{formatInstructions}/league/a0ql3eziqinxvo0szfhk,QB,2,182,24,13,1,1
+2015,REG,1,2015091306,56506,09/13/2015,2120,HOU,2310,KC,home,1,HOY440791,2120,HOU,Brian Hoyer,https://static.www.nfl.com/image/private/{formatInstructions}/league/hartcqd9yt3gzqjddktl,QB,7,236,34,18,1,1
+2015,REG,1,2015091306,56506,09/13/2015,2120,HOU,2310,KC,visitor,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,243,33,22,0,3
+2015,REG,1,2015091307,56511,09/13/2015,3800,ARI,3300,NO,home,1,PAL249055,3800,ARI,Carson Palmer,https://static.www.nfl.com/image/private/{formatInstructions}/league/belgna3tokxga0gjjmwk,QB,3,307,32,19,0,3
+2015,REG,1,2015091307,56511,09/13/2015,3800,ARI,3300,NO,visitor,1,BRE229498,3300,NO,Drew Brees,https://static.www.nfl.com/image/private/{formatInstructions}/league/i20xlpzdmn7xubotijjd,QB,9,355,48,30,1,1
+2015,REG,1,2015091308,56512,09/13/2015,4400,SD,1540,DET,home,1,RIV651634,4400,SD,Philip Rivers,https://static.www.nfl.com/image/private/{formatInstructions}/league/adapxtphf15elrdudiix,QB,17,0,0,0,0,0
+2015,REG,1,2015091308,56512,09/13/2015,4400,SD,1540,DET,visitor,1,STA134157,1540,DET,Matthew Stafford,https://static.www.nfl.com/image/private/{formatInstructions}/league/iibglgpasx5wsrylvn2z,QB,9,0,0,0,0,0
+2015,REG,1,2015091309,56513,09/13/2015,1400,DEN,0325,BAL,home,1,MAN515097,1400,DEN,Peyton Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/yjtzhpx6wbj9o4np42jj,QB,18,175,40,24,1,0
+2015,REG,1,2015091309,56513,09/13/2015,1400,DEN,0325,BAL,visitor,1,FLA009602,0325,BAL,Joe Flacco,https://static.www.nfl.com/image/private/{formatInstructions}/league/puq0loqhg0yeuhpdtykr,QB,5,117,32,18,2,0
+2015,REG,1,2015091310,56514,09/13/2015,2520,OAK,0920,CIN,home,1,MCG491502,2520,OAK,Matt McGloin,https://static.www.nfl.com/image/private/{formatInstructions}/league/zwrox2g1yauaa1csdhrw,QB,14,0,0,0,0,0
+2015,REG,1,2015091310,56514,09/13/2015,2520,OAK,0920,CIN,visitor,1,DAL659900,0920,CIN,Andy Dalton,https://static.www.nfl.com/image/private/{formatInstructions}/league/fex1enmwhsyid5jyue7t,QB,14,0,0,0,0,0
+2015,REG,1,2015091311,56515,09/13/2015,4900,TB,2100,TEN,home,1,WIN623708,4900,TB,Jameis Winston,https://static.www.nfl.com/image/private/{formatInstructions}/league/iurpf1pdjrjfowtksptf,QB,3,0,0,0,0,0
+2015,REG,1,2015091311,56515,09/13/2015,4900,TB,2100,TEN,visitor,1,MAR186347,2100,TEN,Marcus Mariota,https://static.www.nfl.com/image/private/{formatInstructions}/league/qi4gui9b5gq10obus2xa,QB,8,0,0,0,0,0
+2015,REG,1,2015091312,56516,09/13/2015,1200,DAL,3410,NYG,home,1,ROM787981,1200,DAL,Tony Romo,https://static.www.nfl.com/image/private/{formatInstructions}/league/rdgaxf7djip2ovlkeqjk,QB,9,0,0,0,0,0
+2015,REG,1,2015091312,56516,09/13/2015,1200,DAL,3410,NYG,visitor,1,MAN473170,3410,NYG,Eli Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/w51tf8uedjftbr4qpaex,QB,10,0,0,0,0,0
+2015,REG,1,2015091400,56517,09/14/2015,0200,ATL,3700,PHI,home,1,RYA238179,0200,ATL,Matt Ryan,https://static.www.nfl.com/image/private/{formatInstructions}/league/nsup3rrfi8jfj8oduf1t,QB,2,0,0,0,0,0
+2015,REG,1,2015091400,56517,09/14/2015,0200,ATL,3700,PHI,visitor,1,BRA101548,3700,PHI,Sam Bradford,https://static.www.nfl.com/image/private/{formatInstructions}/league/fizwrxzfdaw7v2vzzpn6,QB,7,0,0,0,0,0
+2015,REG,1,2015091401,56518,09/14/2015,4500,SF,3000,MIN,home,1,KAE371576,4500,SF,Colin Kaepernick,https://static.www.nfl.com/image/private/{formatInstructions}/league/nnvil5vbsj1nbldpc9nl,QB,7,0,0,0,0,0
+2015,REG,1,2015091401,56518,09/14/2015,4500,SF,3000,MIN,visitor,1,BRI129168,3000,MIN,Teddy Bridgewater,https://static.www.nfl.com/image/private/{formatInstructions}/league/f0uzw2vaxwyytmx1zron,QB,5,0,0,0,0,0
+2015,REG,2,2015091700,56519,09/17/2015,2310,KC,1400,DEN,home,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,0,0,0,0,0
+2015,REG,2,2015091700,56519,09/17/2015,2310,KC,1400,DEN,visitor,1,MAN515097,1400,DEN,Peyton Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/yjtzhpx6wbj9o4np42jj,QB,18,0,0,0,0,0
+2015,REG,2,2015092000,56521,09/20/2015,0750,CAR,2120,HOU,home,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,195,37,18,1,2
+2015,REG,2,2015092000,56521,09/20/2015,0750,CAR,2120,HOU,visitor,1,MAL262949,2120,HOU,Ryan Mallett,https://static.www.nfl.com/image/private/{formatInstructions}/league/tvn03oot2ttdoog5x0qr,QB,15,244,58,27,1,1
+2015,REG,2,2015092001,56520,09/20/2015,0610,BUF,3200,NE,home,1,TAY764868,0610,BUF,Tyrod Taylor,https://static.www.nfl.com/image/private/{formatInstructions}/league/xsaawztp6k1dv3xlbgpx,QB,5,0,0,0,0,0
+2015,REG,2,2015092001,56520,09/20/2015,0610,BUF,3200,NE,visitor,1,BRA371156,3200,NE,Tom Brady,https://static.www.nfl.com/image/private/{formatInstructions}/league/apkxya5ptb0zalrskshq,QB,12,0,0,0,0,0
+2015,REG,2,2015092002,56523,09/20/2015,0920,CIN,4400,SD,home,1,DAL659900,0920,CIN,Andy Dalton,https://static.www.nfl.com/image/private/{formatInstructions}/league/fex1enmwhsyid5jyue7t,QB,14,0,0,0,0,0
+2015,REG,2,2015092002,56523,09/20/2015,0920,CIN,4400,SD,visitor,1,RIV651634,4400,SD,Philip Rivers,https://static.www.nfl.com/image/private/{formatInstructions}/league/adapxtphf15elrdudiix,QB,17,0,0,0,0,0
+2015,REG,2,2015092003,56524,09/20/2015,1050,CLE,2100,TEN,home,1,MAN794607,1050,CLE,Johnny Manziel,https://static.www.nfl.com/image/private/{formatInstructions}/league/a0ql3eziqinxvo0szfhk,QB,2,172,15,8,0,2
+2015,REG,2,2015092003,56524,09/20/2015,1050,CLE,2100,TEN,visitor,1,MAR186347,2100,TEN,Marcus Mariota,https://static.www.nfl.com/image/private/{formatInstructions}/league/qi4gui9b5gq10obus2xa,QB,8,257,37,21,0,2
+2015,REG,2,2015092004,56527,09/20/2015,3410,NYG,0200,ATL,home,1,MAN473170,3410,NYG,Eli Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/w51tf8uedjftbr4qpaex,QB,10,0,0,0,0,0
+2015,REG,2,2015092004,56527,09/20/2015,3410,NYG,0200,ATL,visitor,1,RYA238179,0200,ATL,Matt Ryan,https://static.www.nfl.com/image/private/{formatInstructions}/league/nsup3rrfi8jfj8oduf1t,QB,2,0,0,0,0,0
+2015,REG,2,2015092005,56529,09/20/2015,5110,WAS,2510,STL,home,1,COU709400,5110,WAS,Kirk Cousins,https://static.www.nfl.com/image/private/{formatInstructions}/league/yoi19theqqakt4zpw9r4,QB,8,203,27,23,0,1
+2015,REG,2,2015092005,56529,09/20/2015,5110,WAS,2510,STL,visitor,1,FOL058566,2510,STL,Nick Foles,https://static.www.nfl.com/image/private/{formatInstructions}/league/urh5iskpc9copfq79exn,QB,5,150,32,17,0,1
+2015,REG,2,2015092006,56522,09/20/2015,0810,CHI,3800,ARI,home,1,CLA709185,0810,CHI,Jimmy Clausen,https://static.www.nfl.com/image/private/{formatInstructions}/league/n5lf1tlpkvtck2j24krd,QB,8,121,23,14,1,0
+2015,REG,2,2015092006,56522,09/20/2015,0810,CHI,3800,ARI,visitor,1,PAL249055,3800,ARI,Carson Palmer,https://static.www.nfl.com/image/private/{formatInstructions}/league/belgna3tokxga0gjjmwk,QB,3,185,24,17,1,4
+2015,REG,2,2015092007,56525,09/20/2015,3000,MIN,1540,DET,home,1,BRI129168,3000,MIN,Teddy Bridgewater,https://static.www.nfl.com/image/private/{formatInstructions}/league/f0uzw2vaxwyytmx1zron,QB,5,0,0,0,0,0
+2015,REG,2,2015092007,56525,09/20/2015,3000,MIN,1540,DET,visitor,1,STA134157,1540,DET,Matthew Stafford,https://static.www.nfl.com/image/private/{formatInstructions}/league/iibglgpasx5wsrylvn2z,QB,9,0,0,0,0,0
+2015,REG,2,2015092008,56526,09/20/2015,3300,NO,4900,TB,home,1,BRE229498,3300,NO,Drew Brees,https://static.www.nfl.com/image/private/{formatInstructions}/league/i20xlpzdmn7xubotijjd,QB,9,0,0,0,0,0
+2015,REG,2,2015092008,56526,09/20/2015,3300,NO,4900,TB,visitor,1,WIN623708,4900,TB,Jameis Winston,https://static.www.nfl.com/image/private/{formatInstructions}/league/iurpf1pdjrjfowtksptf,QB,3,0,0,0,0,0
+2015,REG,2,2015092009,56528,09/20/2015,3900,PIT,4500,SF,home,1,ROE750381,3900,PIT,Ben Roethlisberger,https://static.www.nfl.com/image/private/{formatInstructions}/league/myft4pwoxwrxbeh1exyy,QB,7,0,0,0,0,0
+2015,REG,2,2015092009,56528,09/20/2015,3900,PIT,4500,SF,visitor,1,KAE371576,4500,SF,Colin Kaepernick,https://static.www.nfl.com/image/private/{formatInstructions}/league/nnvil5vbsj1nbldpc9nl,QB,7,0,0,0,0,0
+2015,REG,2,2015092010,56531,09/20/2015,2520,OAK,0325,BAL,home,1,CAR358797,2520,OAK,Derek Carr,https://static.www.nfl.com/image/private/{formatInstructions}/league/chtyn7pw8xqfpnrkd1fq,QB,4,351,46,30,1,3
+2015,REG,2,2015092010,56531,09/20/2015,2520,OAK,0325,BAL,visitor,1,FLA009602,0325,BAL,Joe Flacco,https://static.www.nfl.com/image/private/{formatInstructions}/league/puq0loqhg0yeuhpdtykr,QB,5,384,45,32,1,2
+2015,REG,2,2015092011,56530,09/20/2015,2250,JAX,2700,MIA,home,1,BOR650964,2250,JAC,Blake Bortles,https://static.www.nfl.com/image/private/{formatInstructions}/league/qycdzdjsokwmamzwsmeq,QB,5,0,0,0,0,0
+2015,REG,2,2015092011,56530,09/20/2015,2250,JAX,2700,MIA,visitor,1,TAN298716,2700,MIA,Ryan Tannehill,https://static.www.nfl.com/image/private/{formatInstructions}/league/e2b84kobkdgravu7u6qy,QB,17,0,0,0,0,0
+2015,REG,2,2015092012,56532,09/20/2015,3700,PHI,1200,DAL,home,1,BRA101548,3700,PHI,Sam Bradford,https://static.www.nfl.com/image/private/{formatInstructions}/league/fizwrxzfdaw7v2vzzpn6,QB,7,0,0,0,0,0
+2015,REG,2,2015092012,56532,09/20/2015,3700,PHI,1200,DAL,visitor,1,ROM787981,1200,DAL,Tony Romo,https://static.www.nfl.com/image/private/{formatInstructions}/league/rdgaxf7djip2ovlkeqjk,QB,9,0,0,0,0,0
+2015,REG,2,2015092013,56533,09/20/2015,1800,GB,4600,SEA,home,1,ROD339293,1800,GB,Aaron Rodgers,https://static.www.nfl.com/image/private/{formatInstructions}/league/ejjiyjumtzwxiffdhkgz,QB,12,0,0,0,0,0
+2015,REG,2,2015092013,56533,09/20/2015,1800,GB,4600,SEA,visitor,1,WIL777781,4600,SEA,Russell Wilson,https://static.www.nfl.com/image/private/{formatInstructions}/league/rrpzsqysodir9laitnus,QB,3,0,0,0,0,0
+2015,REG,2,2015092100,56534,09/21/2015,2200,IND,3430,NYJ,home,1,LUC524055,2200,IND,Andrew Luck,https://static.www.nfl.com/image/private/{formatInstructions}/league/ojix2ha2u58zqozaw756,QB,12,0,0,0,0,0
+2015,REG,2,2015092100,56534,09/21/2015,2200,IND,3430,NYJ,visitor,1,FIT792915,3430,NYJ,Ryan Fitzpatrick,https://static.www.nfl.com/image/private/{formatInstructions}/league/joilglqul2ldsy2pfjey,QB,14,0,0,0,0,0
+2015,REG,3,2015092400,56535,09/24/2015,3410,NYG,5110,WAS,home,1,MAN473170,3410,NYG,Eli Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/w51tf8uedjftbr4qpaex,QB,10,0,0,0,0,0
+2015,REG,3,2015092400,56535,09/24/2015,3410,NYG,5110,WAS,visitor,1,COU709400,5110,WAS,Kirk Cousins,https://static.www.nfl.com/image/private/{formatInstructions}/league/yoi19theqqakt4zpw9r4,QB,8,0,0,0,0,0
+2015,REG,3,2015092700,56539,09/27/2015,1200,DAL,0200,ATL,home,1,WEE221487,1200,DAL,Brandon Weeden,https://static.www.nfl.com/image/private/{formatInstructions}/league/m8oocp4p9nskilnakgnw,QB,3,0,0,0,0,0
+2015,REG,3,2015092700,56539,09/27/2015,1200,DAL,0200,ATL,visitor,1,RYA238179,0200,ATL,Matt Ryan,https://static.www.nfl.com/image/private/{formatInstructions}/league/nsup3rrfi8jfj8oduf1t,QB,2,0,0,0,0,0
+2015,REG,3,2015092701,56537,09/27/2015,0750,CAR,3300,NO,home,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,0,0,0,0,0
+2015,REG,3,2015092701,56537,09/27/2015,0750,CAR,3300,NO,visitor,1,MCC600925,3300,NO,Luke McCown,https://static.www.nfl.com/image/private/{formatInstructions}/league/pj2lbdhplppzlywlzsbr,QB,7,0,0,0,0,0
+2015,REG,3,2015092702,56543,09/27/2015,3430,NYJ,3700,PHI,home,1,FIT792915,3430,NYJ,Ryan Fitzpatrick,https://static.www.nfl.com/image/private/{formatInstructions}/league/joilglqul2ldsy2pfjey,QB,14,0,0,0,0,0
+2015,REG,3,2015092702,56543,09/27/2015,3430,NYJ,3700,PHI,visitor,1,BRA101548,3700,PHI,Sam Bradford,https://static.www.nfl.com/image/private/{formatInstructions}/league/fizwrxzfdaw7v2vzzpn6,QB,7,0,0,0,0,0
+2015,REG,3,2015092703,56540,09/27/2015,2120,HOU,4900,TB,home,1,MAL262949,2120,HOU,Ryan Mallett,https://static.www.nfl.com/image/private/{formatInstructions}/league/tvn03oot2ttdoog5x0qr,QB,15,228,39,24,1,1
+2015,REG,3,2015092703,56540,09/27/2015,2120,HOU,4900,TB,visitor,1,WIN623708,4900,TB,Jameis Winston,https://static.www.nfl.com/image/private/{formatInstructions}/league/iurpf1pdjrjfowtksptf,QB,3,261,36,17,1,1
+2015,REG,3,2015092704,56541,09/27/2015,3000,MIN,4400,SD,home,1,BRI129168,3000,MIN,Teddy Bridgewater,https://static.www.nfl.com/image/private/{formatInstructions}/league/f0uzw2vaxwyytmx1zron,QB,5,0,0,0,0,0
+2015,REG,3,2015092704,56541,09/27/2015,3000,MIN,4400,SD,visitor,1,RIV651634,4400,SD,Philip Rivers,https://static.www.nfl.com/image/private/{formatInstructions}/league/adapxtphf15elrdudiix,QB,17,0,0,0,0,0
+2015,REG,3,2015092705,56544,09/27/2015,2510,STL,3900,PIT,home,1,FOL058566,2510,STL,Nick Foles,https://static.www.nfl.com/image/private/{formatInstructions}/league/urh5iskpc9copfq79exn,QB,5,197,28,19,1,0
+2015,REG,3,2015092705,56544,09/27/2015,2510,STL,3900,PIT,visitor,1,ROE750381,3900,PIT,Ben Roethlisberger,https://static.www.nfl.com/image/private/{formatInstructions}/league/myft4pwoxwrxbeh1exyy,QB,7,192,24,20,1,0
+2015,REG,3,2015092706,56542,09/27/2015,3200,NE,2250,JAX,home,1,BRA371156,3200,NE,Tom Brady,https://static.www.nfl.com/image/private/{formatInstructions}/league/apkxya5ptb0zalrskshq,QB,12,0,0,0,0,0
+2015,REG,3,2015092706,56542,09/27/2015,3200,NE,2250,JAX,visitor,1,BOR650964,2250,JAC,Blake Bortles,https://static.www.nfl.com/image/private/{formatInstructions}/league/qycdzdjsokwmamzwsmeq,QB,5,0,0,0,0,0
+2015,REG,3,2015092707,56536,09/27/2015,0325,BAL,0920,CIN,home,1,FLA009602,0325,BAL,Joe Flacco,https://static.www.nfl.com/image/private/{formatInstructions}/league/puq0loqhg0yeuhpdtykr,QB,5,362,49,32,1,2
+2015,REG,3,2015092707,56536,09/27/2015,0325,BAL,0920,CIN,visitor,1,DAL659900,0920,CIN,Andy Dalton,https://static.www.nfl.com/image/private/{formatInstructions}/league/fex1enmwhsyid5jyue7t,QB,14,383,32,20,1,3
+2015,REG,3,2015092708,56538,09/27/2015,1050,CLE,2520,OAK,home,1,MCC600777,1050,CLE,Josh McCown,https://static.www.nfl.com/image/private/{formatInstructions}/league/qcauc37wqjdaxdbq1evu,QB,13,341,49,28,1,2
+2015,REG,3,2015092708,56538,09/27/2015,1050,CLE,2520,OAK,visitor,1,CAR358797,2520,OAK,Derek Carr,https://static.www.nfl.com/image/private/{formatInstructions}/league/chtyn7pw8xqfpnrkd1fq,QB,4,314,32,20,0,2
+2015,REG,3,2015092709,56545,09/27/2015,2100,TEN,2200,IND,home,1,MAR186347,2100,TEN,Marcus Mariota,https://static.www.nfl.com/image/private/{formatInstructions}/league/qi4gui9b5gq10obus2xa,QB,8,0,0,0,0,0
+2015,REG,3,2015092709,56545,09/27/2015,2100,TEN,2200,IND,visitor,1,LUC524055,2200,IND,Andrew Luck,https://static.www.nfl.com/image/private/{formatInstructions}/league/ojix2ha2u58zqozaw756,QB,12,0,0,0,0,0
+2015,REG,3,2015092710,56546,09/27/2015,3800,ARI,4500,SF,home,1,PAL249055,3800,ARI,Carson Palmer,https://static.www.nfl.com/image/private/{formatInstructions}/league/belgna3tokxga0gjjmwk,QB,3,311,32,20,1,2
+2015,REG,3,2015092710,56546,09/27/2015,3800,ARI,4500,SF,visitor,1,KAE371576,4500,SF,Colin Kaepernick,https://static.www.nfl.com/image/private/{formatInstructions}/league/nnvil5vbsj1nbldpc9nl,QB,7,67,19,9,4,0
+2015,REG,3,2015092711,56548,09/27/2015,4600,SEA,0810,CHI,home,1,WIL777781,4600,SEA,Russell Wilson,https://static.www.nfl.com/image/private/{formatInstructions}/league/rrpzsqysodir9laitnus,QB,3,0,0,0,0,0
+2015,REG,3,2015092711,56548,09/27/2015,4600,SEA,0810,CHI,visitor,1,CLA709185,0810,CHI,Jimmy Clausen,https://static.www.nfl.com/image/private/{formatInstructions}/league/n5lf1tlpkvtck2j24krd,QB,8,0,0,0,0,0
+2015,REG,3,2015092712,56547,09/27/2015,2700,MIA,0610,BUF,home,1,TAN298716,2700,MIA,Ryan Tannehill,https://static.www.nfl.com/image/private/{formatInstructions}/league/e2b84kobkdgravu7u6qy,QB,17,0,0,0,0,0
+2015,REG,3,2015092712,56547,09/27/2015,2700,MIA,0610,BUF,visitor,1,TAY764868,0610,BUF,Tyrod Taylor,https://static.www.nfl.com/image/private/{formatInstructions}/league/xsaawztp6k1dv3xlbgpx,QB,5,0,0,0,0,0
+2015,REG,3,2015092713,56549,09/27/2015,1540,DET,1400,DEN,home,1,STA134157,1540,DET,Matthew Stafford,https://static.www.nfl.com/image/private/{formatInstructions}/league/iibglgpasx5wsrylvn2z,QB,9,0,0,0,0,0
+2015,REG,3,2015092713,56549,09/27/2015,1540,DET,1400,DEN,visitor,1,MAN515097,1400,DEN,Peyton Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/yjtzhpx6wbj9o4np42jj,QB,18,0,0,0,0,0
+2015,REG,3,2015092800,56550,09/28/2015,1800,GB,2310,KC,home,1,ROD339293,1800,GB,Aaron Rodgers,https://static.www.nfl.com/image/private/{formatInstructions}/league/ejjiyjumtzwxiffdhkgz,QB,12,0,0,0,0,0
+2015,REG,3,2015092800,56550,09/28/2015,1800,GB,2310,KC,visitor,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,0,0,0,0,0
+2015,REG,4,2015100400,56552,10/04/2015,2700,MIA,3430,NYJ,home,1,TAN298716,2700,MIA,Ryan Tannehill,https://static.www.nfl.com/image/private/{formatInstructions}/league/e2b84kobkdgravu7u6qy,QB,17,0,0,0,0,0
+2015,REG,4,2015100400,56552,10/04/2015,2700,MIA,3430,NYJ,visitor,1,FIT792915,3430,NYJ,Ryan Fitzpatrick,https://static.www.nfl.com/image/private/{formatInstructions}/league/joilglqul2ldsy2pfjey,QB,14,0,0,0,0,0
+2015,REG,4,2015100401,56555,10/04/2015,0810,CHI,2520,OAK,home,1,CUT288111,0810,CHI,Jay Cutler,https://static.www.nfl.com/image/private/{formatInstructions}/league/ks6n7gvw4vccihlse6bn,QB,6,0,0,0,0,0
+2015,REG,4,2015100401,56555,10/04/2015,0810,CHI,2520,OAK,visitor,1,CAR358797,2520,OAK,Derek Carr,https://static.www.nfl.com/image/private/{formatInstructions}/league/chtyn7pw8xqfpnrkd1fq,QB,4,0,0,0,0,0
+2015,REG,4,2015100402,56553,10/04/2015,0200,ATL,2120,HOU,home,1,RYA238179,0200,ATL,Matt Ryan,https://static.www.nfl.com/image/private/{formatInstructions}/league/nsup3rrfi8jfj8oduf1t,QB,2,256,27,19,0,1
+2015,REG,4,2015100402,56553,10/04/2015,0200,ATL,2120,HOU,visitor,1,HOY440791,2120,HOU,Brian Hoyer,https://static.www.nfl.com/image/private/{formatInstructions}/league/hartcqd9yt3gzqjddktl,QB,7,232,30,17,0,2
+2015,REG,4,2015100403,56556,10/04/2015,0920,CIN,2310,KC,home,1,DAL659900,0920,CIN,Andy Dalton,https://static.www.nfl.com/image/private/{formatInstructions}/league/fex1enmwhsyid5jyue7t,QB,14,0,0,0,0,0
+2015,REG,4,2015100403,56556,10/04/2015,0920,CIN,2310,KC,visitor,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,0,0,0,0,0
+2015,REG,4,2015100405,56559,10/04/2015,5110,WAS,3700,PHI,home,1,COU709400,5110,WAS,Kirk Cousins,https://static.www.nfl.com/image/private/{formatInstructions}/league/yoi19theqqakt4zpw9r4,QB,8,0,0,0,0,0
+2015,REG,4,2015100405,56559,10/04/2015,5110,WAS,3700,PHI,visitor,1,BRA101548,3700,PHI,Sam Bradford,https://static.www.nfl.com/image/private/{formatInstructions}/league/fizwrxzfdaw7v2vzzpn6,QB,7,0,0,0,0,0
+2015,REG,4,2015100406,56558,10/04/2015,4900,TB,0750,CAR,home,1,WIN623708,4900,TB,Jameis Winston,https://static.www.nfl.com/image/private/{formatInstructions}/league/iurpf1pdjrjfowtksptf,QB,3,0,0,0,0,0
+2015,REG,4,2015100406,56558,10/04/2015,4900,TB,0750,CAR,visitor,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,0,0,0,0,0
+2015,REG,4,2015100407,56554,10/04/2015,0610,BUF,3410,NYG,home,1,TAY764868,0610,BUF,Tyrod Taylor,https://static.www.nfl.com/image/private/{formatInstructions}/league/xsaawztp6k1dv3xlbgpx,QB,5,0,0,0,0,0
+2015,REG,4,2015100407,56554,10/04/2015,0610,BUF,3410,NYG,visitor,1,MAN473170,3410,NYG,Eli Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/w51tf8uedjftbr4qpaex,QB,10,0,0,0,0,0
+2015,REG,4,2015100408,56560,10/04/2015,4400,SD,1050,CLE,home,1,RIV651634,4400,SD,Philip Rivers,https://static.www.nfl.com/image/private/{formatInstructions}/league/adapxtphf15elrdudiix,QB,17,358,38,23,0,3
+2015,REG,4,2015100408,56560,10/04/2015,4400,SD,1050,CLE,visitor,1,MCC600777,1050,CLE,Josh McCown,https://static.www.nfl.com/image/private/{formatInstructions}/league/qcauc37wqjdaxdbq1evu,QB,13,356,41,32,0,2
+2015,REG,4,2015100409,56563,10/04/2015,4500,SF,1800,GB,home,1,KAE371576,4500,SF,Colin Kaepernick,https://static.www.nfl.com/image/private/{formatInstructions}/league/nnvil5vbsj1nbldpc9nl,QB,7,0,0,0,0,0
+2015,REG,4,2015100409,56563,10/04/2015,4500,SF,1800,GB,visitor,1,ROD339293,1800,GB,Aaron Rodgers,https://static.www.nfl.com/image/private/{formatInstructions}/league/ejjiyjumtzwxiffdhkgz,QB,12,0,0,0,0,0
+2015,REG,4,2015100410,56561,10/04/2015,3800,ARI,2510,STL,home,1,PAL249055,3800,ARI,Carson Palmer,https://static.www.nfl.com/image/private/{formatInstructions}/league/belgna3tokxga0gjjmwk,QB,3,352,46,29,1,1
+2015,REG,4,2015100410,56561,10/04/2015,3800,ARI,2510,STL,visitor,1,FOL058566,2510,STL,Nick Foles,https://static.www.nfl.com/image/private/{formatInstructions}/league/urh5iskpc9copfq79exn,QB,5,171,24,16,0,3
+2015,REG,4,2015100411,56562,10/04/2015,1400,DEN,3000,MIN,home,1,MAN515097,1400,DEN,Peyton Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/yjtzhpx6wbj9o4np42jj,QB,18,0,0,0,0,0
+2015,REG,4,2015100411,56562,10/04/2015,1400,DEN,3000,MIN,visitor,1,BRI129168,3000,MIN,Teddy Bridgewater,https://static.www.nfl.com/image/private/{formatInstructions}/league/f0uzw2vaxwyytmx1zron,QB,5,0,0,0,0,0
+2015,REG,4,2015100500,56565,10/05/2015,4600,SEA,1540,DET,home,1,WIL777781,4600,SEA,Russell Wilson,https://static.www.nfl.com/image/private/{formatInstructions}/league/rrpzsqysodir9laitnus,QB,3,0,0,0,0,0
+2015,REG,4,2015100500,56565,10/05/2015,4600,SEA,1540,DET,visitor,1,STA134157,1540,DET,Matthew Stafford,https://static.www.nfl.com/image/private/{formatInstructions}/league/iibglgpasx5wsrylvn2z,QB,9,0,0,0,0,0
+2015,REG,5,2015100800,56566,10/08/2015,2120,HOU,2200,IND,home,1,HOY440791,2120,HOU,Brian Hoyer,https://static.www.nfl.com/image/private/{formatInstructions}/league/hartcqd9yt3gzqjddktl,QB,7,312,31,24,1,2
+2015,REG,5,2015100800,56566,10/08/2015,2120,HOU,2200,IND,visitor,1,HAS536799,2200,IND,Matt Hasselbeck,https://static.www.nfl.com/image/private/{formatInstructions}/league/n2atfxxvzvjragmc5xq7,QB,8,213,29,18,0,2
+2015,REG,5,2015101100,56572,10/11/2015,3700,PHI,3300,NO,home,1,BRA101548,3700,PHI,Sam Bradford,https://static.www.nfl.com/image/private/{formatInstructions}/league/fizwrxzfdaw7v2vzzpn6,QB,7,0,0,0,0,0
+2015,REG,5,2015101100,56572,10/11/2015,3700,PHI,3300,NO,visitor,1,BRE229498,3300,NO,Drew Brees,https://static.www.nfl.com/image/private/{formatInstructions}/league/i20xlpzdmn7xubotijjd,QB,9,0,0,0,0,0
+2015,REG,5,2015101101,56571,10/11/2015,2310,KC,0810,CHI,home,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,0,0,0,0,0
+2015,REG,5,2015101101,56571,10/11/2015,2310,KC,0810,CHI,visitor,1,CUT288111,0810,CHI,Jay Cutler,https://static.www.nfl.com/image/private/{formatInstructions}/league/ks6n7gvw4vccihlse6bn,QB,6,0,0,0,0,0
+2015,REG,5,2015101104,56573,10/11/2015,4900,TB,2250,JAX,home,1,WIN623708,4900,TB,Jameis Winston,https://static.www.nfl.com/image/private/{formatInstructions}/league/iurpf1pdjrjfowtksptf,QB,3,0,0,0,0,0
+2015,REG,5,2015101104,56573,10/11/2015,4900,TB,2250,JAX,visitor,1,BOR650964,2250,JAC,Blake Bortles,https://static.www.nfl.com/image/private/{formatInstructions}/league/qycdzdjsokwmamzwsmeq,QB,5,0,0,0,0,0
+2015,REG,5,2015101106,56574,10/11/2015,2100,TEN,0610,BUF,home,1,MAR186347,2100,TEN,Marcus Mariota,https://static.www.nfl.com/image/private/{formatInstructions}/league/qi4gui9b5gq10obus2xa,QB,8,0,0,0,0,0
+2015,REG,5,2015101106,56574,10/11/2015,2100,TEN,0610,BUF,visitor,1,TAY764868,0610,BUF,Tyrod Taylor,https://static.www.nfl.com/image/private/{formatInstructions}/league/xsaawztp6k1dv3xlbgpx,QB,5,0,0,0,0,0
+2015,REG,5,2015101107,56570,10/11/2015,1800,GB,2510,STL,home,1,ROD339293,1800,GB,Aaron Rodgers,https://static.www.nfl.com/image/private/{formatInstructions}/league/ejjiyjumtzwxiffdhkgz,QB,12,241,30,19,2,2
+2015,REG,5,2015101107,56570,10/11/2015,1800,GB,2510,STL,visitor,1,FOL058566,2510,STL,Nick Foles,https://static.www.nfl.com/image/private/{formatInstructions}/league/urh5iskpc9copfq79exn,QB,5,141,30,11,4,1
+2015,REG,5,2015101108,56575,10/11/2015,1540,DET,3800,ARI,home,1,ORL645634,1540,DET,Dan Orlovsky,https://static.www.nfl.com/image/private/{formatInstructions}/league/vr8juuraecwssjnviglf,QB,8,191,38,21,1,1
+2015,REG,5,2015101108,56575,10/11/2015,1540,DET,3800,ARI,visitor,1,PAL249055,3800,ARI,Carson Palmer,https://static.www.nfl.com/image/private/{formatInstructions}/league/belgna3tokxga0gjjmwk,QB,3,161,14,11,0,3
+2015,REG,5,2015101109,56576,10/11/2015,1200,DAL,3200,NE,home,1,WEE221487,1200,DAL,Brandon Weeden,https://static.www.nfl.com/image/private/{formatInstructions}/league/m8oocp4p9nskilnakgnw,QB,3,0,0,0,0,0
+2015,REG,5,2015101109,56576,10/11/2015,1200,DAL,3200,NE,visitor,1,BRA371156,3200,NE,Tom Brady,https://static.www.nfl.com/image/private/{formatInstructions}/league/apkxya5ptb0zalrskshq,QB,12,0,0,0,0,0
+2015,REG,5,2015101110,56577,10/11/2015,2520,OAK,1400,DEN,home,1,CAR358797,2520,OAK,Derek Carr,https://static.www.nfl.com/image/private/{formatInstructions}/league/chtyn7pw8xqfpnrkd1fq,QB,4,0,0,0,0,0
+2015,REG,5,2015101110,56577,10/11/2015,2520,OAK,1400,DEN,visitor,1,MAN515097,1400,DEN,Peyton Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/yjtzhpx6wbj9o4np42jj,QB,18,0,0,0,0,0
+2015,REG,5,2015101111,56578,10/11/2015,3410,NYG,4500,SF,home,1,MAN473170,3410,NYG,Eli Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/w51tf8uedjftbr4qpaex,QB,10,0,0,0,0,0
+2015,REG,5,2015101111,56578,10/11/2015,3410,NYG,4500,SF,visitor,1,KAE371576,4500,SF,Colin Kaepernick,https://static.www.nfl.com/image/private/{formatInstructions}/league/nnvil5vbsj1nbldpc9nl,QB,7,0,0,0,0,0
+2015,REG,5,2015101200,56579,10/12/2015,4400,SD,3900,PIT,home,1,RIV651634,4400,SD,Philip Rivers,https://static.www.nfl.com/image/private/{formatInstructions}/league/adapxtphf15elrdudiix,QB,17,0,0,0,0,0
+2015,REG,5,2015101200,56579,10/12/2015,4400,SD,3900,PIT,visitor,1,VIC311467,3900,PIT,Mike Vick,https://static.www.nfl.com/image/private/{formatInstructions}/league/hrg4riwhpjbijfovsjrk,QB,2,0,0,0,0,0
+2015,REG,6,2015101500,56580,10/15/2015,3300,NO,0200,ATL,home,1,BRE229498,3300,NO,Drew Brees,https://static.www.nfl.com/image/private/{formatInstructions}/league/i20xlpzdmn7xubotijjd,QB,9,0,0,0,0,0
+2015,REG,6,2015101500,56580,10/15/2015,3300,NO,0200,ATL,visitor,1,RYA238179,0200,ATL,Matt Ryan,https://static.www.nfl.com/image/private/{formatInstructions}/league/nsup3rrfi8jfj8oduf1t,QB,2,0,0,0,0,0
+2015,REG,6,2015101801,56586,10/18/2015,3430,NYJ,5110,WAS,home,1,FIT792915,3430,NYJ,Ryan Fitzpatrick,https://static.www.nfl.com/image/private/{formatInstructions}/league/joilglqul2ldsy2pfjey,QB,14,0,0,0,0,0
+2015,REG,6,2015101801,56586,10/18/2015,3430,NYJ,5110,WAS,visitor,1,COU709400,5110,WAS,Kirk Cousins,https://static.www.nfl.com/image/private/{formatInstructions}/league/yoi19theqqakt4zpw9r4,QB,8,0,0,0,0,0
+2015,REG,6,2015101802,56587,10/18/2015,3900,PIT,3800,ARI,home,1,JON565403,3900,PIT,Landry Jones,https://static.www.nfl.com/image/private/{formatInstructions}/league/rxewfnskdqvfmsui48ta,QB,3,168,12,8,0,2
+2015,REG,6,2015101802,56587,10/18/2015,3900,PIT,3800,ARI,visitor,1,PAL249055,3800,ARI,Carson Palmer,https://static.www.nfl.com/image/private/{formatInstructions}/league/belgna3tokxga0gjjmwk,QB,3,421,45,29,2,1
+2015,REG,6,2015101803,56585,10/18/2015,3000,MIN,2310,KC,home,1,BRI129168,3000,MIN,Teddy Bridgewater,https://static.www.nfl.com/image/private/{formatInstructions}/league/f0uzw2vaxwyytmx1zron,QB,5,0,0,0,0,0
+2015,REG,6,2015101803,56585,10/18/2015,3000,MIN,2310,KC,visitor,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,0,0,0,0,0
+2015,REG,6,2015101804,56581,10/18/2015,0610,BUF,0920,CIN,home,1,MAN738705,0610,BUF,EJ Manuel,https://static.www.nfl.com/image/private/{formatInstructions}/league/day0kzescuwievdhlacd,QB,3,0,0,0,0,0
+2015,REG,6,2015101804,56581,10/18/2015,0610,BUF,0920,CIN,visitor,1,DAL659900,0920,CIN,Andy Dalton,https://static.www.nfl.com/image/private/{formatInstructions}/league/fex1enmwhsyid5jyue7t,QB,14,0,0,0,0,0
+2015,REG,6,2015101806,56588,10/18/2015,2100,TEN,2700,MIA,home,1,MAR186347,2100,TEN,Marcus Mariota,https://static.www.nfl.com/image/private/{formatInstructions}/league/qi4gui9b5gq10obus2xa,QB,8,0,0,0,0,0
+2015,REG,6,2015101806,56588,10/18/2015,2100,TEN,2700,MIA,visitor,1,TAN298716,2700,MIA,Ryan Tannehill,https://static.www.nfl.com/image/private/{formatInstructions}/league/e2b84kobkdgravu7u6qy,QB,17,0,0,0,0,0
+2015,REG,6,2015101807,56584,10/18/2015,2250,JAX,2120,HOU,home,1,BOR650964,2250,JAC,Blake Bortles,https://static.www.nfl.com/image/private/{formatInstructions}/league/qycdzdjsokwmamzwsmeq,QB,5,0,0,0,0,0
+2015,REG,6,2015101807,56584,10/18/2015,2250,JAX,2120,HOU,visitor,1,HOY440791,2120,HOU,Brian Hoyer,https://static.www.nfl.com/image/private/{formatInstructions}/league/hartcqd9yt3gzqjddktl,QB,7,293,36,24,0,3
+2015,REG,6,2015101808,56589,10/18/2015,4600,SEA,0750,CAR,home,1,WIL777781,4600,SEA,Russell Wilson,https://static.www.nfl.com/image/private/{formatInstructions}/league/rrpzsqysodir9laitnus,QB,3,0,0,0,0,0
+2015,REG,6,2015101808,56589,10/18/2015,4600,SEA,0750,CAR,visitor,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,0,0,0,0,0
+2015,REG,6,2015101809,56590,10/18/2015,1800,GB,4400,SD,home,1,ROD339293,1800,GB,Aaron Rodgers,https://static.www.nfl.com/image/private/{formatInstructions}/league/ejjiyjumtzwxiffdhkgz,QB,12,0,0,0,0,0
+2015,REG,6,2015101809,56590,10/18/2015,1800,GB,4400,SD,visitor,1,RIV651634,4400,SD,Philip Rivers,https://static.www.nfl.com/image/private/{formatInstructions}/league/adapxtphf15elrdudiix,QB,17,0,0,0,0,0
+2015,REG,6,2015101810,56591,10/18/2015,4500,SF,0325,BAL,home,1,KAE371576,4500,SF,Colin Kaepernick,https://static.www.nfl.com/image/private/{formatInstructions}/league/nnvil5vbsj1nbldpc9nl,QB,7,340,27,16,0,2
+2015,REG,6,2015101810,56591,10/18/2015,4500,SF,0325,BAL,visitor,1,FLA009602,0325,BAL,Joe Flacco,https://static.www.nfl.com/image/private/{formatInstructions}/league/puq0loqhg0yeuhpdtykr,QB,5,343,53,33,2,2
+2015,REG,6,2015101811,56592,10/18/2015,2200,IND,3200,NE,home,1,LUC524055,2200,IND,Andrew Luck,https://static.www.nfl.com/image/private/{formatInstructions}/league/ojix2ha2u58zqozaw756,QB,12,0,0,0,0,0
+2015,REG,6,2015101811,56592,10/18/2015,2200,IND,3200,NE,visitor,1,BRA371156,3200,NE,Tom Brady,https://static.www.nfl.com/image/private/{formatInstructions}/league/apkxya5ptb0zalrskshq,QB,12,0,0,0,0,0
+2015,REG,6,2015101900,56593,10/19/2015,3700,PHI,3410,NYG,home,1,BRA101548,3700,PHI,Sam Bradford,https://static.www.nfl.com/image/private/{formatInstructions}/league/fizwrxzfdaw7v2vzzpn6,QB,7,0,0,0,0,0
+2015,REG,6,2015101900,56593,10/19/2015,3700,PHI,3410,NYG,visitor,1,MAN473170,3410,NYG,Eli Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/w51tf8uedjftbr4qpaex,QB,10,0,0,0,0,0
+2015,REG,7,2015102200,56594,10/22/2015,4500,SF,4600,SEA,home,1,KAE371576,4500,SF,Colin Kaepernick,https://static.www.nfl.com/image/private/{formatInstructions}/league/nnvil5vbsj1nbldpc9nl,QB,7,0,0,0,0,0
+2015,REG,7,2015102200,56594,10/22/2015,4500,SF,4600,SEA,visitor,1,WIL777781,4600,SEA,Russell Wilson,https://static.www.nfl.com/image/private/{formatInstructions}/league/rrpzsqysodir9laitnus,QB,3,0,0,0,0,0
+2015,REG,7,2015102500,56595,10/25/2015,2250,JAX,0610,BUF,home,1,BOR650964,2250,JAC,Blake Bortles,https://static.www.nfl.com/image/private/{formatInstructions}/league/qycdzdjsokwmamzwsmeq,QB,5,0,0,0,0,0
+2015,REG,7,2015102500,56595,10/25/2015,2250,JAX,0610,BUF,visitor,1,MAN738705,0610,BUF,EJ Manuel,https://static.www.nfl.com/image/private/{formatInstructions}/league/day0kzescuwievdhlacd,QB,3,0,0,0,0,0
+2015,REG,7,2015102501,56601,10/25/2015,2510,STL,1050,CLE,home,1,FOL058566,2510,STL,Nick Foles,https://static.www.nfl.com/image/private/{formatInstructions}/league/urh5iskpc9copfq79exn,QB,5,163,23,15,0,0
+2015,REG,7,2015102501,56601,10/25/2015,2510,STL,1050,CLE,visitor,1,MCC600777,1050,CLE,Josh McCown,https://static.www.nfl.com/image/private/{formatInstructions}/league/qcauc37wqjdaxdbq1evu,QB,13,270,32,26,0,0
+2015,REG,7,2015102502,56599,10/25/2015,2700,MIA,2120,HOU,home,1,TAN298716,2700,MIA,Ryan Tannehill,https://static.www.nfl.com/image/private/{formatInstructions}/league/e2b84kobkdgravu7u6qy,QB,17,282,19,18,0,4
+2015,REG,7,2015102502,56599,10/25/2015,2700,MIA,2120,HOU,visitor,1,HOY440791,2120,HOU,Brian Hoyer,https://static.www.nfl.com/image/private/{formatInstructions}/league/hartcqd9yt3gzqjddktl,QB,7,273,49,23,1,3
+2015,REG,7,2015102503,56600,10/25/2015,3200,NE,3430,NYJ,home,1,BRA371156,3200,NE,Tom Brady,https://static.www.nfl.com/image/private/{formatInstructions}/league/apkxya5ptb0zalrskshq,QB,12,0,0,0,0,0
+2015,REG,7,2015102503,56600,10/25/2015,3200,NE,3430,NYJ,visitor,1,FIT792915,3430,NYJ,Ryan Fitzpatrick,https://static.www.nfl.com/image/private/{formatInstructions}/league/joilglqul2ldsy2pfjey,QB,14,0,0,0,0,0
+2015,REG,7,2015102504,56598,10/25/2015,2310,KC,3900,PIT,home,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,0,0,0,0,0
+2015,REG,7,2015102504,56598,10/25/2015,2310,KC,3900,PIT,visitor,1,JON565403,3900,PIT,Landry Jones,https://static.www.nfl.com/image/private/{formatInstructions}/league/rxewfnskdqvfmsui48ta,QB,3,0,0,0,0,0
+2015,REG,7,2015102505,56603,10/25/2015,5110,WAS,4900,TB,home,1,COU709400,5110,WAS,Kirk Cousins,https://static.www.nfl.com/image/private/{formatInstructions}/league/yoi19theqqakt4zpw9r4,QB,8,0,0,0,0,0
+2015,REG,7,2015102505,56603,10/25/2015,5110,WAS,4900,TB,visitor,1,WIN623708,4900,TB,Jameis Winston,https://static.www.nfl.com/image/private/{formatInstructions}/league/iurpf1pdjrjfowtksptf,QB,3,0,0,0,0,0
+2015,REG,7,2015102506,56596,10/25/2015,1540,DET,3000,MIN,home,1,STA134157,1540,DET,Matthew Stafford,https://static.www.nfl.com/image/private/{formatInstructions}/league/iibglgpasx5wsrylvn2z,QB,9,0,0,0,0,0
+2015,REG,7,2015102506,56596,10/25/2015,1540,DET,3000,MIN,visitor,1,BRI129168,3000,MIN,Teddy Bridgewater,https://static.www.nfl.com/image/private/{formatInstructions}/league/f0uzw2vaxwyytmx1zron,QB,5,0,0,0,0,0
+2015,REG,7,2015102507,56597,10/25/2015,2200,IND,3300,NO,home,1,LUC524055,2200,IND,Andrew Luck,https://static.www.nfl.com/image/private/{formatInstructions}/league/ojix2ha2u58zqozaw756,QB,12,0,0,0,0,0
+2015,REG,7,2015102507,56597,10/25/2015,2200,IND,3300,NO,visitor,1,BRE229498,3300,NO,Drew Brees,https://static.www.nfl.com/image/private/{formatInstructions}/league/i20xlpzdmn7xubotijjd,QB,9,0,0,0,0,0
+2015,REG,7,2015102508,56602,10/25/2015,2100,TEN,0200,ATL,home,1,MET532718,2100,TEN,Zach Mettenberger,,QB,7,0,0,0,0,0
+2015,REG,7,2015102508,56602,10/25/2015,2100,TEN,0200,ATL,visitor,1,RYA238179,0200,ATL,Matt Ryan,https://static.www.nfl.com/image/private/{formatInstructions}/league/nsup3rrfi8jfj8oduf1t,QB,2,0,0,0,0,0
+2015,REG,7,2015102509,56604,10/25/2015,4400,SD,2520,OAK,home,1,RIV651634,4400,SD,Philip Rivers,https://static.www.nfl.com/image/private/{formatInstructions}/league/adapxtphf15elrdudiix,QB,17,0,0,0,0,0
+2015,REG,7,2015102509,56604,10/25/2015,4400,SD,2520,OAK,visitor,1,CAR358797,2520,OAK,Derek Carr,https://static.www.nfl.com/image/private/{formatInstructions}/league/chtyn7pw8xqfpnrkd1fq,QB,4,0,0,0,0,0
+2015,REG,7,2015102510,56605,10/25/2015,3410,NYG,1200,DAL,home,1,MAN473170,3410,NYG,Eli Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/w51tf8uedjftbr4qpaex,QB,10,0,0,0,0,0
+2015,REG,7,2015102510,56605,10/25/2015,3410,NYG,1200,DAL,visitor,1,CAS541133,1200,DAL,Matt Cassel,https://static.www.nfl.com/image/private/{formatInstructions}/league/n1ucqggyu5hlsqzuv5gj,QB,16,0,0,0,0,0
+2015,REG,7,2015102511,56606,10/25/2015,0750,CAR,3700,PHI,home,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,0,0,0,0,0
+2015,REG,7,2015102511,56606,10/25/2015,0750,CAR,3700,PHI,visitor,1,BRA101548,3700,PHI,Sam Bradford,https://static.www.nfl.com/image/private/{formatInstructions}/league/fizwrxzfdaw7v2vzzpn6,QB,7,0,0,0,0,0
+2015,REG,7,2015102600,56607,10/26/2015,3800,ARI,0325,BAL,home,1,PAL249055,3800,ARI,Carson Palmer,https://static.www.nfl.com/image/private/{formatInstructions}/league/belgna3tokxga0gjjmwk,QB,3,275,29,20,0,2
+2015,REG,7,2015102600,56607,10/26/2015,3800,ARI,0325,BAL,visitor,1,FLA009602,0325,BAL,Joe Flacco,https://static.www.nfl.com/image/private/{formatInstructions}/league/puq0loqhg0yeuhpdtykr,QB,5,252,40,26,1,1
+2015,REG,8,2015102900,56608,10/29/2015,3200,NE,2700,MIA,home,1,BRA371156,3200,NE,Tom Brady,https://static.www.nfl.com/image/private/{formatInstructions}/league/apkxya5ptb0zalrskshq,QB,12,0,0,0,0,0
+2015,REG,8,2015102900,56608,10/29/2015,3200,NE,2700,MIA,visitor,1,TAN298716,2700,MIA,Ryan Tannehill,https://static.www.nfl.com/image/private/{formatInstructions}/league/e2b84kobkdgravu7u6qy,QB,17,0,0,0,0,0
+2015,REG,8,2015110100,56609,11/01/2015,2310,KC,1540,DET,home,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,0,0,0,0,0
+2015,REG,8,2015110100,56609,11/01/2015,2310,KC,1540,DET,visitor,1,STA134157,1540,DET,Matthew Stafford,https://static.www.nfl.com/image/private/{formatInstructions}/league/iibglgpasx5wsrylvn2z,QB,9,0,0,0,0,0
+2015,REG,8,2015110101,56611,11/01/2015,0325,BAL,4400,SD,home,1,FLA009602,0325,BAL,Joe Flacco,https://static.www.nfl.com/image/private/{formatInstructions}/league/puq0loqhg0yeuhpdtykr,QB,5,319,37,25,0,1
+2015,REG,8,2015110101,56611,11/01/2015,0325,BAL,4400,SD,visitor,1,RIV651634,4400,SD,Philip Rivers,https://static.www.nfl.com/image/private/{formatInstructions}/league/adapxtphf15elrdudiix,QB,17,301,37,28,0,3
+2015,REG,8,2015110102,56616,11/01/2015,3900,PIT,0920,CIN,home,1,ROE750381,3900,PIT,Ben Roethlisberger,https://static.www.nfl.com/image/private/{formatInstructions}/league/myft4pwoxwrxbeh1exyy,QB,7,0,0,0,0,0
+2015,REG,8,2015110102,56616,11/01/2015,3900,PIT,0920,CIN,visitor,1,DAL659900,0920,CIN,Andy Dalton,https://static.www.nfl.com/image/private/{formatInstructions}/league/fex1enmwhsyid5jyue7t,QB,14,0,0,0,0,0
+2015,REG,8,2015110103,56614,11/01/2015,2120,HOU,2100,TEN,home,1,HOY440791,2120,HOU,Brian Hoyer,https://static.www.nfl.com/image/private/{formatInstructions}/league/hartcqd9yt3gzqjddktl,QB,7,235,35,23,0,2
+2015,REG,8,2015110103,56614,11/01/2015,2120,HOU,2100,TEN,visitor,1,MET532718,2100,TEN,Zach Mettenberger,,QB,7,171,31,22,1,0
+2015,REG,8,2015110104,56612,11/01/2015,0810,CHI,3000,MIN,home,1,CUT288111,0810,CHI,Jay Cutler,https://static.www.nfl.com/image/private/{formatInstructions}/league/ks6n7gvw4vccihlse6bn,QB,6,0,0,0,0,0
+2015,REG,8,2015110104,56612,11/01/2015,0810,CHI,3000,MIN,visitor,1,BRI129168,3000,MIN,Teddy Bridgewater,https://static.www.nfl.com/image/private/{formatInstructions}/league/f0uzw2vaxwyytmx1zron,QB,5,0,0,0,0,0
+2015,REG,8,2015110106,56615,11/01/2015,3300,NO,3410,NYG,home,1,BRE229498,3300,NO,Drew Brees,https://static.www.nfl.com/image/private/{formatInstructions}/league/i20xlpzdmn7xubotijjd,QB,9,0,0,0,0,0
+2015,REG,8,2015110106,56615,11/01/2015,3300,NO,3410,NYG,visitor,1,MAN473170,3410,NYG,Eli Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/w51tf8uedjftbr4qpaex,QB,10,0,0,0,0,0
+2015,REG,8,2015110107,56617,11/01/2015,2510,STL,4500,SF,home,1,FOL058566,2510,STL,Nick Foles,https://static.www.nfl.com/image/private/{formatInstructions}/league/urh5iskpc9copfq79exn,QB,5,191,23,14,0,1
+2015,REG,8,2015110107,56617,11/01/2015,2510,STL,4500,SF,visitor,1,KAE371576,4500,SF,Colin Kaepernick,https://static.www.nfl.com/image/private/{formatInstructions}/league/nnvil5vbsj1nbldpc9nl,QB,7,162,41,20,0,0
+2015,REG,8,2015110108,56613,11/01/2015,1050,CLE,3800,ARI,home,1,MCC600777,1050,CLE,Josh McCown,https://static.www.nfl.com/image/private/{formatInstructions}/league/qcauc37wqjdaxdbq1evu,QB,13,211,34,18,1,3
+2015,REG,8,2015110108,56613,11/01/2015,1050,CLE,3800,ARI,visitor,1,PAL249055,3800,ARI,Carson Palmer,https://static.www.nfl.com/image/private/{formatInstructions}/league/belgna3tokxga0gjjmwk,QB,3,374,38,23,1,4
+2015,REG,8,2015110109,56618,11/01/2015,2520,OAK,3430,NYJ,home,1,CAR358797,2520,OAK,Derek Carr,https://static.www.nfl.com/image/private/{formatInstructions}/league/chtyn7pw8xqfpnrkd1fq,QB,4,0,0,0,0,0
+2015,REG,8,2015110109,56618,11/01/2015,2520,OAK,3430,NYJ,visitor,1,SMI269700,3430,NYJ,Geno Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/lhbeome9qmto0bwtywzh,QB,7,0,0,0,0,0
+2015,REG,8,2015110110,56619,11/01/2015,1200,DAL,4600,SEA,home,1,CAS541133,1200,DAL,Matt Cassel,https://static.www.nfl.com/image/private/{formatInstructions}/league/n1ucqggyu5hlsqzuv5gj,QB,16,0,0,0,0,0
+2015,REG,8,2015110110,56619,11/01/2015,1200,DAL,4600,SEA,visitor,1,WIL777781,4600,SEA,Russell Wilson,https://static.www.nfl.com/image/private/{formatInstructions}/league/rrpzsqysodir9laitnus,QB,3,0,0,0,0,0
+2015,REG,8,2015110111,56620,11/01/2015,1400,DEN,1800,GB,home,1,MAN515097,1400,DEN,Peyton Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/yjtzhpx6wbj9o4np42jj,QB,18,0,0,0,0,0
+2015,REG,8,2015110111,56620,11/01/2015,1400,DEN,1800,GB,visitor,1,ROD339293,1800,GB,Aaron Rodgers,https://static.www.nfl.com/image/private/{formatInstructions}/league/ejjiyjumtzwxiffdhkgz,QB,12,0,0,0,0,0
+2015,REG,9,2015110500,56622,11/05/2015,0920,CIN,1050,CLE,home,1,DAL659900,0920,CIN,Andy Dalton,https://static.www.nfl.com/image/private/{formatInstructions}/league/fex1enmwhsyid5jyue7t,QB,14,234,27,21,0,3
+2015,REG,9,2015110500,56622,11/05/2015,0920,CIN,1050,CLE,visitor,1,MAN794607,1050,CLE,Johnny Manziel,https://static.www.nfl.com/image/private/{formatInstructions}/league/a0ql3eziqinxvo0szfhk,QB,2,168,33,15,0,1
+2015,REG,9,2015110801,56624,11/08/2015,0750,CAR,1800,GB,home,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,0,0,0,0,0
+2015,REG,9,2015110801,56624,11/08/2015,0750,CAR,1800,GB,visitor,1,ROD339293,1800,GB,Aaron Rodgers,https://static.www.nfl.com/image/private/{formatInstructions}/league/ejjiyjumtzwxiffdhkgz,QB,12,0,0,0,0,0
+2015,REG,9,2015110802,56626,11/08/2015,3200,NE,5110,WAS,home,1,BRA371156,3200,NE,Tom Brady,https://static.www.nfl.com/image/private/{formatInstructions}/league/apkxya5ptb0zalrskshq,QB,12,0,0,0,0,0
+2015,REG,9,2015110802,56626,11/08/2015,3200,NE,5110,WAS,visitor,1,COU709400,5110,WAS,Kirk Cousins,https://static.www.nfl.com/image/private/{formatInstructions}/league/yoi19theqqakt4zpw9r4,QB,8,0,0,0,0,0
+2015,REG,9,2015110804,56623,11/08/2015,0610,BUF,2700,MIA,home,1,TAY764868,0610,BUF,Tyrod Taylor,https://static.www.nfl.com/image/private/{formatInstructions}/league/xsaawztp6k1dv3xlbgpx,QB,5,0,0,0,0,0
+2015,REG,9,2015110804,56623,11/08/2015,0610,BUF,2700,MIA,visitor,1,TAN298716,2700,MIA,Ryan Tannehill,https://static.www.nfl.com/image/private/{formatInstructions}/league/e2b84kobkdgravu7u6qy,QB,17,0,0,0,0,0
+2015,REG,9,2015110805,56628,11/08/2015,3430,NYJ,2250,JAX,home,1,FIT792915,3430,NYJ,Ryan Fitzpatrick,https://static.www.nfl.com/image/private/{formatInstructions}/league/joilglqul2ldsy2pfjey,QB,14,0,0,0,0,0
+2015,REG,9,2015110805,56628,11/08/2015,3430,NYJ,2250,JAX,visitor,1,BOR650964,2250,JAC,Blake Bortles,https://static.www.nfl.com/image/private/{formatInstructions}/league/qycdzdjsokwmamzwsmeq,QB,5,0,0,0,0,0
+2015,REG,9,2015110806,56629,11/08/2015,3900,PIT,2520,OAK,home,1,ROE750381,3900,PIT,Ben Roethlisberger,https://static.www.nfl.com/image/private/{formatInstructions}/league/myft4pwoxwrxbeh1exyy,QB,7,0,0,0,0,0
+2015,REG,9,2015110806,56629,11/08/2015,3900,PIT,2520,OAK,visitor,1,CAR358797,2520,OAK,Derek Carr,https://static.www.nfl.com/image/private/{formatInstructions}/league/chtyn7pw8xqfpnrkd1fq,QB,4,0,0,0,0,0
+2015,REG,9,2015110807,56631,11/08/2015,4900,TB,3410,NYG,home,1,WIN623708,4900,TB,Jameis Winston,https://static.www.nfl.com/image/private/{formatInstructions}/league/iurpf1pdjrjfowtksptf,QB,3,0,0,0,0,0
+2015,REG,9,2015110807,56631,11/08/2015,4900,TB,3410,NYG,visitor,1,MAN473170,3410,NYG,Eli Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/w51tf8uedjftbr4qpaex,QB,10,0,0,0,0,0
+2015,REG,9,2015110808,56630,11/08/2015,4500,SF,0200,ATL,home,1,GAB221145,4500,SF,Blaine Gabbert,https://static.www.nfl.com/image/private/{formatInstructions}/league/awuyhgwqxyg475snjkli,QB,2,0,0,0,0,0
+2015,REG,9,2015110808,56630,11/08/2015,4500,SF,0200,ATL,visitor,1,RYA238179,0200,ATL,Matt Ryan,https://static.www.nfl.com/image/private/{formatInstructions}/league/nsup3rrfi8jfj8oduf1t,QB,2,0,0,0,0,0
+2015,REG,9,2015110809,56632,11/08/2015,2200,IND,1400,DEN,home,1,LUC524055,2200,IND,Andrew Luck,https://static.www.nfl.com/image/private/{formatInstructions}/league/ojix2ha2u58zqozaw756,QB,12,0,0,0,0,0
+2015,REG,9,2015110809,56632,11/08/2015,2200,IND,1400,DEN,visitor,1,MAN515097,1400,DEN,Peyton Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/yjtzhpx6wbj9o4np42jj,QB,18,0,0,0,0,0
+2015,REG,9,2015110900,56634,11/09/2015,4400,SD,0810,CHI,home,1,RIV651634,4400,SD,Philip Rivers,https://static.www.nfl.com/image/private/{formatInstructions}/league/adapxtphf15elrdudiix,QB,17,0,0,0,0,0
+2015,REG,9,2015110900,56634,11/09/2015,4400,SD,0810,CHI,visitor,1,CUT288111,0810,CHI,Jay Cutler,https://static.www.nfl.com/image/private/{formatInstructions}/league/ks6n7gvw4vccihlse6bn,QB,6,0,0,0,0,0
+2015,REG,10,2015111200,56635,11/12/2015,3430,NYJ,0610,BUF,home,1,FIT792915,3430,NYJ,Ryan Fitzpatrick,https://static.www.nfl.com/image/private/{formatInstructions}/league/joilglqul2ldsy2pfjey,QB,14,0,0,0,0,0
+2015,REG,10,2015111200,56635,11/12/2015,3430,NYJ,0610,BUF,visitor,1,TAY764868,0610,BUF,Tyrod Taylor,https://static.www.nfl.com/image/private/{formatInstructions}/league/xsaawztp6k1dv3xlbgpx,QB,5,0,0,0,0,0
+2015,REG,10,2015111500,56643,11/15/2015,5110,WAS,3300,NO,home,1,COU709400,5110,WAS,Kirk Cousins,https://static.www.nfl.com/image/private/{formatInstructions}/league/yoi19theqqakt4zpw9r4,QB,8,0,0,0,0,0
+2015,REG,10,2015111500,56643,11/15/2015,5110,WAS,3300,NO,visitor,1,BRE229498,3300,NO,Drew Brees,https://static.www.nfl.com/image/private/{formatInstructions}/league/i20xlpzdmn7xubotijjd,QB,9,0,0,0,0,0
+2015,REG,10,2015111501,56637,11/15/2015,1800,GB,1540,DET,home,1,ROD339293,1800,GB,Aaron Rodgers,https://static.www.nfl.com/image/private/{formatInstructions}/league/ejjiyjumtzwxiffdhkgz,QB,12,0,0,0,0,0
+2015,REG,10,2015111501,56637,11/15/2015,1800,GB,1540,DET,visitor,1,STA134157,1540,DET,Matthew Stafford,https://static.www.nfl.com/image/private/{formatInstructions}/league/iibglgpasx5wsrylvn2z,QB,9,0,0,0,0,0
+2015,REG,10,2015111502,56641,11/15/2015,4900,TB,1200,DAL,home,1,WIN623708,4900,TB,Jameis Winston,https://static.www.nfl.com/image/private/{formatInstructions}/league/iurpf1pdjrjfowtksptf,QB,3,0,0,0,0,0
+2015,REG,10,2015111502,56641,11/15/2015,4900,TB,1200,DAL,visitor,1,CAS541133,1200,DAL,Matt Cassel,https://static.www.nfl.com/image/private/{formatInstructions}/league/n1ucqggyu5hlsqzuv5gj,QB,16,0,0,0,0,0
+2015,REG,10,2015111503,56642,11/15/2015,2100,TEN,0750,CAR,home,1,MAR186347,2100,TEN,Marcus Mariota,https://static.www.nfl.com/image/private/{formatInstructions}/league/qi4gui9b5gq10obus2xa,QB,8,0,0,0,0,0
+2015,REG,10,2015111503,56642,11/15/2015,2100,TEN,0750,CAR,visitor,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,0,0,0,0,0
+2015,REG,10,2015111504,56640,11/15/2015,2510,STL,0810,CHI,home,1,FOL058566,2510,STL,Nick Foles,https://static.www.nfl.com/image/private/{formatInstructions}/league/urh5iskpc9copfq79exn,QB,5,200,36,17,1,0
+2015,REG,10,2015111504,56640,11/15/2015,2510,STL,0810,CHI,visitor,1,CUT288111,0810,CHI,Jay Cutler,https://static.www.nfl.com/image/private/{formatInstructions}/league/ks6n7gvw4vccihlse6bn,QB,6,258,24,19,0,3
+2015,REG,10,2015111505,56638,11/15/2015,3700,PHI,2700,MIA,home,1,BRA101548,3700,PHI,Sam Bradford,https://static.www.nfl.com/image/private/{formatInstructions}/league/fizwrxzfdaw7v2vzzpn6,QB,7,0,0,0,0,0
+2015,REG,10,2015111505,56638,11/15/2015,3700,PHI,2700,MIA,visitor,1,TAN298716,2700,MIA,Ryan Tannehill,https://static.www.nfl.com/image/private/{formatInstructions}/league/e2b84kobkdgravu7u6qy,QB,17,0,0,0,0,0
+2015,REG,10,2015111506,56636,11/15/2015,0325,BAL,2250,JAX,home,1,FLA009602,0325,BAL,Joe Flacco,https://static.www.nfl.com/image/private/{formatInstructions}/league/puq0loqhg0yeuhpdtykr,QB,5,316,45,34,2,3
+2015,REG,10,2015111506,56636,11/15/2015,0325,BAL,2250,JAX,visitor,1,BOR650964,2250,JAC,Blake Bortles,https://static.www.nfl.com/image/private/{formatInstructions}/league/qycdzdjsokwmamzwsmeq,QB,5,188,45,22,1,2
+2015,REG,10,2015111507,56639,11/15/2015,3900,PIT,1050,CLE,home,1,ROE750381,3900,PIT,Ben Roethlisberger,https://static.www.nfl.com/image/private/{formatInstructions}/league/myft4pwoxwrxbeh1exyy,QB,7,379,33,22,1,3
+2015,REG,10,2015111507,56639,11/15/2015,3900,PIT,1050,CLE,visitor,1,MAN794607,1050,CLE,Johnny Manziel,https://static.www.nfl.com/image/private/{formatInstructions}/league/a0ql3eziqinxvo0szfhk,QB,2,372,45,33,1,1
+2015,REG,10,2015111508,56644,11/15/2015,2520,OAK,3000,MIN,home,1,CAR358797,2520,OAK,Derek Carr,https://static.www.nfl.com/image/private/{formatInstructions}/league/chtyn7pw8xqfpnrkd1fq,QB,4,0,0,0,0,0
+2015,REG,10,2015111508,56644,11/15/2015,2520,OAK,3000,MIN,visitor,1,BRI129168,3000,MIN,Teddy Bridgewater,https://static.www.nfl.com/image/private/{formatInstructions}/league/f0uzw2vaxwyytmx1zron,QB,5,0,0,0,0,0
+2015,REG,10,2015111509,56646,11/15/2015,3410,NYG,3200,NE,home,1,MAN473170,3410,NYG,Eli Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/w51tf8uedjftbr4qpaex,QB,10,0,0,0,0,0
+2015,REG,10,2015111509,56646,11/15/2015,3410,NYG,3200,NE,visitor,1,BRA371156,3200,NE,Tom Brady,https://static.www.nfl.com/image/private/{formatInstructions}/league/apkxya5ptb0zalrskshq,QB,12,0,0,0,0,0
+2015,REG,10,2015111510,56645,11/15/2015,1400,DEN,2310,KC,home,1,OSW479182,1400,DEN,Brock Osweiler,https://static.www.nfl.com/image/private/{formatInstructions}/league/pwkmtgeitdi79qtumb2x,QB,17,0,0,0,0,0
+2015,REG,10,2015111510,56645,11/15/2015,1400,DEN,2310,KC,visitor,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,0,0,0,0,0
+2015,REG,10,2015111511,56647,11/15/2015,4600,SEA,3800,ARI,home,1,WIL777781,4600,SEA,Russell Wilson,https://static.www.nfl.com/image/private/{formatInstructions}/league/rrpzsqysodir9laitnus,QB,3,240,32,14,1,1
+2015,REG,10,2015111511,56647,11/15/2015,4600,SEA,3800,ARI,visitor,1,PAL249055,3800,ARI,Carson Palmer,https://static.www.nfl.com/image/private/{formatInstructions}/league/belgna3tokxga0gjjmwk,QB,3,363,47,29,1,3
+2015,REG,10,2015111600,56648,11/16/2015,0920,CIN,2120,HOU,home,1,DAL659900,0920,CIN,Andy Dalton,https://static.www.nfl.com/image/private/{formatInstructions}/league/fex1enmwhsyid5jyue7t,QB,14,197,38,22,1,0
+2015,REG,10,2015111600,56648,11/16/2015,0920,CIN,2120,HOU,visitor,1,HOY440791,2120,HOU,Brian Hoyer,https://static.www.nfl.com/image/private/{formatInstructions}/league/hartcqd9yt3gzqjddktl,QB,7,123,22,12,1,0
+2015,REG,11,2015111900,56649,11/19/2015,2250,JAX,2100,TEN,home,1,BOR650964,2250,JAC,Blake Bortles,https://static.www.nfl.com/image/private/{formatInstructions}/league/qycdzdjsokwmamzwsmeq,QB,5,0,0,0,0,0
+2015,REG,11,2015111900,56649,11/19/2015,2250,JAX,2100,TEN,visitor,1,MAR186347,2100,TEN,Marcus Mariota,https://static.www.nfl.com/image/private/{formatInstructions}/league/qi4gui9b5gq10obus2xa,QB,8,0,0,0,0,0
+2015,REG,11,2015112200,56653,11/22/2015,0810,CHI,1400,DEN,home,1,CUT288111,0810,CHI,Jay Cutler,https://static.www.nfl.com/image/private/{formatInstructions}/league/ks6n7gvw4vccihlse6bn,QB,6,0,0,0,0,0
+2015,REG,11,2015112200,56653,11/22/2015,0810,CHI,1400,DEN,visitor,1,OSW479182,1400,DEN,Brock Osweiler,https://static.www.nfl.com/image/private/{formatInstructions}/league/pwkmtgeitdi79qtumb2x,QB,17,0,0,0,0,0
+2015,REG,11,2015112201,56654,11/22/2015,1540,DET,2520,OAK,home,1,STA134157,1540,DET,Matthew Stafford,https://static.www.nfl.com/image/private/{formatInstructions}/league/iibglgpasx5wsrylvn2z,QB,9,0,0,0,0,0
+2015,REG,11,2015112201,56654,11/22/2015,1540,DET,2520,OAK,visitor,1,CAR358797,2520,OAK,Derek Carr,https://static.www.nfl.com/image/private/{formatInstructions}/league/chtyn7pw8xqfpnrkd1fq,QB,4,0,0,0,0,0
+2015,REG,11,2015112202,56650,11/22/2015,0200,ATL,2200,IND,home,1,RYA238179,0200,ATL,Matt Ryan,https://static.www.nfl.com/image/private/{formatInstructions}/league/nsup3rrfi8jfj8oduf1t,QB,2,0,0,0,0,0
+2015,REG,11,2015112202,56650,11/22/2015,0200,ATL,2200,IND,visitor,1,HAS536799,2200,IND,Matt Hasselbeck,https://static.www.nfl.com/image/private/{formatInstructions}/league/n2atfxxvzvjragmc5xq7,QB,8,0,0,0,0,0
+2015,REG,11,2015112203,56655,11/22/2015,2120,HOU,3430,NYJ,home,1,YAT420091,2120,HOU,T.J. Yates,https://static.www.nfl.com/image/private/{formatInstructions}/league/h8x0pbhc1s5dwjuzipsb,QB,6,229,34,16,0,2
+2015,REG,11,2015112203,56655,11/22/2015,2120,HOU,3430,NYJ,visitor,1,FIT792915,3430,NYJ,Ryan Fitzpatrick,https://static.www.nfl.com/image/private/{formatInstructions}/league/joilglqul2ldsy2pfjey,QB,14,216,39,19,2,1
+2015,REG,11,2015112204,56658,11/22/2015,3700,PHI,4900,TB,home,1,SAN091667,3700,PHI,Mark Sanchez,https://static.www.nfl.com/image/private/{formatInstructions}/league/e12qugcuc1cpgkf0crfn,QB,3,0,0,0,0,0
+2015,REG,11,2015112204,56658,11/22/2015,3700,PHI,4900,TB,visitor,1,WIN623708,4900,TB,Jameis Winston,https://static.www.nfl.com/image/private/{formatInstructions}/league/iurpf1pdjrjfowtksptf,QB,3,0,0,0,0,0
+2015,REG,11,2015112205,56657,11/22/2015,3000,MIN,1800,GB,home,1,BRI129168,3000,MIN,Teddy Bridgewater,https://static.www.nfl.com/image/private/{formatInstructions}/league/f0uzw2vaxwyytmx1zron,QB,5,0,0,0,0,0
+2015,REG,11,2015112205,56657,11/22/2015,3000,MIN,1800,GB,visitor,1,ROD339293,1800,GB,Aaron Rodgers,https://static.www.nfl.com/image/private/{formatInstructions}/league/ejjiyjumtzwxiffdhkgz,QB,12,0,0,0,0,0
+2015,REG,11,2015112206,56652,11/22/2015,0750,CAR,5110,WAS,home,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,0,0,0,0,0
+2015,REG,11,2015112206,56652,11/22/2015,0750,CAR,5110,WAS,visitor,1,COU709400,5110,WAS,Kirk Cousins,https://static.www.nfl.com/image/private/{formatInstructions}/league/yoi19theqqakt4zpw9r4,QB,8,0,0,0,0,0
+2015,REG,11,2015112207,56656,11/22/2015,2700,MIA,1200,DAL,home,1,TAN298716,2700,MIA,Ryan Tannehill,https://static.www.nfl.com/image/private/{formatInstructions}/league/e2b84kobkdgravu7u6qy,QB,17,0,0,0,0,0
+2015,REG,11,2015112207,56656,11/22/2015,2700,MIA,1200,DAL,visitor,1,ROM787981,1200,DAL,Tony Romo,https://static.www.nfl.com/image/private/{formatInstructions}/league/rdgaxf7djip2ovlkeqjk,QB,9,0,0,0,0,0
+2015,REG,11,2015112208,56651,11/22/2015,0325,BAL,2510,STL,home,1,FLA009602,0325,BAL,Joe Flacco,https://static.www.nfl.com/image/private/{formatInstructions}/league/puq0loqhg0yeuhpdtykr,QB,5,299,44,27,2,1
+2015,REG,11,2015112208,56651,11/22/2015,0325,BAL,2510,STL,visitor,1,KEE690598,2510,STL,Case Keenum,https://static.www.nfl.com/image/private/{formatInstructions}/league/qnyuz76tdcsqxn1bzse1,QB,17,136,26,12,0,1
+2015,REG,11,2015112209,56659,11/22/2015,3800,ARI,0920,CIN,home,1,PAL249055,3800,ARI,Carson Palmer,https://static.www.nfl.com/image/private/{formatInstructions}/league/belgna3tokxga0gjjmwk,QB,3,317,31,20,2,4
+2015,REG,11,2015112209,56659,11/22/2015,3800,ARI,0920,CIN,visitor,1,DAL659900,0920,CIN,Andy Dalton,https://static.www.nfl.com/image/private/{formatInstructions}/league/fex1enmwhsyid5jyue7t,QB,14,315,39,22,0,2
+2015,REG,11,2015112210,56660,11/22/2015,4600,SEA,4500,SF,home,1,WIL777781,4600,SEA,Russell Wilson,https://static.www.nfl.com/image/private/{formatInstructions}/league/rrpzsqysodir9laitnus,QB,3,0,0,0,0,0
+2015,REG,11,2015112210,56660,11/22/2015,4600,SEA,4500,SF,visitor,1,GAB221145,4500,SF,Blaine Gabbert,https://static.www.nfl.com/image/private/{formatInstructions}/league/awuyhgwqxyg475snjkli,QB,2,0,0,0,0,0
+2015,REG,11,2015112211,56661,11/22/2015,4400,SD,2310,KC,home,1,RIV651634,4400,SD,Philip Rivers,https://static.www.nfl.com/image/private/{formatInstructions}/league/adapxtphf15elrdudiix,QB,17,0,0,0,0,0
+2015,REG,11,2015112211,56661,11/22/2015,4400,SD,2310,KC,visitor,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,0,0,0,0,0
+2015,REG,11,2015112300,56662,11/23/2015,3200,NE,0610,BUF,home,1,BRA371156,3200,NE,Tom Brady,https://static.www.nfl.com/image/private/{formatInstructions}/league/apkxya5ptb0zalrskshq,QB,12,0,0,0,0,0
+2015,REG,11,2015112300,56662,11/23/2015,3200,NE,0610,BUF,visitor,1,TAY764868,0610,BUF,Tyrod Taylor,https://static.www.nfl.com/image/private/{formatInstructions}/league/xsaawztp6k1dv3xlbgpx,QB,5,0,0,0,0,0
+2015,REG,12,2015112600,56663,11/26/2015,1540,DET,3700,PHI,home,1,STA134157,1540,DET,Matthew Stafford,https://static.www.nfl.com/image/private/{formatInstructions}/league/iibglgpasx5wsrylvn2z,QB,9,0,0,0,0,0
+2015,REG,12,2015112600,56663,11/26/2015,1540,DET,3700,PHI,visitor,1,SAN091667,3700,PHI,Mark Sanchez,https://static.www.nfl.com/image/private/{formatInstructions}/league/e12qugcuc1cpgkf0crfn,QB,3,0,0,0,0,0
+2015,REG,12,2015112601,56664,11/26/2015,1200,DAL,0750,CAR,home,1,ROM787981,1200,DAL,Tony Romo,https://static.www.nfl.com/image/private/{formatInstructions}/league/rdgaxf7djip2ovlkeqjk,QB,9,0,0,0,0,0
+2015,REG,12,2015112601,56664,11/26/2015,1200,DAL,0750,CAR,visitor,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,0,0,0,0,0
+2015,REG,12,2015112602,56665,11/26/2015,1800,GB,0810,CHI,home,1,ROD339293,1800,GB,Aaron Rodgers,https://static.www.nfl.com/image/private/{formatInstructions}/league/ejjiyjumtzwxiffdhkgz,QB,12,0,0,0,0,0
+2015,REG,12,2015112602,56665,11/26/2015,1800,GB,0810,CHI,visitor,1,CUT288111,0810,CHI,Jay Cutler,https://static.www.nfl.com/image/private/{formatInstructions}/league/ks6n7gvw4vccihlse6bn,QB,6,0,0,0,0,0
+2015,REG,12,2015112900,56674,11/29/2015,5110,WAS,3410,NYG,home,1,COU709400,5110,WAS,Kirk Cousins,https://static.www.nfl.com/image/private/{formatInstructions}/league/yoi19theqqakt4zpw9r4,QB,8,0,0,0,0,0
+2015,REG,12,2015112900,56674,11/29/2015,5110,WAS,3410,NYG,visitor,1,MAN473170,3410,NYG,Eli Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/w51tf8uedjftbr4qpaex,QB,10,0,0,0,0,0
+2015,REG,12,2015112901,56666,11/29/2015,0200,ATL,3000,MIN,home,1,RYA238179,0200,ATL,Matt Ryan,https://static.www.nfl.com/image/private/{formatInstructions}/league/nsup3rrfi8jfj8oduf1t,QB,2,230,31,22,2,1
+2015,REG,12,2015112901,56666,11/29/2015,0200,ATL,3000,MIN,visitor,1,BRI129168,3000,MIN,Teddy Bridgewater,https://static.www.nfl.com/image/private/{formatInstructions}/league/f0uzw2vaxwyytmx1zron,QB,5,0,0,0,0,0
+2015,REG,12,2015112902,56667,11/29/2015,0920,CIN,2510,STL,home,1,DAL659900,0920,CIN,Andy Dalton,https://static.www.nfl.com/image/private/{formatInstructions}/league/fex1enmwhsyid5jyue7t,QB,14,233,27,20,1,3
+2015,REG,12,2015112902,56667,11/29/2015,0920,CIN,2510,STL,visitor,1,FOL058566,2510,STL,Nick Foles,https://static.www.nfl.com/image/private/{formatInstructions}/league/urh5iskpc9copfq79exn,QB,5,228,46,30,3,0
+2015,REG,12,2015112903,56668,11/29/2015,2120,HOU,3300,NO,home,1,HOY440791,2120,HOU,Brian Hoyer,https://static.www.nfl.com/image/private/{formatInstructions}/league/hartcqd9yt3gzqjddktl,QB,7,205,27,21,1,2
+2015,REG,12,2015112903,56668,11/29/2015,2120,HOU,3300,NO,visitor,1,BRE229498,3300,NO,Drew Brees,https://static.www.nfl.com/image/private/{formatInstructions}/league/i20xlpzdmn7xubotijjd,QB,9,228,44,25,1,0
+2015,REG,12,2015112904,56669,11/29/2015,2200,IND,4900,TB,home,1,HAS536799,2200,IND,Matt Hasselbeck,https://static.www.nfl.com/image/private/{formatInstructions}/league/n2atfxxvzvjragmc5xq7,QB,8,0,0,0,0,0
+2015,REG,12,2015112904,56669,11/29/2015,2200,IND,4900,TB,visitor,1,WIN623708,4900,TB,Jameis Winston,https://static.www.nfl.com/image/private/{formatInstructions}/league/iurpf1pdjrjfowtksptf,QB,3,0,0,0,0,0
+2015,REG,12,2015112905,56672,11/29/2015,3430,NYJ,2700,MIA,home,1,FIT792915,3430,NYJ,Ryan Fitzpatrick,https://static.www.nfl.com/image/private/{formatInstructions}/league/joilglqul2ldsy2pfjey,QB,14,0,0,0,0,0
+2015,REG,12,2015112905,56672,11/29/2015,3430,NYJ,2700,MIA,visitor,1,TAN298716,2700,MIA,Ryan Tannehill,https://static.www.nfl.com/image/private/{formatInstructions}/league/e2b84kobkdgravu7u6qy,QB,17,0,0,0,0,0
+2015,REG,12,2015112906,56670,11/29/2015,2250,JAX,4400,SD,home,1,BOR650964,2250,JAC,Blake Bortles,https://static.www.nfl.com/image/private/{formatInstructions}/league/qycdzdjsokwmamzwsmeq,QB,5,0,0,0,0,0
+2015,REG,12,2015112906,56670,11/29/2015,2250,JAX,4400,SD,visitor,1,RIV651634,4400,SD,Philip Rivers,https://static.www.nfl.com/image/private/{formatInstructions}/league/adapxtphf15elrdudiix,QB,17,0,0,0,0,0
+2015,REG,12,2015112907,56673,11/29/2015,2100,TEN,2520,OAK,home,1,MAR186347,2100,TEN,Marcus Mariota,https://static.www.nfl.com/image/private/{formatInstructions}/league/qi4gui9b5gq10obus2xa,QB,8,0,0,0,0,0
+2015,REG,12,2015112907,56673,11/29/2015,2100,TEN,2520,OAK,visitor,1,CAR358797,2520,OAK,Derek Carr,https://static.www.nfl.com/image/private/{formatInstructions}/league/chtyn7pw8xqfpnrkd1fq,QB,4,0,0,0,0,0
+2015,REG,12,2015112908,56671,11/29/2015,2310,KC,0610,BUF,home,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,0,0,0,0,0
+2015,REG,12,2015112908,56671,11/29/2015,2310,KC,0610,BUF,visitor,1,TAY764868,0610,BUF,Tyrod Taylor,https://static.www.nfl.com/image/private/{formatInstructions}/league/xsaawztp6k1dv3xlbgpx,QB,5,0,0,0,0,0
+2015,REG,12,2015112909,56675,11/29/2015,4500,SF,3800,ARI,home,1,GAB221145,4500,SF,Blaine Gabbert,https://static.www.nfl.com/image/private/{formatInstructions}/league/awuyhgwqxyg475snjkli,QB,2,318,36,25,1,1
+2015,REG,12,2015112909,56675,11/29/2015,4500,SF,3800,ARI,visitor,1,PAL249055,3800,ARI,Carson Palmer,https://static.www.nfl.com/image/private/{formatInstructions}/league/belgna3tokxga0gjjmwk,QB,3,271,40,24,0,0
+2015,REG,12,2015112910,56676,11/29/2015,4600,SEA,3900,PIT,home,1,WIL777781,4600,SEA,Russell Wilson,https://static.www.nfl.com/image/private/{formatInstructions}/league/rrpzsqysodir9laitnus,QB,3,0,0,0,0,0
+2015,REG,12,2015112910,56676,11/29/2015,4600,SEA,3900,PIT,visitor,1,ROE750381,3900,PIT,Ben Roethlisberger,https://static.www.nfl.com/image/private/{formatInstructions}/league/myft4pwoxwrxbeh1exyy,QB,7,0,0,0,0,0
+2015,REG,12,2015113000,56678,11/30/2015,1050,CLE,0325,BAL,home,1,MCC600777,1050,CLE,Josh McCown,https://static.www.nfl.com/image/private/{formatInstructions}/league/qcauc37wqjdaxdbq1evu,QB,13,212,38,21,0,1
+2015,REG,12,2015113000,56678,11/30/2015,1050,CLE,0325,BAL,visitor,1,SCH085186,0325,BAL,Matt Schaub,https://static.www.nfl.com/image/private/{formatInstructions}/league/y0rn0hwjbisuvol6j4r0,QB,8,232,34,20,2,2
+2015,REG,13,2015120300,56679,12/03/2015,1540,DET,1800,GB,home,1,STA134157,1540,DET,Matthew Stafford,https://static.www.nfl.com/image/private/{formatInstructions}/league/iibglgpasx5wsrylvn2z,QB,9,0,0,0,0,0
+2015,REG,13,2015120300,56679,12/03/2015,1540,DET,1800,GB,visitor,1,ROD339293,1800,GB,Aaron Rodgers,https://static.www.nfl.com/image/private/{formatInstructions}/league/ejjiyjumtzwxiffdhkgz,QB,12,0,0,0,0,0
+2015,REG,13,2015120601,56680,12/06/2015,0610,BUF,2120,HOU,home,1,TAY764868,0610,BUF,Tyrod Taylor,https://static.www.nfl.com/image/private/{formatInstructions}/league/xsaawztp6k1dv3xlbgpx,QB,5,211,21,11,0,3
+2015,REG,13,2015120601,56680,12/06/2015,0610,BUF,2120,HOU,visitor,1,HOY440791,2120,HOU,Brian Hoyer,https://static.www.nfl.com/image/private/{formatInstructions}/league/hartcqd9yt3gzqjddktl,QB,7,293,43,26,1,3
+2015,REG,13,2015120602,56683,12/06/2015,2700,MIA,0325,BAL,home,1,TAN298716,2700,MIA,Ryan Tannehill,https://static.www.nfl.com/image/private/{formatInstructions}/league/e2b84kobkdgravu7u6qy,QB,17,86,19,9,0,1
+2015,REG,13,2015120602,56683,12/06/2015,2700,MIA,0325,BAL,visitor,1,SCH085186,0325,BAL,Matt Schaub,https://static.www.nfl.com/image/private/{formatInstructions}/league/y0rn0hwjbisuvol6j4r0,QB,8,308,46,32,2,1
+2015,REG,13,2015120603,56682,12/06/2015,1050,CLE,0920,CIN,home,1,DAV164136,1050,CLE,Austin Davis,https://static.www.nfl.com/image/private/{formatInstructions}/league/wmquxjs1nuwferz7o9q2,QB,7,230,38,25,1,0
+2015,REG,13,2015120603,56682,12/06/2015,1050,CLE,0920,CIN,visitor,1,DAL659900,0920,CIN,Andy Dalton,https://static.www.nfl.com/image/private/{formatInstructions}/league/fex1enmwhsyid5jyue7t,QB,14,220,19,14,0,2
+2015,REG,13,2015120604,56689,12/06/2015,2100,TEN,2250,JAX,home,1,MAR186347,2100,TEN,Marcus Mariota,https://static.www.nfl.com/image/private/{formatInstructions}/league/qi4gui9b5gq10obus2xa,QB,8,0,0,0,0,0
+2015,REG,13,2015120604,56689,12/06/2015,2100,TEN,2250,JAX,visitor,1,BOR650964,2250,JAC,Blake Bortles,https://static.www.nfl.com/image/private/{formatInstructions}/league/qycdzdjsokwmamzwsmeq,QB,5,0,0,0,0,0
+2015,REG,13,2015120606,56684,12/06/2015,3000,MIN,4600,SEA,home,1,BRI129168,3000,MIN,Teddy Bridgewater,https://static.www.nfl.com/image/private/{formatInstructions}/league/f0uzw2vaxwyytmx1zron,QB,5,0,0,0,0,0
+2015,REG,13,2015120606,56684,12/06/2015,3000,MIN,4600,SEA,visitor,1,WIL777781,4600,SEA,Russell Wilson,https://static.www.nfl.com/image/private/{formatInstructions}/league/rrpzsqysodir9laitnus,QB,3,0,0,0,0,0
+2015,REG,13,2015120607,56685,12/06/2015,3300,NO,0750,CAR,home,1,BRE229498,3300,NO,Drew Brees,https://static.www.nfl.com/image/private/{formatInstructions}/league/i20xlpzdmn7xubotijjd,QB,9,0,0,0,0,0
+2015,REG,13,2015120607,56685,12/06/2015,3300,NO,0750,CAR,visitor,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,0,0,0,0,0
+2015,REG,13,2015120608,56688,12/06/2015,4900,TB,0200,ATL,home,1,WIN623708,4900,TB,Jameis Winston,https://static.www.nfl.com/image/private/{formatInstructions}/league/iurpf1pdjrjfowtksptf,QB,3,0,0,0,0,0
+2015,REG,13,2015120608,56688,12/06/2015,4900,TB,0200,ATL,visitor,1,RYA238179,0200,ATL,Matt Ryan,https://static.www.nfl.com/image/private/{formatInstructions}/league/nsup3rrfi8jfj8oduf1t,QB,2,0,0,0,0,0
+2015,REG,13,2015120609,56687,12/06/2015,2510,STL,3800,ARI,home,1,FOL058566,2510,STL,Nick Foles,https://static.www.nfl.com/image/private/{formatInstructions}/league/urh5iskpc9copfq79exn,QB,5,146,35,15,1,0
+2015,REG,13,2015120609,56687,12/06/2015,2510,STL,3800,ARI,visitor,1,PAL249055,3800,ARI,Carson Palmer,https://static.www.nfl.com/image/private/{formatInstructions}/league/belgna3tokxga0gjjmwk,QB,3,356,40,26,0,2
+2015,REG,13,2015120610,56690,12/06/2015,2520,OAK,2310,KC,home,1,CAR358797,2520,OAK,Derek Carr,https://static.www.nfl.com/image/private/{formatInstructions}/league/chtyn7pw8xqfpnrkd1fq,QB,4,0,0,0,0,0
+2015,REG,13,2015120610,56690,12/06/2015,2520,OAK,2310,KC,visitor,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,0,0,0,0,0
+2015,REG,13,2015120611,56691,12/06/2015,4400,SD,1400,DEN,home,1,RIV651634,4400,SD,Philip Rivers,https://static.www.nfl.com/image/private/{formatInstructions}/league/adapxtphf15elrdudiix,QB,17,0,0,0,0,0
+2015,REG,13,2015120611,56691,12/06/2015,4400,SD,1400,DEN,visitor,1,OSW479182,1400,DEN,Brock Osweiler,https://static.www.nfl.com/image/private/{formatInstructions}/league/pwkmtgeitdi79qtumb2x,QB,17,0,0,0,0,0
+2015,REG,13,2015120612,56692,12/06/2015,3200,NE,3700,PHI,home,1,BRA371156,3200,NE,Tom Brady,https://static.www.nfl.com/image/private/{formatInstructions}/league/apkxya5ptb0zalrskshq,QB,12,0,0,0,0,0
+2015,REG,13,2015120612,56692,12/06/2015,3200,NE,3700,PHI,visitor,1,BRA101548,3700,PHI,Sam Bradford,https://static.www.nfl.com/image/private/{formatInstructions}/league/fizwrxzfdaw7v2vzzpn6,QB,7,0,0,0,0,0
+2015,REG,13,2015120613,56693,12/06/2015,3900,PIT,2200,IND,home,1,ROE750381,3900,PIT,Ben Roethlisberger,https://static.www.nfl.com/image/private/{formatInstructions}/league/myft4pwoxwrxbeh1exyy,QB,7,0,0,0,0,0
+2015,REG,13,2015120613,56693,12/06/2015,3900,PIT,2200,IND,visitor,1,HAS536799,2200,IND,Matt Hasselbeck,https://static.www.nfl.com/image/private/{formatInstructions}/league/n2atfxxvzvjragmc5xq7,QB,8,0,0,0,0,0
+2015,REG,13,2015120700,56694,12/07/2015,5110,WAS,1200,DAL,home,1,COU709400,5110,WAS,Kirk Cousins,https://static.www.nfl.com/image/private/{formatInstructions}/league/yoi19theqqakt4zpw9r4,QB,8,0,0,0,0,0
+2015,REG,13,2015120700,56694,12/07/2015,5110,WAS,1200,DAL,visitor,1,CAS541133,1200,DAL,Matt Cassel,https://static.www.nfl.com/image/private/{formatInstructions}/league/n1ucqggyu5hlsqzuv5gj,QB,16,0,0,0,0,0
+2015,REG,14,2015121000,56695,12/10/2015,3800,ARI,3000,MIN,home,1,PAL249055,3800,ARI,Carson Palmer,https://static.www.nfl.com/image/private/{formatInstructions}/league/belgna3tokxga0gjjmwk,QB,3,310,35,25,0,2
+2015,REG,14,2015121000,56695,12/10/2015,3800,ARI,3000,MIN,visitor,1,BRI129168,3000,MIN,Teddy Bridgewater,https://static.www.nfl.com/image/private/{formatInstructions}/league/f0uzw2vaxwyytmx1zron,QB,5,335,36,25,0,1
+2015,REG,14,2015121300,56704,12/13/2015,3700,PHI,0610,BUF,home,1,BRA101548,3700,PHI,Sam Bradford,https://static.www.nfl.com/image/private/{formatInstructions}/league/fizwrxzfdaw7v2vzzpn6,QB,7,0,0,0,0,0
+2015,REG,14,2015121300,56704,12/13/2015,3700,PHI,0610,BUF,visitor,1,TAY764868,0610,BUF,Tyrod Taylor,https://static.www.nfl.com/image/private/{formatInstructions}/league/xsaawztp6k1dv3xlbgpx,QB,5,0,0,0,0,0
+2015,REG,14,2015121301,56703,12/13/2015,3430,NYJ,2100,TEN,home,1,FIT792915,3430,NYJ,Ryan Fitzpatrick,https://static.www.nfl.com/image/private/{formatInstructions}/league/joilglqul2ldsy2pfjey,QB,14,0,0,0,0,0
+2015,REG,14,2015121301,56703,12/13/2015,3430,NYJ,2100,TEN,visitor,1,MAR186347,2100,TEN,Marcus Mariota,https://static.www.nfl.com/image/private/{formatInstructions}/league/qi4gui9b5gq10obus2xa,QB,8,0,0,0,0,0
+2015,REG,14,2015121302,56698,12/13/2015,0920,CIN,3900,PIT,home,1,MCC176481,0920,CIN,AJ McCarron,https://static.www.nfl.com/image/private/{formatInstructions}/league/dnl57azz8yubimlnonih,QB,5,0,0,0,0,0
+2015,REG,14,2015121302,56698,12/13/2015,0920,CIN,3900,PIT,visitor,1,ROE750381,3900,PIT,Ben Roethlisberger,https://static.www.nfl.com/image/private/{formatInstructions}/league/myft4pwoxwrxbeh1exyy,QB,7,0,0,0,0,0
+2015,REG,14,2015121304,56701,12/13/2015,2250,JAX,2200,IND,home,1,BOR650964,2250,JAC,Blake Bortles,https://static.www.nfl.com/image/private/{formatInstructions}/league/qycdzdjsokwmamzwsmeq,QB,5,0,0,0,0,0
+2015,REG,14,2015121304,56701,12/13/2015,2250,JAX,2200,IND,visitor,1,HAS536799,2200,IND,Matt Hasselbeck,https://static.www.nfl.com/image/private/{formatInstructions}/league/n2atfxxvzvjragmc5xq7,QB,8,0,0,0,0,0
+2015,REG,14,2015121305,56702,12/13/2015,2310,KC,4400,SD,home,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,0,0,0,0,0
+2015,REG,14,2015121305,56702,12/13/2015,2310,KC,4400,SD,visitor,1,RIV651634,4400,SD,Philip Rivers,https://static.www.nfl.com/image/private/{formatInstructions}/league/adapxtphf15elrdudiix,QB,17,0,0,0,0,0
+2015,REG,14,2015121306,56697,12/13/2015,0810,CHI,5110,WAS,home,1,CUT288111,0810,CHI,Jay Cutler,https://static.www.nfl.com/image/private/{formatInstructions}/league/ks6n7gvw4vccihlse6bn,QB,6,0,0,0,0,0
+2015,REG,14,2015121306,56697,12/13/2015,0810,CHI,5110,WAS,visitor,1,COU709400,5110,WAS,Kirk Cousins,https://static.www.nfl.com/image/private/{formatInstructions}/league/yoi19theqqakt4zpw9r4,QB,8,0,0,0,0,0
+2015,REG,14,2015121307,56696,12/13/2015,0750,CAR,0200,ATL,home,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,0,0,0,0,0
+2015,REG,14,2015121307,56696,12/13/2015,0750,CAR,0200,ATL,visitor,1,RYA238179,0200,ATL,Matt Ryan,https://static.www.nfl.com/image/private/{formatInstructions}/league/nsup3rrfi8jfj8oduf1t,QB,2,0,0,0,0,0
+2015,REG,14,2015121308,56706,12/13/2015,4900,TB,3300,NO,home,1,WIN623708,4900,TB,Jameis Winston,https://static.www.nfl.com/image/private/{formatInstructions}/league/iurpf1pdjrjfowtksptf,QB,3,0,0,0,0,0
+2015,REG,14,2015121308,56706,12/13/2015,4900,TB,3300,NO,visitor,1,BRE229498,3300,NO,Drew Brees,https://static.www.nfl.com/image/private/{formatInstructions}/league/i20xlpzdmn7xubotijjd,QB,9,0,0,0,0,0
+2015,REG,14,2015121309,56705,12/13/2015,2510,STL,1540,DET,home,1,KEE690598,2510,STL,Case Keenum,https://static.www.nfl.com/image/private/{formatInstructions}/league/qnyuz76tdcsqxn1bzse1,QB,17,124,22,14,1,0
+2015,REG,14,2015121309,56705,12/13/2015,2510,STL,1540,DET,visitor,1,STA134157,1540,DET,Matthew Stafford,https://static.www.nfl.com/image/private/{formatInstructions}/league/iibglgpasx5wsrylvn2z,QB,9,245,46,30,1,2
+2015,REG,14,2015121310,56699,12/13/2015,1050,CLE,4500,SF,home,1,MAN794607,1050,CLE,Johnny Manziel,https://static.www.nfl.com/image/private/{formatInstructions}/league/a0ql3eziqinxvo0szfhk,QB,2,270,31,21,1,1
+2015,REG,14,2015121310,56699,12/13/2015,1050,CLE,4500,SF,visitor,1,GAB221145,4500,SF,Blaine Gabbert,https://static.www.nfl.com/image/private/{formatInstructions}/league/awuyhgwqxyg475snjkli,QB,2,194,28,18,0,1
+2015,REG,14,2015121311,56707,12/13/2015,1400,DEN,2520,OAK,home,1,OSW479182,1400,DEN,Brock Osweiler,https://static.www.nfl.com/image/private/{formatInstructions}/league/pwkmtgeitdi79qtumb2x,QB,17,0,0,0,0,0
+2015,REG,14,2015121311,56707,12/13/2015,1400,DEN,2520,OAK,visitor,1,CAR358797,2520,OAK,Derek Carr,https://static.www.nfl.com/image/private/{formatInstructions}/league/chtyn7pw8xqfpnrkd1fq,QB,4,0,0,0,0,0
+2015,REG,14,2015121312,56708,12/13/2015,1800,GB,1200,DAL,home,1,ROD339293,1800,GB,Aaron Rodgers,https://static.www.nfl.com/image/private/{formatInstructions}/league/ejjiyjumtzwxiffdhkgz,QB,12,0,0,0,0,0
+2015,REG,14,2015121312,56708,12/13/2015,1800,GB,1200,DAL,visitor,1,CAS541133,1200,DAL,Matt Cassel,https://static.www.nfl.com/image/private/{formatInstructions}/league/n1ucqggyu5hlsqzuv5gj,QB,16,0,0,0,0,0
+2015,REG,14,2015121313,56709,12/13/2015,0325,BAL,4600,SEA,home,1,CLA709185,0325,BAL,Jimmy Clausen,https://static.www.nfl.com/image/private/{formatInstructions}/league/n5lf1tlpkvtck2j24krd,QB,2,274,40,23,1,0
+2015,REG,14,2015121313,56709,12/13/2015,0325,BAL,4600,SEA,visitor,1,WIL777781,4600,SEA,Russell Wilson,https://static.www.nfl.com/image/private/{formatInstructions}/league/rrpzsqysodir9laitnus,QB,3,292,32,23,0,5
+2015,REG,14,2015121400,56710,12/14/2015,2700,MIA,3410,NYG,home,1,TAN298716,2700,MIA,Ryan Tannehill,https://static.www.nfl.com/image/private/{formatInstructions}/league/e2b84kobkdgravu7u6qy,QB,17,0,0,0,0,0
+2015,REG,14,2015121400,56710,12/14/2015,2700,MIA,3410,NYG,visitor,1,MAN473170,3410,NYG,Eli Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/w51tf8uedjftbr4qpaex,QB,10,0,0,0,0,0
+2015,REG,15,2015121700,56711,12/17/2015,2510,STL,4900,TB,home,1,KEE690598,2510,STL,Case Keenum,https://static.www.nfl.com/image/private/{formatInstructions}/league/qnyuz76tdcsqxn1bzse1,QB,17,234,17,14,0,2
+2015,REG,15,2015121700,56711,12/17/2015,2510,STL,4900,TB,visitor,1,WIN623708,4900,TB,Jameis Winston,https://static.www.nfl.com/image/private/{formatInstructions}/league/iurpf1pdjrjfowtksptf,QB,3,363,50,29,1,2
+2015,REG,15,2015121900,56712,12/19/2015,1200,DAL,3430,NYJ,home,1,MOO446260,1200,DAL,Kellen Moore,https://static.www.nfl.com/image/private/{formatInstructions}/league/cgppx5hltvlebgm5ywor,QB,17,0,0,0,0,0
+2015,REG,15,2015121900,56712,12/19/2015,1200,DAL,3430,NYJ,visitor,1,FIT792915,3430,NYJ,Ryan Fitzpatrick,https://static.www.nfl.com/image/private/{formatInstructions}/league/joilglqul2ldsy2pfjey,QB,14,0,0,0,0,0
+2015,REG,15,2015122000,56718,12/20/2015,3410,NYG,0750,CAR,home,1,MAN473170,3410,NYG,Eli Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/w51tf8uedjftbr4qpaex,QB,10,0,0,0,0,0
+2015,REG,15,2015122000,56718,12/20/2015,3410,NYG,0750,CAR,visitor,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,0,0,0,0,0
+2015,REG,15,2015122001,56719,12/20/2015,3700,PHI,3800,ARI,home,1,BRA101548,3700,PHI,Sam Bradford,https://static.www.nfl.com/image/private/{formatInstructions}/league/fizwrxzfdaw7v2vzzpn6,QB,7,361,41,28,2,2
+2015,REG,15,2015122001,56719,12/20/2015,3700,PHI,3800,ARI,visitor,1,PAL249055,3800,ARI,Carson Palmer,https://static.www.nfl.com/image/private/{formatInstructions}/league/belgna3tokxga0gjjmwk,QB,3,274,32,20,0,1
+2015,REG,15,2015122002,56716,12/20/2015,3000,MIN,0810,CHI,home,1,BRI129168,3000,MIN,Teddy Bridgewater,https://static.www.nfl.com/image/private/{formatInstructions}/league/f0uzw2vaxwyytmx1zron,QB,5,0,0,0,0,0
+2015,REG,15,2015122002,56716,12/20/2015,3000,MIN,0810,CHI,visitor,1,CUT288111,0810,CHI,Jay Cutler,https://static.www.nfl.com/image/private/{formatInstructions}/league/ks6n7gvw4vccihlse6bn,QB,6,0,0,0,0,0
+2015,REG,15,2015122003,56715,12/20/2015,2250,JAX,0200,ATL,home,1,BOR650964,2250,JAC,Blake Bortles,https://static.www.nfl.com/image/private/{formatInstructions}/league/qycdzdjsokwmamzwsmeq,QB,5,0,0,0,0,0
+2015,REG,15,2015122003,56715,12/20/2015,2250,JAX,0200,ATL,visitor,1,RYA238179,0200,ATL,Matt Ryan,https://static.www.nfl.com/image/private/{formatInstructions}/league/nsup3rrfi8jfj8oduf1t,QB,2,0,0,0,0,0
+2015,REG,15,2015122004,56714,12/20/2015,2200,IND,2120,HOU,home,1,HAS536799,2200,IND,Matt Hasselbeck,https://static.www.nfl.com/image/private/{formatInstructions}/league/n2atfxxvzvjragmc5xq7,QB,8,147,30,17,1,1
+2015,REG,15,2015122004,56714,12/20/2015,2200,IND,2120,HOU,visitor,1,WEE221487,2120,HOU,Brandon Weeden,https://static.www.nfl.com/image/private/{formatInstructions}/league/m8oocp4p9nskilnakgnw,QB,5,105,18,11,0,1
+2015,REG,15,2015122005,56717,12/20/2015,3200,NE,2100,TEN,home,1,BRA371156,3200,NE,Tom Brady,https://static.www.nfl.com/image/private/{formatInstructions}/league/apkxya5ptb0zalrskshq,QB,12,0,0,0,0,0
+2015,REG,15,2015122005,56717,12/20/2015,3200,NE,2100,TEN,visitor,1,MET532718,2100,TEN,Zach Mettenberger,,QB,7,0,0,0,0,0
+2015,REG,15,2015122006,56713,12/20/2015,0325,BAL,2310,KC,home,1,CLA709185,0325,BAL,Jimmy Clausen,https://static.www.nfl.com/image/private/{formatInstructions}/league/n5lf1tlpkvtck2j24krd,QB,2,281,45,26,2,2
+2015,REG,15,2015122006,56713,12/20/2015,0325,BAL,2310,KC,visitor,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,171,25,21,0,1
+2015,REG,15,2015122007,56720,12/20/2015,5110,WAS,0610,BUF,home,1,COU709400,5110,WAS,Kirk Cousins,https://static.www.nfl.com/image/private/{formatInstructions}/league/yoi19theqqakt4zpw9r4,QB,8,0,0,0,0,0
+2015,REG,15,2015122007,56720,12/20/2015,5110,WAS,0610,BUF,visitor,1,TAY764868,0610,BUF,Tyrod Taylor,https://static.www.nfl.com/image/private/{formatInstructions}/league/xsaawztp6k1dv3xlbgpx,QB,5,0,0,0,0,0
+2015,REG,15,2015122008,56722,12/20/2015,4600,SEA,1050,CLE,home,1,WIL777781,4600,SEA,Russell Wilson,https://static.www.nfl.com/image/private/{formatInstructions}/league/rrpzsqysodir9laitnus,QB,3,249,30,21,0,3
+2015,REG,15,2015122008,56722,12/20/2015,4600,SEA,1050,CLE,visitor,1,MAN794607,1050,CLE,Johnny Manziel,https://static.www.nfl.com/image/private/{formatInstructions}/league/a0ql3eziqinxvo0szfhk,QB,2,161,32,19,1,1
+2015,REG,15,2015122010,56723,12/20/2015,3900,PIT,1400,DEN,home,1,ROE750381,3900,PIT,Ben Roethlisberger,https://static.www.nfl.com/image/private/{formatInstructions}/league/myft4pwoxwrxbeh1exyy,QB,7,0,0,0,0,0
+2015,REG,15,2015122010,56723,12/20/2015,3900,PIT,1400,DEN,visitor,1,OSW479182,1400,DEN,Brock Osweiler,https://static.www.nfl.com/image/private/{formatInstructions}/league/pwkmtgeitdi79qtumb2x,QB,17,0,0,0,0,0
+2015,REG,15,2015122011,56724,12/20/2015,4400,SD,2700,MIA,home,1,RIV651634,4400,SD,Philip Rivers,https://static.www.nfl.com/image/private/{formatInstructions}/league/adapxtphf15elrdudiix,QB,17,0,0,0,0,0
+2015,REG,15,2015122011,56724,12/20/2015,4400,SD,2700,MIA,visitor,1,TAN298716,2700,MIA,Ryan Tannehill,https://static.www.nfl.com/image/private/{formatInstructions}/league/e2b84kobkdgravu7u6qy,QB,17,0,0,0,0,0
+2015,REG,15,2015122012,56725,12/20/2015,4500,SF,0920,CIN,home,1,GAB221145,4500,SF,Blaine Gabbert,https://static.www.nfl.com/image/private/{formatInstructions}/league/awuyhgwqxyg475snjkli,QB,2,0,0,0,0,0
+2015,REG,15,2015122012,56725,12/20/2015,4500,SF,0920,CIN,visitor,1,MCC176481,0920,CIN,AJ McCarron,https://static.www.nfl.com/image/private/{formatInstructions}/league/dnl57azz8yubimlnonih,QB,5,0,0,0,0,0
+2015,REG,15,2015122100,56726,12/21/2015,3300,NO,1540,DET,home,1,BRE229498,3300,NO,Drew Brees,https://static.www.nfl.com/image/private/{formatInstructions}/league/i20xlpzdmn7xubotijjd,QB,9,0,0,0,0,0
+2015,REG,15,2015122100,56726,12/21/2015,3300,NO,1540,DET,visitor,1,STA134157,1540,DET,Matthew Stafford,https://static.www.nfl.com/image/private/{formatInstructions}/league/iibglgpasx5wsrylvn2z,QB,9,0,0,0,0,0
+2015,REG,16,2015122600,56728,12/26/2015,3700,PHI,5110,WAS,home,1,BRA101548,3700,PHI,Sam Bradford,https://static.www.nfl.com/image/private/{formatInstructions}/league/fizwrxzfdaw7v2vzzpn6,QB,7,0,0,0,0,0
+2015,REG,16,2015122600,56728,12/26/2015,3700,PHI,5110,WAS,visitor,1,COU709400,5110,WAS,Kirk Cousins,https://static.www.nfl.com/image/private/{formatInstructions}/league/yoi19theqqakt4zpw9r4,QB,8,0,0,0,0,0
+2015,REG,16,2015122700,56735,12/27/2015,3300,NO,2250,JAX,home,1,BRE229498,3300,NO,Drew Brees,https://static.www.nfl.com/image/private/{formatInstructions}/league/i20xlpzdmn7xubotijjd,QB,9,0,0,0,0,0
+2015,REG,16,2015122700,56735,12/27/2015,3300,NO,2250,JAX,visitor,1,BOR650964,2250,JAC,Blake Bortles,https://static.www.nfl.com/image/private/{formatInstructions}/league/qycdzdjsokwmamzwsmeq,QB,5,0,0,0,0,0
+2015,REG,16,2015122701,56733,12/27/2015,2700,MIA,2200,IND,home,1,TAN298716,2700,MIA,Ryan Tannehill,https://static.www.nfl.com/image/private/{formatInstructions}/league/e2b84kobkdgravu7u6qy,QB,17,0,0,0,0,0
+2015,REG,16,2015122701,56733,12/27/2015,2700,MIA,2200,IND,visitor,1,HAS536799,2200,IND,Matt Hasselbeck,https://static.www.nfl.com/image/private/{formatInstructions}/league/n2atfxxvzvjragmc5xq7,QB,8,0,0,0,0,0
+2015,REG,16,2015122703,56738,12/27/2015,2100,TEN,2120,HOU,home,1,MET532718,2100,TEN,Zach Mettenberger,,QB,7,234,51,27,1,1
+2015,REG,16,2015122703,56738,12/27/2015,2100,TEN,2120,HOU,visitor,1,WEE221487,2120,HOU,Brandon Weeden,https://static.www.nfl.com/image/private/{formatInstructions}/league/m8oocp4p9nskilnakgnw,QB,5,200,24,15,0,2
+2015,REG,16,2015122704,56732,12/27/2015,2310,KC,1050,CLE,home,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,125,22,15,1,2
+2015,REG,16,2015122704,56732,12/27/2015,2310,KC,1050,CLE,visitor,1,MAN794607,1050,CLE,Johnny Manziel,https://static.www.nfl.com/image/private/{formatInstructions}/league/a0ql3eziqinxvo0szfhk,QB,2,136,32,13,1,0
+2015,REG,16,2015122705,56731,12/27/2015,1540,DET,4500,SF,home,1,STA134157,1540,DET,Matthew Stafford,https://static.www.nfl.com/image/private/{formatInstructions}/league/iibglgpasx5wsrylvn2z,QB,9,0,0,0,0,0
+2015,REG,16,2015122705,56731,12/27/2015,1540,DET,4500,SF,visitor,1,GAB221145,4500,SF,Blaine Gabbert,https://static.www.nfl.com/image/private/{formatInstructions}/league/awuyhgwqxyg475snjkli,QB,2,0,0,0,0,0
+2015,REG,16,2015122706,56734,12/27/2015,3000,MIN,3410,NYG,home,1,BRI129168,3000,MIN,Teddy Bridgewater,https://static.www.nfl.com/image/private/{formatInstructions}/league/f0uzw2vaxwyytmx1zron,QB,5,0,0,0,0,0
+2015,REG,16,2015122706,56734,12/27/2015,3000,MIN,3410,NYG,visitor,1,MAN473170,3410,NYG,Eli Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/w51tf8uedjftbr4qpaex,QB,10,0,0,0,0,0
+2015,REG,16,2015122707,56729,12/27/2015,0200,ATL,0750,CAR,home,1,RYA238179,0200,ATL,Matt Ryan,https://static.www.nfl.com/image/private/{formatInstructions}/league/nsup3rrfi8jfj8oduf1t,QB,2,0,0,0,0,0
+2015,REG,16,2015122707,56729,12/27/2015,0200,ATL,0750,CAR,visitor,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,0,0,0,0,0
+2015,REG,16,2015122708,56737,12/27/2015,4900,TB,0810,CHI,home,1,WIN623708,4900,TB,Jameis Winston,https://static.www.nfl.com/image/private/{formatInstructions}/league/iurpf1pdjrjfowtksptf,QB,3,0,0,0,0,0
+2015,REG,16,2015122708,56737,12/27/2015,4900,TB,0810,CHI,visitor,1,CUT288111,0810,CHI,Jay Cutler,https://static.www.nfl.com/image/private/{formatInstructions}/league/ks6n7gvw4vccihlse6bn,QB,6,0,0,0,0,0
+2015,REG,16,2015122709,56730,12/27/2015,0610,BUF,1200,DAL,home,1,TAY764868,0610,BUF,Tyrod Taylor,https://static.www.nfl.com/image/private/{formatInstructions}/league/xsaawztp6k1dv3xlbgpx,QB,5,0,0,0,0,0
+2015,REG,16,2015122709,56730,12/27/2015,0610,BUF,1200,DAL,visitor,1,MOO446260,1200,DAL,Kellen Moore,https://static.www.nfl.com/image/private/{formatInstructions}/league/cgppx5hltvlebgm5ywor,QB,17,0,0,0,0,0
+2015,REG,16,2015122710,56739,12/27/2015,3800,ARI,1800,GB,home,1,PAL249055,3800,ARI,Carson Palmer,https://static.www.nfl.com/image/private/{formatInstructions}/league/belgna3tokxga0gjjmwk,QB,3,265,27,18,1,2
+2015,REG,16,2015122710,56739,12/27/2015,3800,ARI,1800,GB,visitor,1,ROD339293,1800,GB,Aaron Rodgers,https://static.www.nfl.com/image/private/{formatInstructions}/league/ejjiyjumtzwxiffdhkgz,QB,12,151,28,15,1,1
+2015,REG,16,2015122711,56740,12/27/2015,4600,SEA,2510,STL,home,1,WIL777781,4600,SEA,Russell Wilson,https://static.www.nfl.com/image/private/{formatInstructions}/league/rrpzsqysodir9laitnus,QB,3,289,41,25,1,2
+2015,REG,16,2015122711,56740,12/27/2015,4600,SEA,2510,STL,visitor,1,KEE690598,2510,STL,Case Keenum,https://static.www.nfl.com/image/private/{formatInstructions}/league/qnyuz76tdcsqxn1bzse1,QB,17,103,23,14,0,1
+2015,REG,16,2015122712,56741,12/27/2015,0325,BAL,3900,PIT,home,1,MAL262949,0325,BAL,Ryan Mallett,https://static.www.nfl.com/image/private/{formatInstructions}/league/tvn03oot2ttdoog5x0qr,QB,7,274,41,28,0,1
+2015,REG,16,2015122712,56741,12/27/2015,0325,BAL,3900,PIT,visitor,1,ROE750381,3900,PIT,Ben Roethlisberger,https://static.www.nfl.com/image/private/{formatInstructions}/league/myft4pwoxwrxbeh1exyy,QB,7,220,34,24,2,0
+2015,REG,17,2016010300,56744,01/03/2016,0610,BUF,3430,NYJ,home,1,TAY764868,0610,BUF,Tyrod Taylor,https://static.www.nfl.com/image/private/{formatInstructions}/league/xsaawztp6k1dv3xlbgpx,QB,5,0,0,0,0,0
+2015,REG,17,2016010300,56744,01/03/2016,0610,BUF,3430,NYJ,visitor,1,FIT792915,3430,NYJ,Ryan Fitzpatrick,https://static.www.nfl.com/image/private/{formatInstructions}/league/joilglqul2ldsy2pfjey,QB,14,0,0,0,0,0
+2015,REG,17,2016010301,56754,01/03/2016,2700,MIA,3200,NE,home,1,TAN298716,2700,MIA,Ryan Tannehill,https://static.www.nfl.com/image/private/{formatInstructions}/league/e2b84kobkdgravu7u6qy,QB,17,0,0,0,0,0
+2015,REG,17,2016010301,56754,01/03/2016,2700,MIA,3200,NE,visitor,1,BRA371156,3200,NE,Tom Brady,https://static.www.nfl.com/image/private/{formatInstructions}/league/apkxya5ptb0zalrskshq,QB,12,0,0,0,0,0
+2015,REG,17,2016010302,56747,01/03/2016,0920,CIN,0325,BAL,home,1,MCC176481,0920,CIN,AJ McCarron,https://static.www.nfl.com/image/private/{formatInstructions}/league/dnl57azz8yubimlnonih,QB,5,160,27,17,0,2
+2015,REG,17,2016010302,56747,01/03/2016,0920,CIN,0325,BAL,visitor,1,MAL262949,0325,BAL,Ryan Mallett,https://static.www.nfl.com/image/private/{formatInstructions}/league/tvn03oot2ttdoog5x0qr,QB,7,292,56,30,2,1
+2015,REG,17,2016010303,56748,01/03/2016,1050,CLE,3900,PIT,home,1,DAV164136,1050,CLE,Austin Davis,https://static.www.nfl.com/image/private/{formatInstructions}/league/wmquxjs1nuwferz7o9q2,QB,7,240,46,24,2,0
+2015,REG,17,2016010303,56748,01/03/2016,1050,CLE,3900,PIT,visitor,1,ROE750381,3900,PIT,Ben Roethlisberger,https://static.www.nfl.com/image/private/{formatInstructions}/league/myft4pwoxwrxbeh1exyy,QB,7,349,36,24,2,3
+2015,REG,17,2016010304,56751,01/03/2016,2120,HOU,2250,JAX,home,1,HOY440791,2120,HOU,Brian Hoyer,https://static.www.nfl.com/image/private/{formatInstructions}/league/hartcqd9yt3gzqjddktl,QB,7,249,40,25,1,1
+2015,REG,17,2016010304,56751,01/03/2016,2120,HOU,2250,JAX,visitor,1,BOR650964,2250,JAC,Blake Bortles,https://static.www.nfl.com/image/private/{formatInstructions}/league/qycdzdjsokwmamzwsmeq,QB,5,239,32,17,2,0
+2015,REG,17,2016010305,56752,01/03/2016,2200,IND,2100,TEN,home,1,FRE183259,2200,IND,Josh Freeman,https://static.www.nfl.com/image/private/{formatInstructions}/league/cwcasm6m73fx1mjpjk3n,QB,5,0,0,0,0,0
+2015,REG,17,2016010305,56752,01/03/2016,2200,IND,2100,TEN,visitor,1,TAN743421,2100,TEN,Alex Tanney,https://static.www.nfl.com/image/private/{formatInstructions}/league/imvd4rxtknm0ob8oul5z,QB,11,0,0,0,0,0
+2015,REG,17,2016010306,56753,01/03/2016,2310,KC,2520,OAK,home,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,0,0,0,0,0
+2015,REG,17,2016010306,56753,01/03/2016,2310,KC,2520,OAK,visitor,1,CAR358797,2520,OAK,Derek Carr,https://static.www.nfl.com/image/private/{formatInstructions}/league/chtyn7pw8xqfpnrkd1fq,QB,4,0,0,0,0,0
+2015,REG,17,2016010307,56749,01/03/2016,1200,DAL,5110,WAS,home,1,MOO446260,1200,DAL,Kellen Moore,https://static.www.nfl.com/image/private/{formatInstructions}/league/cgppx5hltvlebgm5ywor,QB,17,0,0,0,0,0
+2015,REG,17,2016010307,56749,01/03/2016,1200,DAL,5110,WAS,visitor,1,COU709400,5110,WAS,Kirk Cousins,https://static.www.nfl.com/image/private/{formatInstructions}/league/yoi19theqqakt4zpw9r4,QB,8,0,0,0,0,0
+2015,REG,17,2016010308,56755,01/03/2016,3410,NYG,3700,PHI,home,1,MAN473170,3410,NYG,Eli Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/w51tf8uedjftbr4qpaex,QB,10,0,0,0,0,0
+2015,REG,17,2016010308,56755,01/03/2016,3410,NYG,3700,PHI,visitor,1,BRA101548,3700,PHI,Sam Bradford,https://static.www.nfl.com/image/private/{formatInstructions}/league/fizwrxzfdaw7v2vzzpn6,QB,7,0,0,0,0,0
+2015,REG,17,2016010309,56746,01/03/2016,0810,CHI,1540,DET,home,1,CUT288111,0810,CHI,Jay Cutler,https://static.www.nfl.com/image/private/{formatInstructions}/league/ks6n7gvw4vccihlse6bn,QB,6,0,0,0,0,0
+2015,REG,17,2016010309,56746,01/03/2016,0810,CHI,1540,DET,visitor,1,STA134157,1540,DET,Matthew Stafford,https://static.www.nfl.com/image/private/{formatInstructions}/league/iibglgpasx5wsrylvn2z,QB,9,0,0,0,0,0
+2015,REG,17,2016010310,56750,01/03/2016,1800,GB,3000,MIN,home,1,ROD339293,1800,GB,Aaron Rodgers,https://static.www.nfl.com/image/private/{formatInstructions}/league/ejjiyjumtzwxiffdhkgz,QB,12,0,0,0,0,0
+2015,REG,17,2016010310,56750,01/03/2016,1800,GB,3000,MIN,visitor,1,BRI129168,3000,MIN,Teddy Bridgewater,https://static.www.nfl.com/image/private/{formatInstructions}/league/f0uzw2vaxwyytmx1zron,QB,5,0,0,0,0,0
+2015,REG,17,2016010311,56743,01/03/2016,0200,ATL,3300,NO,home,1,RYA238179,0200,ATL,Matt Ryan,https://static.www.nfl.com/image/private/{formatInstructions}/league/nsup3rrfi8jfj8oduf1t,QB,2,0,0,0,0,0
+2015,REG,17,2016010311,56743,01/03/2016,0200,ATL,3300,NO,visitor,1,BRE229498,3300,NO,Drew Brees,https://static.www.nfl.com/image/private/{formatInstructions}/league/i20xlpzdmn7xubotijjd,QB,9,0,0,0,0,0
+2015,REG,17,2016010312,56745,01/03/2016,0750,CAR,4900,TB,home,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,0,0,0,0,0
+2015,REG,17,2016010312,56745,01/03/2016,0750,CAR,4900,TB,visitor,1,WIN623708,4900,TB,Jameis Winston,https://static.www.nfl.com/image/private/{formatInstructions}/league/iurpf1pdjrjfowtksptf,QB,3,0,0,0,0,0
+2015,REG,17,2016010313,56757,01/03/2016,1400,DEN,4400,SD,home,1,OSW479182,1400,DEN,Brock Osweiler,https://static.www.nfl.com/image/private/{formatInstructions}/league/pwkmtgeitdi79qtumb2x,QB,17,0,0,0,0,0
+2015,REG,17,2016010313,56757,01/03/2016,1400,DEN,4400,SD,visitor,1,RIV651634,4400,SD,Philip Rivers,https://static.www.nfl.com/image/private/{formatInstructions}/league/adapxtphf15elrdudiix,QB,17,0,0,0,0,0
+2015,REG,17,2016010314,56756,01/03/2016,3800,ARI,4600,SEA,home,1,PAL249055,3800,ARI,Carson Palmer,https://static.www.nfl.com/image/private/{formatInstructions}/league/belgna3tokxga0gjjmwk,QB,3,129,25,12,1,1
+2015,REG,17,2016010314,56756,01/03/2016,3800,ARI,4600,SEA,visitor,1,WIL777781,4600,SEA,Russell Wilson,https://static.www.nfl.com/image/private/{formatInstructions}/league/rrpzsqysodir9laitnus,QB,3,197,28,19,0,3
+2015,POST,18,2016010900,56824,01/09/2016,2120,HOU,2310,KC,home,1,HOY440791,2120,HOU,Brian Hoyer,https://static.www.nfl.com/image/private/{formatInstructions}/league/hartcqd9yt3gzqjddktl,QB,7,136,34,15,4,0
+2015,POST,18,2016010900,56824,01/09/2016,2120,HOU,2310,KC,visitor,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,190,22,17,1,1
+2015,POST,18,2016010901,56825,01/09/2016,0920,CIN,3900,PIT,home,1,MCC176481,0920,CIN,AJ McCarron,https://static.www.nfl.com/image/private/{formatInstructions}/league/dnl57azz8yubimlnonih,QB,5,0,0,0,0,0
+2015,POST,18,2016010901,56825,01/09/2016,0920,CIN,3900,PIT,visitor,1,ROE750381,3900,PIT,Ben Roethlisberger,https://static.www.nfl.com/image/private/{formatInstructions}/league/myft4pwoxwrxbeh1exyy,QB,7,0,0,0,0,0
+2015,POST,18,2016011000,56826,01/10/2016,3000,MIN,4600,SEA,home,1,BRI129168,3000,MIN,Teddy Bridgewater,https://static.www.nfl.com/image/private/{formatInstructions}/league/f0uzw2vaxwyytmx1zron,QB,5,0,0,0,0,0
+2015,POST,18,2016011000,56826,01/10/2016,3000,MIN,4600,SEA,visitor,1,WIL777781,4600,SEA,Russell Wilson,https://static.www.nfl.com/image/private/{formatInstructions}/league/rrpzsqysodir9laitnus,QB,3,0,0,0,0,0
+2015,POST,18,2016011001,56827,01/10/2016,5110,WAS,1800,GB,home,1,COU709400,5110,WAS,Kirk Cousins,https://static.www.nfl.com/image/private/{formatInstructions}/league/yoi19theqqakt4zpw9r4,QB,8,0,0,0,0,0
+2015,POST,18,2016011001,56827,01/10/2016,5110,WAS,1800,GB,visitor,1,ROD339293,1800,GB,Aaron Rodgers,https://static.www.nfl.com/image/private/{formatInstructions}/league/ejjiyjumtzwxiffdhkgz,QB,12,0,0,0,0,0
+2015,POST,19,2016011600,56828,01/16/2016,3200,NE,2310,KC,home,1,BRA371156,3200,NE,Tom Brady,https://static.www.nfl.com/image/private/{formatInstructions}/league/apkxya5ptb0zalrskshq,QB,12,0,0,0,0,0
+2015,POST,19,2016011600,56828,01/16/2016,3200,NE,2310,KC,visitor,1,SMI031126,2310,KC,Alex Smith,https://static.www.nfl.com/image/private/{formatInstructions}/league/dpa5d1a8jj6jdymocjkx,QB,11,0,0,0,0,0
+2015,POST,19,2016011700,56830,01/17/2016,0750,CAR,4600,SEA,home,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,0,0,0,0,0
+2015,POST,19,2016011700,56830,01/17/2016,0750,CAR,4600,SEA,visitor,1,WIL777781,4600,SEA,Russell Wilson,https://static.www.nfl.com/image/private/{formatInstructions}/league/rrpzsqysodir9laitnus,QB,3,0,0,0,0,0
+2015,POST,19,2016011701,56831,01/17/2016,1400,DEN,3900,PIT,home,1,MAN515097,1400,DEN,Peyton Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/yjtzhpx6wbj9o4np42jj,QB,18,0,0,0,0,0
+2015,POST,19,2016011701,56831,01/17/2016,1400,DEN,3900,PIT,visitor,1,ROE750381,3900,PIT,Ben Roethlisberger,https://static.www.nfl.com/image/private/{formatInstructions}/league/myft4pwoxwrxbeh1exyy,QB,7,0,0,0,0,0
+2015,POST,20,2016012400,56832,01/24/2016,1400,DEN,3200,NE,home,1,MAN515097,1400,DEN,Peyton Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/yjtzhpx6wbj9o4np42jj,QB,18,0,0,0,0,0
+2015,POST,20,2016012400,56832,01/24/2016,1400,DEN,3200,NE,visitor,1,BRA371156,3200,NE,Tom Brady,https://static.www.nfl.com/image/private/{formatInstructions}/league/apkxya5ptb0zalrskshq,QB,12,0,0,0,0,0
+2015,POST,20,2016012401,56833,01/24/2016,0750,CAR,3800,ARI,home,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,335,28,19,1,2
+2015,POST,20,2016012401,56833,01/24/2016,0750,CAR,3800,ARI,visitor,1,PAL249055,3800,ARI,Carson Palmer,https://static.www.nfl.com/image/private/{formatInstructions}/league/belgna3tokxga0gjjmwk,QB,3,235,40,23,4,1
+2015,PRO,21,2016013100,56835,01/31/2016,8711,RIC,8713,IRV,home,1,,,,,,,,0,0,0,0,0
+2015,PRO,21,2016013100,56835,01/31/2016,8711,RIC,8713,IRV,visitor,1,,,,,,,,0,0,0,0,0
+2015,POST,22,2016020700,56834,02/07/2016,1400,DEN,0750,CAR,home,1,MAN515097,1400,DEN,Peyton Manning,https://static.www.nfl.com/image/private/{formatInstructions}/league/yjtzhpx6wbj9o4np42jj,QB,18,0,0,0,0,0
+2015,POST,22,2016020700,56834,02/07/2016,1400,DEN,0750,CAR,visitor,1,NEW693984,0750,CAR,Cam Newton,https://static.www.nfl.com/image/private/{formatInstructions}/league/gin1atizg1ga9p0skyu0,QB,1,0,0,0,0,0
