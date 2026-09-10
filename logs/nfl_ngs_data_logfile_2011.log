@@ -1,0 +1,85 @@
+=== season 2011  2026-09-10 03:15:23Z  raw=/mnt/sdv_repos/nfl-ngs-raw ===
+::group::ngs_data_build schedules 2011
+2026-09-09 23:15:25 [INFO] ngs_data_build: schedules 2011: build starting (raw=/mnt/sdv_repos/nfl-ngs-raw via disk)
+2026-09-09 23:15:25 [INFO] ngs_data_build: wrote ngs/schedules/parquet/ngs_schedule_2011.parquet (19.4KB) + ngs_schedule_2011.csv (61.7KB), 332 rows x 30 cols; manifest ngs_schedules_in_data_repo.csv
+2026-09-09 23:15:25 [INFO] ngs_data_build: uploading ngs_schedule_2011.parquet (19.4KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_schedules
+2026-09-09 23:15:26 [INFO] ngs_data_build: uploading ngs_schedule_2011.csv (61.7KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_schedules
+2026-09-09 23:15:27 [INFO] ngs_data_build: uploading ngs_schedules_in_data_repo.csv (457B) -> sportsdataverse/sportsdataverse-data:nfl_ngs_schedules
+2026-09-09 23:15:32 [INFO] ngs_data_build: stamped nfl_ngs_schedules with timestamp.txt, timestamp.json, package_function.txt, package_function.json
+2026-09-09 23:15:32 [INFO] ngs_data_build: schedules 2011: done -- 332 rows x 30 cols in 6.6s
+2026-09-09 23:15:32 [INFO] ngs_data_build: schedules 2011: season complete -- 332 rows
+stage schedules elapsed=9s
+::endgroup::
+::group::ngs_data_build teams 2011
+2026-09-09 23:15:34 [INFO] ngs_data_build: teams 2011: build starting (raw=/mnt/sdv_repos/nfl-ngs-raw via disk)
+2026-09-09 23:15:34 [WARNING] ngs_data_build: teams 2011: 0 rows; nothing written (below the 2009 floor, or raw not yet scraped)
+2026-09-09 23:15:34 [INFO] ngs_data_build: teams 2011: season complete -- 0 rows
+stage teams elapsed=3s
+::endgroup::
+::group::ngs_data_build passing 2011
+2026-09-09 23:15:37 [INFO] ngs_data_build: passing 2011: build starting (raw=/mnt/sdv_repos/nfl-ngs-raw via disk)
+2026-09-09 23:15:37 [WARNING] ngs_data_build: passing 2011: 0 rows; nothing written (below the 2016 floor, or raw not yet scraped)
+2026-09-09 23:15:37 [INFO] ngs_data_build: passing 2011: season complete -- 0 rows
+stage passing elapsed=2s
+::endgroup::
+::group::ngs_data_build rushing 2011
+2026-09-09 23:15:40 [INFO] ngs_data_build: rushing 2011: build starting (raw=/mnt/sdv_repos/nfl-ngs-raw via disk)
+2026-09-09 23:15:40 [WARNING] ngs_data_build: rushing 2011: 0 rows; nothing written (below the 2016 floor, or raw not yet scraped)
+2026-09-09 23:15:40 [INFO] ngs_data_build: rushing 2011: season complete -- 0 rows
+stage rushing elapsed=3s
+::endgroup::
+::group::ngs_data_build receiving 2011
+2026-09-09 23:15:42 [INFO] ngs_data_build: receiving 2011: build starting (raw=/mnt/sdv_repos/nfl-ngs-raw via disk)
+2026-09-09 23:15:42 [WARNING] ngs_data_build: receiving 2011: 0 rows; nothing written (below the 2016 floor, or raw not yet scraped)
+2026-09-09 23:15:42 [INFO] ngs_data_build: receiving 2011: season complete -- 0 rows
+stage receiving elapsed=3s
+::endgroup::
+::group::ngs_data_build statboard_leaders 2011
+2026-09-09 23:15:45 [INFO] ngs_data_build: statboard_leaders 2011: build starting (raw=/mnt/sdv_repos/nfl-ngs-raw via disk)
+2026-09-09 23:15:45 [WARNING] ngs_data_build: statboard_leaders 2011: 0 rows; nothing written (below the 2016 floor, or raw not yet scraped)
+2026-09-09 23:15:45 [INFO] ngs_data_build: statboard_leaders 2011: season complete -- 0 rows
+stage statboard_leaders elapsed=2s
+::endgroup::
+::group::ngs_data_build leaders 2011
+2026-09-09 23:15:48 [INFO] ngs_data_build: leaders 2011: build starting (raw=/mnt/sdv_repos/nfl-ngs-raw via disk)
+2026-09-09 23:15:48 [WARNING] ngs_data_build: leaders 2011: 0 rows; nothing written (below the 2016 floor, or raw not yet scraped)
+2026-09-09 23:15:48 [INFO] ngs_data_build: leaders 2011: season complete -- 0 rows
+stage leaders elapsed=3s
+::endgroup::
+::group::ngs_data_build gamecenter_passers 2011
+2026-09-09 23:15:50 [INFO] ngs_data_build: gamecenter_passers 2011: build starting (raw=/mnt/sdv_repos/nfl-ngs-raw via disk)
+2026-09-09 23:15:50 [INFO] ngs_data_build: wrote ngs/gamecenter_passers/parquet/ngs_gamecenter_passers_2011.parquet (11.1KB) + ngs_gamecenter_passers_2011.csv (46.8KB), 632 rows x 17 cols; manifest ngs_gamecenter_passers_in_data_repo.csv
+2026-09-09 23:15:51 [INFO] ngs_data_build: uploading ngs_gamecenter_passers_2011.parquet (11.1KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_passers
+2026-09-09 23:15:52 [INFO] ngs_data_build: uploading ngs_gamecenter_passers_2011.csv (46.8KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_passers
+2026-09-09 23:15:52 [INFO] ngs_data_build: uploading ngs_gamecenter_passers_in_data_repo.csv (457B) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_passers
+2026-09-09 23:15:57 [INFO] ngs_data_build: stamped nfl_ngs_gamecenter_passers with timestamp.txt, timestamp.json, package_function.txt, package_function.json
+2026-09-09 23:15:57 [INFO] ngs_data_build: gamecenter_passers 2011: done -- 632 rows x 17 cols in 6.6s
+2026-09-09 23:15:57 [INFO] ngs_data_build: gamecenter_passers 2011: season complete -- 632 rows
+stage gamecenter_passers elapsed=10s
+::endgroup::
+::group::ngs_data_build gamecenter_rushers 2011
+2026-09-09 23:15:59 [INFO] ngs_data_build: gamecenter_rushers 2011: build starting (raw=/mnt/sdv_repos/nfl-ngs-raw via disk)
+2026-09-09 23:15:59 [WARNING] ngs_data_build: gamecenter_rushers 2011: 0 rows; nothing written (below the 2012 floor, or raw not yet scraped)
+2026-09-09 23:15:59 [INFO] ngs_data_build: gamecenter_rushers 2011: season complete -- 0 rows
+stage gamecenter_rushers elapsed=2s
+::endgroup::
+::group::ngs_data_build gamecenter_receivers 2011
+2026-09-09 23:16:02 [INFO] ngs_data_build: gamecenter_receivers 2011: build starting (raw=/mnt/sdv_repos/nfl-ngs-raw via disk)
+2026-09-09 23:16:02 [WARNING] ngs_data_build: gamecenter_receivers 2011: 0 rows; nothing written (below the 2012 floor, or raw not yet scraped)
+2026-09-09 23:16:02 [INFO] ngs_data_build: gamecenter_receivers 2011: season complete -- 0 rows
+stage gamecenter_receivers elapsed=3s
+::endgroup::
+::group::ngs_data_build gamecenter_pass_rushers 2011
+2026-09-09 23:16:05 [INFO] ngs_data_build: gamecenter_pass_rushers 2011: build starting (raw=/mnt/sdv_repos/nfl-ngs-raw via disk)
+2026-09-09 23:16:05 [WARNING] ngs_data_build: gamecenter_pass_rushers 2011: 0 rows; nothing written (below the 2012 floor, or raw not yet scraped)
+2026-09-09 23:16:05 [INFO] ngs_data_build: gamecenter_pass_rushers 2011: season complete -- 0 rows
+stage gamecenter_pass_rushers elapsed=3s
+::endgroup::
+::group::ngs_data_build gamecenter_leaders 2011
+2026-09-09 23:16:08 [INFO] ngs_data_build: gamecenter_leaders 2011: build starting (raw=/mnt/sdv_repos/nfl-ngs-raw via disk)
+2026-09-09 23:16:08 [WARNING] ngs_data_build: gamecenter_leaders 2011: 0 rows; nothing written (below the 2012 floor, or raw not yet scraped)
+2026-09-09 23:16:08 [INFO] ngs_data_build: gamecenter_leaders 2011: season complete -- 0 rows
+stage gamecenter_leaders elapsed=2s
+::endgroup::
+season 2011 EXIT=0
+pushed: NGS Data Update (Start: 2011 End: 2011) (attempt 1)
