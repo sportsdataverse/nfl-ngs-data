@@ -85,7 +85,7 @@ REGISTRY: dict[str, DatasetSpec] = {
 
 # Release sidecar: which loader a consumer reaches the data through -- the
 # unified sdv-py loader, selected by dataset= (sportsdataverse-py
-# feat/nfl-ngs-sdv-loader). Per-dataset names were deliberately NOT used:
+# #481). Per-dataset names were deliberately NOT used:
 # sdv-py already ships deprecated load_nfl_ngs_{passing,rushing,receiving}
 # aliases that read nflverse's republished statboards, and reusing those names
 # would silently change their source. The publish test pins that every tag
