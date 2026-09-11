@@ -99,3 +99,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,PRE,3,2026082952,60498,08/29/2026,2100,TEN,0810,CHI,visitor,1,BAG565656,0810,CHI,Tyson Bagent,T.Bagent,https://static.www.nfl.com/image/upload/{formatInstructions}/league/ymimvligfyrucu0v3p6a,QB,17,208,17,16,0,2
 2026,REG,1,2026090900,60178,09/09/2026,4600,SEA,3200,NE,home,1,LOC374482,4600,SEA,Drew Lock,D.Lock,https://static.www.nfl.com/image/upload/{formatInstructions}/league/vdixnkk1uglfpwowalf8,QB,2,187,22,16,0,1
 2026,REG,1,2026090900,60178,09/09/2026,4600,SEA,3200,NE,visitor,1,MAY289639,3200,NE,Drake Maye,D.Maye,https://static.www.nfl.com/image/upload/{formatInstructions}/league/s1nmoon2xnrc3bnyulv4,QB,10,178,33,23,3,1
+2026,REG,1,2026091100,60179,09/10/2026,2510,LAR,4500,SF,home,1,STA134157,2510,LAR,Matthew Stafford,M.Stafford,https://static.www.nfl.com/image/upload/{formatInstructions}/league/jwpkjfrkzufdyh8u1mg7,QB,9,155,25,15,1,0
+2026,REG,1,2026091100,60179,09/10/2026,2510,LAR,4500,SF,visitor,1,PUR243289,4500,SF,Brock Purdy,B.Purdy,https://static.www.nfl.com/image/upload/{formatInstructions}/league/xs2fyj1sqdgwvt9ihbri,QB,13,205,34,25,1,3
