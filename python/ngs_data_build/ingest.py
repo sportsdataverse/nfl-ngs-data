@@ -141,7 +141,8 @@ def read_schedule(season: int, *, root: Path | str, downloader: Downloader | Non
         return None
 
 
-FINAL_PHASES = ("FINAL", "FINAL OVERTIME")
+# "FINAL_OVERTIME" is how 2018-2019 schedules spell it (see nfl-ngs-raw schedule.py).
+FINAL_PHASES = ("FINAL", "FINAL OVERTIME", "FINAL_OVERTIME")
 
 
 def week_keys(schedule: pl.DataFrame) -> list[tuple[str, int]]:

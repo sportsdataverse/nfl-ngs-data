@@ -216,3 +216,8 @@ def test_publish_is_per_file_and_creates_missing_tag(raw: Path):
 
 def test_every_tag_has_a_pkg_function():
     assert {s.tag for s in REGISTRY.values()} == set(PKG_FUNCTION)
+
+
+def test_both_overtime_spellings_are_final():
+    sched = pl.DataFrame({"game_id": [1, 2, 3], "phase": ["FINAL_OVERTIME", "FINAL OVERTIME", None]})
+    assert ingest.final_game_ids(sched) == [1, 2]
