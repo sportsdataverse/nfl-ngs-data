@@ -54,7 +54,7 @@ jobs:
           ref: ${{ github.event_name == 'repository_dispatch' && 'main' || github.ref }}
 
       - name: Set up uv + Python
-        uses: astral-sh/setup-uv@v6
+        uses: astral-sh/setup-uv@v8.1.0
         with:
           python-version: '3.12'
           cache-dependency-glob: uv.lock
