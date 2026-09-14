@@ -19,6 +19,7 @@ Copy of the canonical shape (``cfb_data_ingest/fetch.py::fetch_final``):
 
 from __future__ import annotations
 
+import gzip
 import io
 import json
 import os
@@ -87,14 +88,25 @@ def read_bytes(rel: str, *, root: Path | str, downloader: Downloader | None = No
     return body
 
 
+def _decode(body: bytes, gz: bool):
+    return json.loads(gzip.decompress(body) if gz else body)
+
+
+_BAD = (json.JSONDecodeError, UnicodeDecodeError, OSError, EOFError)  # gzip raises OSError/EOFError
+
+
 def read_json(rel: str, *, root: Path | str, downloader: Downloader | None = None) -> dict | list | None:
-    """Parsed JSON of ``ngs/{rel}``; a corrupt CACHE entry is evicted and refetched once."""
+    """Parsed JSON of ``ngs/{rel}``; a corrupt CACHE entry is evicted and refetched once.
+
+    A ``.json.gz`` path is decompressed first; a truncated gzip counts as corrupt.
+    """
+    gz = rel.endswith(".gz")
     body = read_bytes(rel, root=root, downloader=downloader)
     if body is None:
         return None
     try:
-        return json.loads(body)
-    except json.JSONDecodeError:
+        return _decode(body, gz)
+    except _BAD:
         if isinstance(root, Path):
             return None
         cached = cache_root() / rel
@@ -106,8 +118,8 @@ def read_json(rel: str, *, root: Path | str, downloader: Downloader | None = Non
         if body is None:
             return None
         try:
-            return json.loads(body)
-        except json.JSONDecodeError:
+            return _decode(body, gz)
+        except _BAD:
             return None
 
 

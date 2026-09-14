@@ -24,3 +24,6 @@ dev/
 **/.omc/
 .understand-anything/
 **/.understand-anything/
+
+# Release-only datasets (highlight tracking): written here, uploaded, never committed
+.ngs_release_staging/

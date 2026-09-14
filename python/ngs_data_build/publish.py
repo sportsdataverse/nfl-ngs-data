@@ -47,11 +47,8 @@ def _gh_release_exists(tag: str, repo: str) -> bool:
 
 def _dataset_files(spec: DatasetSpec, season: int, base: Path) -> list[Path]:
     root = build_io.dataset_dir(spec, base)
-    cands = [
-        root / "parquet" / f"{spec.stem}_{season}.parquet",
-        root / "csv" / f"{spec.stem}_{season}.csv",
-        build_io.manifest_path(spec, base),
-    ]
+    cands = [root / fmt / f"{spec.stem}_{season}.{fmt}" for fmt in spec.formats]
+    cands.append(build_io.manifest_path(spec, base))
     return [f for f in cands if f.exists()]
 
 

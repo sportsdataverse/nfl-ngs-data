@@ -283,6 +283,217 @@ def build_gc_leaders(season: int, *, root, downloader=None) -> pl.DataFrame:
     return frame(rows).sort(["season", "game_id", "category", "side"])
 
 
+# --- highlight plays (tracking / participation / events) -----------------------
+#
+# The raw stage banks one list per week plus two gzipped payloads per listed
+# play. Everything here enumerates FROM THOSE LISTS (themselves enumerated from
+# the schedule's weeks) -- never a directory listing.
+
+_HL_META = ("season", "season_type", "week", "game_id", "play_id")
+
+
+def _hl_items(season: int, *, root, downloader) -> list[dict]:
+    """Every listed highlight in the season, de-duplicated on (gameId, playId)."""
+    sched = ingest.read_schedule(season, root=root, downloader=downloader)
+    if sched is None or sched.height == 0:
+        return []
+    seen: dict[tuple[int, int], dict] = {}
+    for st, wk in ingest.week_keys(sched):
+        body = ingest.read_json(f"highlights/list/{season}/{st}_{wk}.json", root=root, downloader=downloader)
+        items = body.get("highlights") if isinstance(body, dict) else None
+        for h in items or []:
+            gid, pid = h.get("gameId"), h.get("playId")
+            if gid is not None and pid is not None:
+                seen.setdefault((int(gid), int(pid)), h)
+    return list(seen.values())
+
+
+def _hl_meta(season: int, h: dict) -> dict:
+    return {
+        "season": season,
+        "season_type": h.get("seasonType"),
+        "week": h.get("week"),
+        "game_id": int(h["gameId"]),
+        "play_id": int(h["playId"]),
+    }
+
+
+def _hl_payload(kind: str, season: int, h: dict, *, root, downloader) -> dict | None:
+    rel = f"highlights/{kind}/{season}/{int(h['gameId'])}_{int(h['playId'])}.json.gz"
+    body = ingest.read_json(rel, root=root, downloader=downloader)
+    return body if isinstance(body, dict) else None
+
+
+def build_highlights(season: int, *, root, downloader=None) -> pl.DataFrame:
+    """One row per highlight play: the list item, flattened (lists dropped)."""
+    rows = []
+    for h in _hl_items(season, root=root, downloader=downloader):
+        r = flat(h)
+        for dup in ("play_game_id", "play_play_id", "season", "season_type", "week", "game_id", "play_id"):
+            r.pop(dup, None)
+        # the list nests the play under "play", whose own keys start with "play"
+        # (playDescription, playType): "play_play_type" -> "play_type"
+        r = {(k.replace("play_play_", "play_", 1) if k.startswith("play_play_") else k): v for k, v in r.items()}
+        rows.append({**_hl_meta(season, h), **r})
+    if not rows:
+        return pl.DataFrame()
+    return frame(rows).sort(["season", "week", "game_id", "play_id"])
+
+
+def build_highlight_participation(season: int, *, root, downloader=None) -> pl.DataFrame:
+    """One row per player on the field per highlight play, with NGS role flags
+    (``was_running_route``, ``was_blitzing``, ``is_lined_up_as_qb``, ...)."""
+    rows, missing = [], 0
+    for h in _hl_items(season, root=root, downloader=downloader):
+        body = _hl_payload("participation", season, h, root=root, downloader=downloader)
+        if body is None:
+            missing += 1
+            continue
+        meta = _hl_meta(season, h)
+        for side in ("home", "away"):
+            for player in body.get(side) or []:
+                r = flat(player)
+                for dup in _HL_META:
+                    r.pop(dup, None)
+                rows.append({**meta, "side": side, **r})
+    if missing:
+        log.warning("highlight_participation %s: %d listed plays have no raw payload yet", season, missing)
+    if not rows:
+        return pl.DataFrame()
+    return frame(rows).sort(["season", "week", "game_id", "play_id", "side"])
+
+
+def _frame_times(body: dict) -> list[str]:
+    """Sorted unique sample times across every player AND the ball.
+
+    ``frame_id`` is the 1-based index into this list, shared by tracking and
+    events so they join. Times are fixed-width ISO strings, so string order is
+    chronological.
+    """
+    times: set[str] = set()
+    for side in ("homeTrackingData", "awayTrackingData"):
+        for p in body.get(side) or []:
+            times.update(fr["time"] for fr in p.get("playerTrackingData") or [] if fr.get("time"))
+    times.update(fr["time"] for fr in body.get("ballTrackingData") or [] if fr.get("time"))
+    return sorted(times)
+
+
+_TRACK_SCHEMA = {
+    "season": pl.Int64,
+    "season_type": pl.Utf8,
+    "week": pl.Int64,
+    "game_id": pl.Int64,
+    "play_id": pl.Int64,
+    "frame_id": pl.Int64,
+    "time": pl.Datetime("ms", "UTC"),
+    "side": pl.Utf8,
+    "team_abbr": pl.Utf8,
+    "gsis_id": pl.Utf8,
+    "esb_id": pl.Utf8,
+    "jersey_number": pl.Int64,
+    "position": pl.Utf8,
+    "x": pl.Float64,
+    "y": pl.Float64,
+}
+
+
+def _track_play(season: int, h: dict, body: dict) -> pl.DataFrame:
+    """One play's frames, built columnar (18M rows/season rules out row dicts)."""
+    sched = body.get("schedule") or {}
+    abbr = {"home": sched.get("homeTeamAbbr"), "away": sched.get("visitorTeamAbbr"), "ball": None}
+    cols: dict[str, list] = {
+        k: [] for k in ("time", "x", "y", "side", "gsis_id", "esb_id", "jersey_number", "position")
+    }
+    entities = [("home", p) for p in body.get("homeTrackingData") or []]
+    entities += [("away", p) for p in body.get("awayTrackingData") or []]
+    for side, p in entities:
+        frames = p.get("playerTrackingData") or []
+        n = len(frames)
+        cols["time"] += [fr.get("time") for fr in frames]
+        cols["x"] += [fr.get("x") for fr in frames]
+        cols["y"] += [fr.get("y") for fr in frames]
+        cols["side"] += [side] * n
+        cols["gsis_id"] += [p.get("gsisId")] * n
+        cols["esb_id"] += [p.get("esbId")] * n
+        cols["jersey_number"] += [p.get("jerseyNumber")] * n
+        cols["position"] += [p.get("position")] * n
+    ball = body.get("ballTrackingData") or []
+    cols["time"] += [fr.get("time") for fr in ball]
+    cols["x"] += [fr.get("x") for fr in ball]
+    cols["y"] += [fr.get("y") for fr in ball]
+    for k in ("gsis_id", "esb_id", "jersey_number", "position"):
+        cols[k] += [None] * len(ball)
+    cols["side"] += ["ball"] * len(ball)
+    times = _frame_times(body)
+    index = {t: i for i, t in enumerate(times, 1)}
+    meta = _hl_meta(season, h)
+    df = pl.DataFrame(
+        {
+            **{k: [v] * len(cols["time"]) for k, v in meta.items()},
+            "frame_id": [index.get(t) for t in cols["time"]],
+            "time": cols["time"],
+            "side": cols["side"],
+            "team_abbr": [abbr[s] for s in cols["side"]],
+            "gsis_id": cols["gsis_id"],
+            "esb_id": cols["esb_id"],
+            "jersey_number": cols["jersey_number"],
+            "position": cols["position"],
+            "x": cols["x"],
+            "y": cols["y"],
+        },
+        schema_overrides={k: v for k, v in _TRACK_SCHEMA.items() if k != "time"},
+        strict=False,
+    )
+    return df.with_columns(
+        pl.col("time").str.to_datetime("%Y-%m-%dT%H:%M:%S%.f", time_unit="ms", time_zone="UTC", strict=False)
+    ).select(list(_TRACK_SCHEMA))
+
+
+def build_highlight_tracking(season: int, *, root, downloader=None) -> pl.DataFrame:
+    """One row per tracked entity (22 players + ball) per ~10 Hz frame per highlight play."""
+    parts, missing = [], 0
+    for h in _hl_items(season, root=root, downloader=downloader):
+        body = _hl_payload("tracking", season, h, root=root, downloader=downloader)
+        if body is None:
+            missing += 1
+            continue
+        parts.append(_track_play(season, h, body))
+    if missing:
+        log.warning("highlight_tracking %s: %d listed plays have no raw payload yet", season, missing)
+    if not parts:
+        return pl.DataFrame()
+    return pl.concat(parts, how="vertical").sort(["season", "week", "game_id", "play_id", "frame_id", "side"])
+
+
+def build_highlight_events(season: int, *, root, downloader=None) -> pl.DataFrame:
+    """One row per tracking event (ball_snap, pass_forward, tackle, ...), with
+    the ``frame_id`` of the first frame at or after the event."""
+    import bisect
+
+    rows, missing = [], 0
+    for h in _hl_items(season, root=root, downloader=downloader):
+        body = _hl_payload("tracking", season, h, root=root, downloader=downloader)
+        if body is None:
+            missing += 1
+            continue
+        times = _frame_times(body)
+        meta = _hl_meta(season, h)
+        for ev in body.get("events") or []:
+            t = ev.get("time")
+            fid = None
+            if t and times:
+                fid = min(bisect.bisect_left(times, t), len(times) - 1) + 1
+            rows.append({**meta, "event": ev.get("name"), "event_type": ev.get("type"), "time": t, "frame_id": fid})
+    if missing:
+        log.warning("highlight_events %s: %d listed plays have no raw payload yet", season, missing)
+    if not rows:
+        return pl.DataFrame()
+    df = frame(rows).with_columns(
+        pl.col("time").str.to_datetime("%Y-%m-%dT%H:%M:%S%.f", time_unit="ms", time_zone="UTC", strict=False)
+    )
+    return df.sort(["season", "week", "game_id", "play_id", "time"])
+
+
 SEASON_BUILDERS: dict[str, Builder] = {
     "schedules": build_schedules,
     "teams": build_teams,
@@ -294,6 +505,10 @@ SEASON_BUILDERS: dict[str, Builder] = {
     "gc_receivers": build_gc_receivers,
     "gc_pass_rushers": build_gc_pass_rushers,
     "gc_leaders": build_gc_leaders,
+    "highlights": build_highlights,
+    "highlight_participation": build_highlight_participation,
+    "highlight_events": build_highlight_events,
+    "highlight_tracking": build_highlight_tracking,
 }
 
 

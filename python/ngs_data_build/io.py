@@ -15,13 +15,18 @@ from pathlib import Path
 import polars as pl
 
 from ngs_data_build._logging import get_logger, human_size
-from ngs_data_build.config import DatasetSpec
+from ngs_data_build.config import STAGING_BASE, DatasetSpec
 
 log = get_logger()
 
 
+def resolve_base(spec: DatasetSpec, base: str | Path) -> Path:
+    """``base`` for git-mirrored datasets; the gitignored staging dir otherwise."""
+    return Path(base) if spec.committed else Path(STAGING_BASE)
+
+
 def dataset_dir(spec: DatasetSpec, base: Path) -> Path:
-    return base / spec.dataset
+    return resolve_base(spec, base) / spec.dataset
 
 
 def manifest_path(spec: DatasetSpec, base: Path) -> Path:
@@ -47,25 +52,28 @@ def _upsert_manifest(spec: DatasetSpec, season: int, row_count: int, base: Path)
 
 
 def write_dataset(df: pl.DataFrame, spec: DatasetSpec, season: int, *, base: str | Path = "ngs") -> list[Path]:
-    """Write parquet + csv + manifest; return the data file paths."""
+    """Write the spec's formats + manifest; return the data file paths."""
     base = Path(base)
     root = dataset_dir(spec, base)
-    pq_dir, csv_dir = root / "parquet", root / "csv"
-    pq_dir.mkdir(parents=True, exist_ok=True)
-    csv_dir.mkdir(parents=True, exist_ok=True)
-    pq = pq_dir / f"{spec.stem}_{season}.parquet"
-    csv = csv_dir / f"{spec.stem}_{season}.csv"
-    df.write_parquet(pq)
-    df.write_csv(csv)
+    written: list[Path] = []
+    for fmt in spec.formats:
+        d = root / fmt
+        d.mkdir(parents=True, exist_ok=True)
+        f = d / f"{spec.stem}_{season}.{fmt}"
+        if fmt == "parquet":
+            df.write_parquet(f)
+        elif fmt == "csv":
+            df.write_csv(f)
+        else:
+            raise ValueError(f"unsupported format {fmt!r} for {spec.dataset}")
+        written.append(f)
     manifest = _upsert_manifest(spec, season, df.height, base)
     log.info(
-        "wrote %s (%s) + %s (%s), %d rows x %d cols; manifest %s",
-        pq,
-        human_size(pq.stat().st_size),
-        csv.name,
-        human_size(csv.stat().st_size),
+        "wrote %s, %d rows x %d cols; manifest %s%s",
+        ", ".join(f"{f.name} ({human_size(f.stat().st_size)})" for f in written),
         df.height,
         df.width,
         manifest.name,
+        "" if spec.committed else " [release-only staging]",
     )
-    return [pq, csv]
+    return written

@@ -33,6 +33,16 @@ base (default). `NFL_NGS_CACHE` = HTTPS read-through cache (default
 - snake_case columns; nested objects flatten with a prefix; lists are dropped;
   ids are strings except `game_id`/`play_id`/`game_key`/`week`/`season`/`rank`.
 - parquet + csv only — no R loader reads these tags, so no `.rds` contract.
+  **Exception:** `highlight_tracking` is parquet-only and release-only
+  (`DatasetSpec(formats=("parquet",), committed=False)` → written to the
+  gitignored `.ngs_release_staging/`). ~18M rows/season: ~85 MB parquet,
+  ~1.2 GB csv — over GitHub's 100 MB file limit, and history bloat on every
+  republish. Do not move it back under `ngs/`.
+- Highlight datasets (`highlights`, `highlight_participation`,
+  `highlight_events`, `highlight_tracking`) enumerate from the raw weekly
+  highlight lists (`ngs/highlights/list/`), floor 2018. `frame_id` is the
+  1-based index into a play's union of player AND ball sample times, shared by
+  tracking and events; an event's `frame_id` is the first sample at or after it.
 - Commit subject `NGS Data Update (Start: YYYY End: YYYY)` is load-bearing.
 - Never add AI tools as commit co-authors. Never `uv run` in a driver.
 
@@ -54,7 +64,7 @@ base (default). `NFL_NGS_CACHE` = HTTPS read-through cache (default
 
 ```
 python/ngs_data_build/{config,ingest,reshapers,build,io,publish,cli,_logging}.py
-python/ngs_{01..12}_*_creation.py    numbered shims
+python/ngs_{01..16}_*_creation.py    numbered shims
 scripts/daily_ngs_data_processor.sh  driver ; scripts/_venv.sh
 ngs/{dataset}/{parquet,csv}/         committed mirror of the release assets
 .github/workflows/{daily_ngs,tests,orphan_scripts}.yml

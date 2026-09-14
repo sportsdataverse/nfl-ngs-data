@@ -20,6 +20,15 @@ _T = "nfl_ngs_"
 TRACKING_FLOOR = 2016
 SCHEDULE_FLOOR = 2009
 GAMECENTER_FLOOR = 2012
+# plays/highlights (and so highlight tracking/participation) answers total=0 for
+# 2015-2017; 2018 week 1 has 12 highlights (measured 2026-09-14).
+HIGHLIGHT_FLOOR = 2018
+
+#: Where datasets that are NOT mirrored in git are written before upload
+#: (gitignored). Highlight tracking is ~18M rows / ~85 MB parquet per season and
+#: ~1.2 GB as csv: over GitHub's 100 MB file limit as csv, and a git-history
+#: bloat on every republish as parquet. Release-only.
+STAGING_BASE = ".ngs_release_staging"
 
 
 @dataclass(frozen=True)
@@ -34,6 +43,10 @@ class DatasetSpec:
             season-level: the builder enumerates the raw files it needs from
             the schedule and returns one frame).
         floor: first season with data, for docs/audit; builds below it are legal.
+        formats: file formats written and uploaded (``parquet``, ``csv``).
+        committed: mirrored under ``ngs/`` in git. ``False`` writes to
+            :data:`STAGING_BASE` instead, so the release carries it but the
+            driver's ``git add ngs`` never sees it.
     """
 
     dataset: str
@@ -41,6 +54,8 @@ class DatasetSpec:
     tag: str
     builder: str
     floor: int = TRACKING_FLOOR
+    formats: tuple[str, ...] = ("parquet", "csv")
+    committed: bool = True
 
 
 REGISTRY: dict[str, DatasetSpec] = {
@@ -80,6 +95,29 @@ REGISTRY: dict[str, DatasetSpec] = {
     ),
     "gamecenter_leaders": DatasetSpec(
         "gamecenter_leaders", "ngs_gamecenter_leaders", _T + "gamecenter_leaders", "gc_leaders", GAMECENTER_FLOOR
+    ),
+    # Highlight plays: the only plays NGS serves tracking/participation for
+    # (every per-game route is denied; see nfl-ngs-raw stage 06). All four are
+    # enumerated from the raw weekly highlight lists.
+    "highlights": DatasetSpec("highlights", "ngs_highlights", _T + "highlights", "highlights", HIGHLIGHT_FLOOR),
+    "highlight_participation": DatasetSpec(
+        "highlight_participation",
+        "ngs_highlight_participation",
+        _T + "highlight_participation",
+        "highlight_participation",
+        HIGHLIGHT_FLOOR,
+    ),
+    "highlight_events": DatasetSpec(
+        "highlight_events", "ngs_highlight_events", _T + "highlight_events", "highlight_events", HIGHLIGHT_FLOOR
+    ),
+    "highlight_tracking": DatasetSpec(
+        "highlight_tracking",
+        "ngs_highlight_tracking",
+        _T + "highlight_tracking",
+        "highlight_tracking",
+        HIGHLIGHT_FLOOR,
+        formats=("parquet",),
+        committed=False,
     ),
 }
 

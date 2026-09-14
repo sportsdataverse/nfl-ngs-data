@@ -34,7 +34,7 @@ export PYTHONIOENCODING=utf-8
 # Build order = intended dependency order (schedules first: nothing depends on
 # it at build time -- every builder enumerates from the RAW schedule -- but it
 # is the dataset a consumer reaches for first, so it lands first).
-DATASETS="schedules teams passing rushing receiving statboard_leaders leaders gamecenter_passers gamecenter_rushers gamecenter_receivers gamecenter_pass_rushers gamecenter_leaders"
+DATASETS="schedules teams passing rushing receiving statboard_leaders leaders gamecenter_passers gamecenter_rushers gamecenter_receivers gamecenter_pass_rushers gamecenter_leaders highlights highlight_participation highlight_events highlight_tracking"
 
 mkdir -p logs
 ANY_FAILED=0; PUSH_RC=0
