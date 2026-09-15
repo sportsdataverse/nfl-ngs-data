@@ -127,3 +127,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,1,2026091311,60191,09/13/2026,3700,PHI,5110,WAS,visitor,1,DAN567618,5110,WAS,Jayden Daniels,J.Daniels,https://static.www.nfl.com/image/upload/{formatInstructions}/league/gfz8k5onuqjrche9ogqc,QB,5,164,34,18,0,2
 2026,REG,1,2026091312,60192,09/13/2026,3410,NYG,1200,DAL,home,1,DAR735504,3410,NYG,Jaxson Dart,J.Dart,https://static.www.nfl.com/image/upload/{formatInstructions}/league/n6uymxssgiicjmxkzxoc,QB,6,230,29,23,0,3
 2026,REG,1,2026091312,60192,09/13/2026,3410,NYG,1200,DAL,visitor,1,PRE285723,1200,DAL,Dak Prescott,D.Prescott,https://static.www.nfl.com/image/upload/{formatInstructions}/league/yvscmqq1qki8zfsemmcd,QB,4,175,34,22,1,2
+2026,REG,1,2026091400,60193,09/14/2026,2310,KC,1400,DEN,home,1,MAH401939,2310,KC,Patrick Mahomes,P.Mahomes,https://static.www.nfl.com/image/upload/{formatInstructions}/league/wdckwtob1lybvkmxnf7p,QB,15,184,27,15,1,2
+2026,REG,1,2026091400,60193,09/14/2026,2310,KC,1400,DEN,visitor,1,NIX118212,1400,DEN,Bo Nix,B.Nix,https://static.www.nfl.com/image/upload/{formatInstructions}/league/zvo9xatffmqn9lnukpgk,QB,10,131,28,17,1,1
