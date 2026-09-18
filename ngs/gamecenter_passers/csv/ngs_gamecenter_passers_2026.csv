@@ -129,3 +129,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,1,2026091312,60192,09/13/2026,3410,NYG,1200,DAL,visitor,1,PRE285723,1200,DAL,Dak Prescott,D.Prescott,https://static.www.nfl.com/image/upload/{formatInstructions}/league/yvscmqq1qki8zfsemmcd,QB,4,175,34,22,1,2
 2026,REG,1,2026091400,60193,09/14/2026,2310,KC,1400,DEN,home,1,MAH401939,2310,KC,Patrick Mahomes,P.Mahomes,https://static.www.nfl.com/image/upload/{formatInstructions}/league/wdckwtob1lybvkmxnf7p,QB,15,184,27,15,1,2
 2026,REG,1,2026091400,60193,09/14/2026,2310,KC,1400,DEN,visitor,1,NIX118212,1400,DEN,Bo Nix,B.Nix,https://static.www.nfl.com/image/upload/{formatInstructions}/league/zvo9xatffmqn9lnukpgk,QB,10,131,28,17,1,1
+2026,REG,2,2026091700,60194,09/17/2026,0610,BUF,1540,DET,home,1,ALL529264,0610,BUF,Josh Allen,J.Allen,https://static.www.nfl.com/image/upload/{formatInstructions}/league/mjwbioajzldkq1vzoz2d,QB,17,248,31,20,0,3
+2026,REG,2,2026091700,60194,09/17/2026,0610,BUF,1540,DET,visitor,1,GOF219636,1540,DET,Jared Goff,J.Goff,https://static.www.nfl.com/image/upload/{formatInstructions}/league/kaicbot8qhzrvddilbtp,QB,16,327,38,26,0,4
