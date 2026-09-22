@@ -159,3 +159,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,2,2026092012,60207,09/20/2026,4500,SF,2700,MIA,visitor,1,WIL614428,2700,MIA,Malik Willis,M.Willis,https://static.www.nfl.com/image/upload/{formatInstructions}/league/txvgdbwbryzyyqq6gfet,QB,2,197,23,14,0,1,
 2026,REG,2,2026092013,60208,09/20/2026,2310,KC,2200,IND,home,1,MAH401939,2310,KC,Patrick Mahomes,P.Mahomes,https://static.www.nfl.com/image/upload/{formatInstructions}/league/wdckwtob1lybvkmxnf7p,QB,15,382,47,32,0,3,
 2026,REG,2,2026092013,60208,09/20/2026,2310,KC,2200,IND,visitor,1,JON165462,2200,IND,Daniel Jones,D.Jones,https://static.www.nfl.com/image/upload/{formatInstructions}/league/ohvvctuykzwrpqer7xgl,QB,17,210,31,22,1,1,
+2026,REG,2,2026092100,60209,09/21/2026,2510,LAR,3410,NYG,home,1,STA134157,2510,LAR,Matthew Stafford,M.Stafford,https://static.www.nfl.com/image/upload/{formatInstructions}/league/jwpkjfrkzufdyh8u1mg7,QB,9,327,31,22,1,4,
+2026,REG,2,2026092100,60209,09/21/2026,2510,LAR,3410,NYG,visitor,1,WIN623708,3410,NYG,Jameis Winston,J.Winston,https://static.www.nfl.com/image/upload/{formatInstructions}/league/e5qyxnibbyawi0pvfpjl,QB,19,111,27,11,1,0,
