@@ -191,3 +191,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,3,2026092712,60223,09/27/2026,3300,NO,2520,LV,visitor,1,COU709400,2520,LV,Kirk Cousins,K.Cousins,https://static.www.nfl.com/image/upload/{formatInstructions}/league/za7cynvpwlsro1tsaijk,QB,8,248,33,22,0,3,
 2026,REG,3,2026092713,60224,09/27/2026,1400,DEN,2510,LAR,home,1,NIX118212,1400,DEN,Bo Nix,B.Nix,https://static.www.nfl.com/image/upload/{formatInstructions}/league/zvo9xatffmqn9lnukpgk,QB,10,186,34,17,1,2,
 2026,REG,3,2026092713,60224,09/27/2026,1400,DEN,2510,LAR,visitor,1,STA134157,2510,LAR,Matthew Stafford,M.Stafford,https://static.www.nfl.com/image/upload/{formatInstructions}/league/jwpkjfrkzufdyh8u1mg7,QB,9,390,55,30,2,2,
+2026,REG,3,2026092800,60225,09/28/2026,0810,CHI,3700,PHI,home,1,KEE690598,0810,CHI,Case Keenum,C.Keenum,https://static.www.nfl.com/image/upload/{formatInstructions}/league/weixhyzal4ntsyszyepu,QB,11,247,34,24,0,2,
+2026,REG,3,2026092800,60225,09/28/2026,0810,CHI,3700,PHI,visitor,1,HUR767022,3700,PHI,Jalen Hurts,J.Hurts,https://static.www.nfl.com/image/upload/{formatInstructions}/league/xow5yvxjeqa6witmofmp,QB,1,153,25,16,1,0,
