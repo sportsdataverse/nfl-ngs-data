@@ -193,3 +193,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,3,2026092713,60224,09/27/2026,1400,DEN,2510,LAR,visitor,1,STA134157,2510,LAR,Matthew Stafford,M.Stafford,https://static.www.nfl.com/image/upload/{formatInstructions}/league/jwpkjfrkzufdyh8u1mg7,QB,9,390,55,30,2,2,
 2026,REG,3,2026092800,60225,09/28/2026,0810,CHI,3700,PHI,home,1,KEE690598,0810,CHI,Case Keenum,C.Keenum,https://static.www.nfl.com/image/upload/{formatInstructions}/league/weixhyzal4ntsyszyepu,QB,11,247,34,24,0,2,
 2026,REG,3,2026092800,60225,09/28/2026,0810,CHI,3700,PHI,visitor,1,HUR767022,3700,PHI,Jalen Hurts,J.Hurts,https://static.www.nfl.com/image/upload/{formatInstructions}/league/xow5yvxjeqa6witmofmp,QB,1,153,25,16,1,0,
+2026,REG,4,2026100100,60226,10/01/2026,1050,CLE,3900,PIT,home,1,WAT338355,1050,CLE,Deshaun Watson,D.Watson,https://static.www.nfl.com/image/private/{formatInstructions}/league/otfs2docj6eahaebo5xn,QB,4,268,33,24,1,1,
+2026,REG,4,2026100100,60226,10/01/2026,1050,CLE,3900,PIT,visitor,1,ROD339293,3900,PIT,Aaron Rodgers,A.Rodgers,https://static.www.nfl.com/image/upload/{formatInstructions}/league/dypvakakxhccxs67tb0y,QB,8,299,40,22,2,3,
