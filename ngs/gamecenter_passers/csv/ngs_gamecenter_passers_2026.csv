@@ -223,3 +223,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,4,2026100412,60239,10/04/2026,4500,SF,1400,DEN,visitor,1,NIX118212,1400,DEN,Bo Nix,B.Nix,https://static.www.nfl.com/image/upload/{formatInstructions}/league/zvo9xatffmqn9lnukpgk,QB,10,214,42,25,0,1,
 2026,REG,4,2026100413,60240,10/04/2026,0750,CAR,1540,DET,home,1,YOU124763,0750,CAR,Bryce Young,B.Young,https://static.www.nfl.com/image/upload/{formatInstructions}/league/vcvhmxvxw2a3armle0af,QB,9,329,41,29,0,2,
 2026,REG,4,2026100413,60240,10/04/2026,0750,CAR,1540,DET,visitor,1,GOF219636,1540,DET,Jared Goff,J.Goff,https://static.www.nfl.com/image/upload/{formatInstructions}/league/kaicbot8qhzrvddilbtp,QB,16,412,52,32,0,1,
+2026,REG,4,2026100500,60241,10/05/2026,3300,NO,0200,ATL,home,1,SHO768898,3300,NO,Tyler Shough,T.Shough,https://static.www.nfl.com/image/upload/{formatInstructions}/league/toiafc7qighw86geo7jf,QB,6,286,48,30,0,1,
+2026,REG,4,2026100500,60241,10/05/2026,3300,NO,0200,ATL,visitor,1,PEN238127,0200,ATL,Michael Penix Jr.,M.Penix,https://static.www.nfl.com/image/upload/{formatInstructions}/league/mip4kogkqxwkkya6mvmh,QB,9,223,20,15,0,1,
