@@ -225,3 +225,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,4,2026100413,60240,10/04/2026,0750,CAR,1540,DET,visitor,1,GOF219636,1540,DET,Jared Goff,J.Goff,https://static.www.nfl.com/image/upload/{formatInstructions}/league/kaicbot8qhzrvddilbtp,QB,16,412,52,32,0,1,
 2026,REG,4,2026100500,60241,10/05/2026,3300,NO,0200,ATL,home,1,SHO768898,3300,NO,Tyler Shough,T.Shough,https://static.www.nfl.com/image/upload/{formatInstructions}/league/toiafc7qighw86geo7jf,QB,6,286,48,30,0,1,
 2026,REG,4,2026100500,60241,10/05/2026,3300,NO,0200,ATL,visitor,1,PEN238127,0200,ATL,Michael Penix Jr.,M.Penix,https://static.www.nfl.com/image/upload/{formatInstructions}/league/mip4kogkqxwkkya6mvmh,QB,9,223,20,15,0,1,
+2026,REG,5,2026100800,60242,10/08/2026,1200,DAL,4900,TB,home,1,PRE285723,1200,DAL,Dak Prescott,D.Prescott,https://static.www.nfl.com/image/upload/{formatInstructions}/league/yvscmqq1qki8zfsemmcd,QB,4,316,42,24,2,1,
+2026,REG,5,2026100800,60242,10/08/2026,1200,DAL,4900,TB,visitor,1,DAN558971,4900,TB,Jalon Daniels,J.Daniels,https://static.www.nfl.com/image/upload/{formatInstructions}/league/hwhfl6i5drktwjvslfpn,QB,10,189,25,19,0,1,
