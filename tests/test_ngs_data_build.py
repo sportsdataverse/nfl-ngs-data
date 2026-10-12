@@ -221,3 +221,49 @@ def test_every_tag_has_a_pkg_function():
 def test_both_overtime_spellings_are_final():
     sched = pl.DataFrame({"game_id": [1, 2, 3], "phase": ["FINAL_OVERTIME", "FINAL OVERTIME", None]})
     assert ingest.final_game_ids(sched) == [1, 2]
+
+
+def _built_teams(raw: Path) -> tuple[Path, list[Path]]:
+    base = raw / "out"
+    build_season("teams", SEASON, base=base, raw_root=raw)
+    return base, publish._dataset_files(REGISTRY["teams"], SEASON, base)
+
+
+def _publish_against(monkeypatch, base: Path, listing: dict[str, str] | None) -> tuple[dict, list[list[str]]]:
+    monkeypatch.setattr(publish, "_release_digests", lambda tag, repo: listing)
+    ran: list[list[str]] = []
+    out = publish.publish_dataset(REGISTRY["teams"], SEASON, base=base, runner=ran.append)
+    return out, ran
+
+
+def test_publish_orders_parquet_last(raw: Path):
+    _base, files = _built_teams(raw)
+    assert files[-1].suffix == ".parquet"
+    assert files[-2].name == "ngs_teams_in_data_repo.csv"  # manifest before the parquet
+
+
+def test_unchanged_parquet_skips_season_even_though_manifest_restamped(raw: Path, monkeypatch):
+    base, files = _built_teams(raw)
+    listing = {f.name: publish._sha256(f) for f in files}
+    listing["ngs_teams_in_data_repo.csv"] = "sha256:yesterdays-generated_at"
+    out, ran = _publish_against(monkeypatch, base, listing)
+    assert out["uploaded"] == 0 and ran == []  # no upload, no sidecar stamp
+
+
+def test_changed_parquet_uploads_only_changed_files_then_stamps(raw: Path, monkeypatch):
+    base, files = _built_teams(raw)
+    listing = {f.name: publish._sha256(f) for f in files}
+    pq = files[-1]
+    listing[pq.name] = "sha256:stale"
+    listing["ngs_teams_in_data_repo.csv"] = "sha256:stale"
+    out, ran = _publish_against(monkeypatch, base, listing)
+    names = [Path(a[3]).name for a in ran if a[:2] == ["release", "upload"]]
+    assert names[:2] == ["ngs_teams_in_data_repo.csv", pq.name]  # csv data file unchanged -> skipped
+    assert len(names) == 2 + 4 and out["uploaded"] == 2
+
+
+def test_missing_release_from_listing_is_created(raw: Path, monkeypatch):
+    base, files = _built_teams(raw)
+    out, ran = _publish_against(monkeypatch, base, None)
+    assert ran[0][:3] == ["release", "create", "nfl_ngs_teams"]
+    assert out["uploaded"] == len(files)
