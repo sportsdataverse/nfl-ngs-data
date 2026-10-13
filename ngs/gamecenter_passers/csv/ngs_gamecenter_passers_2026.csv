@@ -253,3 +253,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,5,2026101111,60254,10/11/2026,4600,SEA,4500,SF,visitor,1,PUR243289,4500,SF,Brock Purdy,B.Purdy,https://static.www.nfl.com/image/upload/{formatInstructions}/league/xs2fyj1sqdgwvt9ihbri,QB,13,189,29,19,1,2,
 2026,REG,5,2026101112,60255,10/11/2026,0200,ATL,0325,BAL,home,1,PEN238127,0200,ATL,Michael Penix Jr.,M.Penix,https://static.www.nfl.com/image/upload/{formatInstructions}/league/mip4kogkqxwkkya6mvmh,QB,9,240,32,19,0,1,
 2026,REG,5,2026101112,60255,10/11/2026,0200,ATL,0325,BAL,visitor,1,HUN827417,0325,BAL,Tyler Huntley,T.Huntley,https://static.www.nfl.com/image/upload/{formatInstructions}/league/fxyjf9d5qkwqjdd8ypvv,QB,5,201,32,24,0,2,
+2026,REG,5,2026101200,60256,10/12/2026,2510,LAR,0610,BUF,home,1,STA134157,2510,LAR,Matthew Stafford,M.Stafford,https://static.www.nfl.com/image/upload/{formatInstructions}/league/jwpkjfrkzufdyh8u1mg7,QB,9,383,54,40,0,3,
+2026,REG,5,2026101200,60256,10/12/2026,2510,LAR,0610,BUF,visitor,1,ALL529264,0610,BUF,Josh Allen,J.Allen,https://static.www.nfl.com/image/upload/{formatInstructions}/league/ynrhq9iv30ysjpwmrfdv,QB,17,210,19,12,1,1,
