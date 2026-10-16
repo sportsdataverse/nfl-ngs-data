@@ -255,3 +255,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,5,2026101112,60255,10/11/2026,0200,ATL,0325,BAL,visitor,1,HUN827417,0325,BAL,Tyler Huntley,T.Huntley,https://static.www.nfl.com/image/upload/{formatInstructions}/league/fxyjf9d5qkwqjdd8ypvv,QB,5,201,32,24,0,2,
 2026,REG,5,2026101200,60256,10/12/2026,2510,LAR,0610,BUF,home,1,STA134157,2510,LAR,Matthew Stafford,M.Stafford,https://static.www.nfl.com/image/upload/{formatInstructions}/league/jwpkjfrkzufdyh8u1mg7,QB,9,383,54,40,0,3,
 2026,REG,5,2026101200,60256,10/12/2026,2510,LAR,0610,BUF,visitor,1,ALL529264,0610,BUF,Josh Allen,J.Allen,https://static.www.nfl.com/image/upload/{formatInstructions}/league/ynrhq9iv30ysjpwmrfdv,QB,17,210,19,12,1,1,
+2026,REG,6,2026101500,60257,10/15/2026,1400,DEN,4600,SEA,home,1,NIX118212,1400,DEN,Bo Nix,B.Nix,https://static.www.nfl.com/image/upload/{formatInstructions}/league/zvo9xatffmqn9lnukpgk,QB,10,107,27,17,0,0,
+2026,REG,6,2026101500,60257,10/15/2026,1400,DEN,4600,SEA,visitor,1,DAR466141,4600,SEA,Sam Darnold,S.Darnold,https://static.www.nfl.com/image/upload/{formatInstructions}/league/fyay8vruj0cqmhopufzk,QB,14,278,51,27,2,0,
