@@ -1,175 +1,131 @@
-=== season 2026  2026-10-19 11:49:21Z  raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main ===
+=== season 2026  2026-10-19 18:50:04Z  raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main ===
 ::group::ngs_data_build schedules 2026
-2026-10-19 11:49:27 [INFO] ngs_data_build: schedules 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
-2026-10-19 11:49:28 [INFO] ngs_data_build: wrote ngs_schedule_2026.parquet (21.8KB), ngs_schedule_2026.csv (80.4KB), 321 rows x 30 cols; manifest ngs_schedules_in_data_repo.csv
-2026-10-19 11:49:28 [INFO] ngs_data_build: uploading ngs_schedule_2026.csv (80.4KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_schedules
-2026-10-19 11:49:30 [INFO] ngs_data_build: uploading ngs_schedules_in_data_repo.csv (1.9KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_schedules
-2026-10-19 11:49:32 [INFO] ngs_data_build: uploading ngs_schedule_2026.parquet (21.8KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_schedules
-2026-10-19 11:49:40 [INFO] ngs_data_build: stamped nfl_ngs_schedules with timestamp.txt, timestamp.json, package_function.txt, package_function.json
-2026-10-19 11:49:40 [INFO] ngs_data_build: schedules 2026: done -- 321 rows x 30 cols in 12.7s
-2026-10-19 11:49:40 [INFO] ngs_data_build: schedules 2026: season complete -- 321 rows
-stage schedules elapsed=19s
+2026-10-19 18:50:06 [INFO] ngs_data_build: schedules 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
+2026-10-19 18:50:06 [INFO] ngs_data_build: wrote ngs_schedule_2026.parquet (21.8KB), ngs_schedule_2026.csv (80.4KB), 321 rows x 30 cols; manifest ngs_schedules_in_data_repo.csv
+2026-10-19 18:50:06 [INFO] ngs_data_build: schedules 2026: unchanged on nfl_ngs_schedules -- skipped
+2026-10-19 18:50:06 [INFO] ngs_data_build: schedules 2026: done -- 321 rows x 30 cols in 0.8s
+2026-10-19 18:50:06 [INFO] ngs_data_build: schedules 2026: season complete -- 321 rows
+stage schedules elapsed=3s
 ::endgroup::
 ::group::ngs_data_build teams 2026
-2026-10-19 11:49:42 [INFO] ngs_data_build: teams 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
-2026-10-19 11:49:42 [INFO] ngs_data_build: wrote ngs_teams_2026.parquet (12.7KB), ngs_teams_2026.csv (11.2KB), 34 rows x 20 cols; manifest ngs_teams_in_data_repo.csv
-2026-10-19 11:49:43 [INFO] ngs_data_build: teams 2026: unchanged on nfl_ngs_teams -- skipped
-2026-10-19 11:49:43 [INFO] ngs_data_build: teams 2026: done -- 34 rows x 20 cols in 0.9s
-2026-10-19 11:49:43 [INFO] ngs_data_build: teams 2026: season complete -- 34 rows
-stage teams elapsed=3s
+2026-10-19 18:50:08 [INFO] ngs_data_build: teams 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
+2026-10-19 18:50:09 [INFO] ngs_data_build: wrote ngs_teams_2026.parquet (12.7KB), ngs_teams_2026.csv (11.2KB), 34 rows x 20 cols; manifest ngs_teams_in_data_repo.csv
+2026-10-19 18:50:09 [INFO] ngs_data_build: teams 2026: unchanged on nfl_ngs_teams -- skipped
+2026-10-19 18:50:09 [INFO] ngs_data_build: teams 2026: done -- 34 rows x 20 cols in 0.5s
+2026-10-19 18:50:09 [INFO] ngs_data_build: teams 2026: season complete -- 34 rows
+stage teams elapsed=2s
 ::endgroup::
 ::group::ngs_data_build passing 2026
-2026-10-19 11:49:45 [INFO] ngs_data_build: passing 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
-2026-10-19 11:49:48 [INFO] ngs_data_build: wrote ngs_passing_2026.parquet (64.9KB), ngs_passing_2026.csv (189.5KB), 373 rows x 48 cols; manifest ngs_passing_in_data_repo.csv
-2026-10-19 11:49:49 [INFO] ngs_data_build: uploading ngs_passing_2026.csv (189.5KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_passing
-2026-10-19 11:49:50 [INFO] ngs_data_build: uploading ngs_passing_in_data_repo.csv (1.2KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_passing
-2026-10-19 11:49:52 [INFO] ngs_data_build: uploading ngs_passing_2026.parquet (64.9KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_passing
-2026-10-19 11:50:00 [INFO] ngs_data_build: stamped nfl_ngs_passing with timestamp.txt, timestamp.json, package_function.txt, package_function.json
-2026-10-19 11:50:00 [INFO] ngs_data_build: passing 2026: done -- 373 rows x 48 cols in 14.7s
-2026-10-19 11:50:00 [INFO] ngs_data_build: passing 2026: season complete -- 373 rows
-stage passing elapsed=17s
+2026-10-19 18:50:11 [INFO] ngs_data_build: passing 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
+2026-10-19 18:50:13 [INFO] ngs_data_build: wrote ngs_passing_2026.parquet (64.9KB), ngs_passing_2026.csv (189.5KB), 373 rows x 48 cols; manifest ngs_passing_in_data_repo.csv
+2026-10-19 18:50:14 [INFO] ngs_data_build: passing 2026: unchanged on nfl_ngs_passing -- skipped
+2026-10-19 18:50:14 [INFO] ngs_data_build: passing 2026: done -- 373 rows x 48 cols in 2.6s
+2026-10-19 18:50:14 [INFO] ngs_data_build: passing 2026: season complete -- 373 rows
+stage passing elapsed=5s
 ::endgroup::
 ::group::ngs_data_build rushing 2026
-2026-10-19 11:50:02 [INFO] ngs_data_build: rushing 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
-2026-10-19 11:50:05 [INFO] ngs_data_build: wrote ngs_rushing_2026.parquet (49.5KB), ngs_rushing_2026.csv (148.8KB), 365 rows x 39 cols; manifest ngs_rushing_in_data_repo.csv
-2026-10-19 11:50:05 [INFO] ngs_data_build: uploading ngs_rushing_2026.csv (148.8KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_rushing
-2026-10-19 11:50:07 [INFO] ngs_data_build: uploading ngs_rushing_in_data_repo.csv (1.2KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_rushing
-2026-10-19 11:50:08 [INFO] ngs_data_build: uploading ngs_rushing_2026.parquet (49.5KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_rushing
-2026-10-19 11:50:16 [INFO] ngs_data_build: stamped nfl_ngs_rushing with timestamp.txt, timestamp.json, package_function.txt, package_function.json
-2026-10-19 11:50:16 [INFO] ngs_data_build: rushing 2026: done -- 365 rows x 39 cols in 15.0s
-2026-10-19 11:50:16 [INFO] ngs_data_build: rushing 2026: season complete -- 365 rows
-stage rushing elapsed=17s
+2026-10-19 18:50:16 [INFO] ngs_data_build: rushing 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
+2026-10-19 18:50:18 [INFO] ngs_data_build: wrote ngs_rushing_2026.parquet (49.5KB), ngs_rushing_2026.csv (148.8KB), 365 rows x 39 cols; manifest ngs_rushing_in_data_repo.csv
+2026-10-19 18:50:18 [INFO] ngs_data_build: rushing 2026: unchanged on nfl_ngs_rushing -- skipped
+2026-10-19 18:50:18 [INFO] ngs_data_build: rushing 2026: done -- 365 rows x 39 cols in 2.5s
+2026-10-19 18:50:18 [INFO] ngs_data_build: rushing 2026: season complete -- 365 rows
+stage rushing elapsed=4s
 ::endgroup::
 ::group::ngs_data_build receiving 2026
-2026-10-19 11:50:18 [INFO] ngs_data_build: receiving 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
-2026-10-19 11:50:22 [INFO] ngs_data_build: wrote ngs_receiving_2026.parquet (91.9KB), ngs_receiving_2026.csv (326.6KB), 796 rows x 41 cols; manifest ngs_receiving_in_data_repo.csv
-2026-10-19 11:50:22 [INFO] ngs_data_build: uploading ngs_receiving_2026.csv (326.6KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_receiving
-2026-10-19 11:50:24 [INFO] ngs_data_build: uploading ngs_receiving_in_data_repo.csv (1.2KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_receiving
-2026-10-19 11:50:26 [INFO] ngs_data_build: uploading ngs_receiving_2026.parquet (91.9KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_receiving
-2026-10-19 11:50:34 [INFO] ngs_data_build: stamped nfl_ngs_receiving with timestamp.txt, timestamp.json, package_function.txt, package_function.json
-2026-10-19 11:50:34 [INFO] ngs_data_build: receiving 2026: done -- 796 rows x 41 cols in 15.5s
-2026-10-19 11:50:34 [INFO] ngs_data_build: receiving 2026: season complete -- 796 rows
-stage receiving elapsed=17s
+2026-10-19 18:50:20 [INFO] ngs_data_build: receiving 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
+2026-10-19 18:50:23 [INFO] ngs_data_build: wrote ngs_receiving_2026.parquet (91.9KB), ngs_receiving_2026.csv (326.6KB), 796 rows x 41 cols; manifest ngs_receiving_in_data_repo.csv
+2026-10-19 18:50:23 [INFO] ngs_data_build: receiving 2026: unchanged on nfl_ngs_receiving -- skipped
+2026-10-19 18:50:23 [INFO] ngs_data_build: receiving 2026: done -- 796 rows x 41 cols in 2.8s
+2026-10-19 18:50:23 [INFO] ngs_data_build: receiving 2026: season complete -- 796 rows
+stage receiving elapsed=5s
 ::endgroup::
 ::group::ngs_data_build statboard_leaders 2026
-2026-10-19 11:50:36 [INFO] ngs_data_build: statboard_leaders 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
-2026-10-19 11:50:36 [INFO] ngs_data_build: wrote ngs_statboard_leaders_2026.parquet (27.8KB), ngs_statboard_leaders_2026.csv (15.9KB), 70 rows x 57 cols; manifest ngs_statboard_leaders_in_data_repo.csv
-2026-10-19 11:50:37 [INFO] ngs_data_build: uploading ngs_statboard_leaders_2026.csv (15.9KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_statboard_leaders
-2026-10-19 11:50:38 [INFO] ngs_data_build: uploading ngs_statboard_leaders_in_data_repo.csv (1.1KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_statboard_leaders
-2026-10-19 11:50:40 [INFO] ngs_data_build: uploading ngs_statboard_leaders_2026.parquet (27.8KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_statboard_leaders
-2026-10-19 11:50:48 [INFO] ngs_data_build: stamped nfl_ngs_statboard_leaders with timestamp.txt, timestamp.json, package_function.txt, package_function.json
-2026-10-19 11:50:48 [INFO] ngs_data_build: statboard_leaders 2026: done -- 70 rows x 57 cols in 11.7s
-2026-10-19 11:50:48 [INFO] ngs_data_build: statboard_leaders 2026: season complete -- 70 rows
-stage statboard_leaders elapsed=14s
+2026-10-19 18:50:25 [INFO] ngs_data_build: statboard_leaders 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
+2026-10-19 18:50:25 [INFO] ngs_data_build: wrote ngs_statboard_leaders_2026.parquet (27.8KB), ngs_statboard_leaders_2026.csv (15.9KB), 70 rows x 57 cols; manifest ngs_statboard_leaders_in_data_repo.csv
+2026-10-19 18:50:26 [INFO] ngs_data_build: statboard_leaders 2026: unchanged on nfl_ngs_statboard_leaders -- skipped
+2026-10-19 18:50:26 [INFO] ngs_data_build: statboard_leaders 2026: done -- 70 rows x 57 cols in 0.7s
+2026-10-19 18:50:26 [INFO] ngs_data_build: statboard_leaders 2026: season complete -- 70 rows
+stage statboard_leaders elapsed=3s
 ::endgroup::
 ::group::ngs_data_build leaders 2026
-2026-10-19 11:50:50 [INFO] ngs_data_build: leaders 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
-2026-10-19 11:51:11 [INFO] ngs_data_build: wrote ngs_leaders_2026.parquet (207.1KB), ngs_leaders_2026.csv (903.6KB), 1489 rows x 106 cols; manifest ngs_leaders_in_data_repo.csv
-2026-10-19 11:51:11 [INFO] ngs_data_build: uploading ngs_leaders_2026.csv (903.6KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_leaders
-2026-10-19 11:51:13 [INFO] ngs_data_build: uploading ngs_leaders_in_data_repo.csv (1.2KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_leaders
-2026-10-19 11:51:14 [INFO] ngs_data_build: uploading ngs_leaders_2026.parquet (207.1KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_leaders
-2026-10-19 11:51:22 [INFO] ngs_data_build: stamped nfl_ngs_leaders with timestamp.txt, timestamp.json, package_function.txt, package_function.json
-2026-10-19 11:51:22 [INFO] ngs_data_build: leaders 2026: done -- 1489 rows x 106 cols in 32.8s
-2026-10-19 11:51:22 [INFO] ngs_data_build: leaders 2026: season complete -- 1489 rows
-stage leaders elapsed=35s
+2026-10-19 18:50:28 [INFO] ngs_data_build: leaders 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
+2026-10-19 18:50:44 [INFO] ngs_data_build: wrote ngs_leaders_2026.parquet (207.1KB), ngs_leaders_2026.csv (903.6KB), 1489 rows x 106 cols; manifest ngs_leaders_in_data_repo.csv
+2026-10-19 18:50:45 [INFO] ngs_data_build: leaders 2026: unchanged on nfl_ngs_leaders -- skipped
+2026-10-19 18:50:45 [INFO] ngs_data_build: leaders 2026: done -- 1489 rows x 106 cols in 16.9s
+2026-10-19 18:50:45 [INFO] ngs_data_build: leaders 2026: season complete -- 1489 rows
+stage leaders elapsed=19s
 ::endgroup::
 ::group::ngs_data_build gamecenter_passers 2026
-2026-10-19 11:51:24 [INFO] ngs_data_build: gamecenter_passers 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
-2026-10-19 11:51:45 [INFO] ngs_data_build: wrote ngs_gamecenter_passers_2026.parquet (18.8KB), ngs_gamecenter_passers_2026.csv (59.1KB), 282 rows x 26 cols; manifest ngs_gamecenter_passers_in_data_repo.csv
-2026-10-19 11:51:46 [INFO] ngs_data_build: uploading ngs_gamecenter_passers_2026.csv (59.1KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_passers
-2026-10-19 11:51:47 [INFO] ngs_data_build: uploading ngs_gamecenter_passers_in_data_repo.csv (1.9KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_passers
-2026-10-19 11:51:49 [INFO] ngs_data_build: uploading ngs_gamecenter_passers_2026.parquet (18.8KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_passers
-2026-10-19 11:51:57 [INFO] ngs_data_build: stamped nfl_ngs_gamecenter_passers with timestamp.txt, timestamp.json, package_function.txt, package_function.json
-2026-10-19 11:51:57 [INFO] ngs_data_build: gamecenter_passers 2026: done -- 282 rows x 26 cols in 32.8s
-2026-10-19 11:51:57 [INFO] ngs_data_build: gamecenter_passers 2026: season complete -- 282 rows
-stage gamecenter_passers elapsed=35s
+2026-10-19 18:50:47 [INFO] ngs_data_build: gamecenter_passers 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
+2026-10-19 18:51:04 [INFO] ngs_data_build: wrote ngs_gamecenter_passers_2026.parquet (18.8KB), ngs_gamecenter_passers_2026.csv (59.1KB), 282 rows x 26 cols; manifest ngs_gamecenter_passers_in_data_repo.csv
+2026-10-19 18:51:04 [INFO] ngs_data_build: gamecenter_passers 2026: unchanged on nfl_ngs_gamecenter_passers -- skipped
+2026-10-19 18:51:04 [INFO] ngs_data_build: gamecenter_passers 2026: done -- 282 rows x 26 cols in 17.2s
+2026-10-19 18:51:04 [INFO] ngs_data_build: gamecenter_passers 2026: season complete -- 282 rows
+stage gamecenter_passers elapsed=19s
 ::endgroup::
 ::group::ngs_data_build gamecenter_rushers 2026
-2026-10-19 11:51:59 [INFO] ngs_data_build: gamecenter_rushers 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
-2026-10-19 11:51:59 [INFO] ngs_data_build: wrote ngs_gamecenter_rushers_2026.parquet (173.6KB), ngs_gamecenter_rushers_2026.csv (454.1KB), 836 rows x 99 cols; manifest ngs_gamecenter_rushers_in_data_repo.csv
-2026-10-19 11:52:00 [INFO] ngs_data_build: uploading ngs_gamecenter_rushers_2026.csv (454.1KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_rushers
-2026-10-19 11:52:01 [INFO] ngs_data_build: uploading ngs_gamecenter_rushers_in_data_repo.csv (1.3KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_rushers
-2026-10-19 11:52:03 [INFO] ngs_data_build: uploading ngs_gamecenter_rushers_2026.parquet (173.6KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_rushers
-2026-10-19 11:52:11 [INFO] ngs_data_build: stamped nfl_ngs_gamecenter_rushers with timestamp.txt, timestamp.json, package_function.txt, package_function.json
-2026-10-19 11:52:11 [INFO] ngs_data_build: gamecenter_rushers 2026: done -- 836 rows x 99 cols in 12.1s
-2026-10-19 11:52:11 [INFO] ngs_data_build: gamecenter_rushers 2026: season complete -- 836 rows
-stage gamecenter_rushers elapsed=14s
+2026-10-19 18:51:06 [INFO] ngs_data_build: gamecenter_rushers 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
+2026-10-19 18:51:06 [INFO] ngs_data_build: wrote ngs_gamecenter_rushers_2026.parquet (173.6KB), ngs_gamecenter_rushers_2026.csv (454.1KB), 836 rows x 99 cols; manifest ngs_gamecenter_rushers_in_data_repo.csv
+2026-10-19 18:51:07 [INFO] ngs_data_build: gamecenter_rushers 2026: unchanged on nfl_ngs_gamecenter_rushers -- skipped
+2026-10-19 18:51:07 [INFO] ngs_data_build: gamecenter_rushers 2026: done -- 836 rows x 99 cols in 0.6s
+2026-10-19 18:51:07 [INFO] ngs_data_build: gamecenter_rushers 2026: season complete -- 836 rows
+stage gamecenter_rushers elapsed=3s
 ::endgroup::
 ::group::ngs_data_build gamecenter_receivers 2026
-2026-10-19 11:52:13 [INFO] ngs_data_build: gamecenter_receivers 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
-2026-10-19 11:52:13 [INFO] ngs_data_build: wrote ngs_gamecenter_receivers_2026.parquet (66.5KB), ngs_gamecenter_receivers_2026.csv (377.8KB), 1388 rows x 31 cols; manifest ngs_gamecenter_receivers_in_data_repo.csv
-2026-10-19 11:52:14 [INFO] ngs_data_build: uploading ngs_gamecenter_receivers_2026.csv (377.8KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_receivers
-2026-10-19 11:52:15 [INFO] ngs_data_build: uploading ngs_gamecenter_receivers_in_data_repo.csv (1.3KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_receivers
-2026-10-19 11:52:17 [INFO] ngs_data_build: uploading ngs_gamecenter_receivers_2026.parquet (66.5KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_receivers
-2026-10-19 11:52:24 [INFO] ngs_data_build: stamped nfl_ngs_gamecenter_receivers with timestamp.txt, timestamp.json, package_function.txt, package_function.json
-2026-10-19 11:52:24 [INFO] ngs_data_build: gamecenter_receivers 2026: done -- 1388 rows x 31 cols in 11.1s
-2026-10-19 11:52:24 [INFO] ngs_data_build: gamecenter_receivers 2026: season complete -- 1388 rows
-stage gamecenter_receivers elapsed=13s
+2026-10-19 18:51:09 [INFO] ngs_data_build: gamecenter_receivers 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
+2026-10-19 18:51:09 [INFO] ngs_data_build: wrote ngs_gamecenter_receivers_2026.parquet (66.5KB), ngs_gamecenter_receivers_2026.csv (377.8KB), 1388 rows x 31 cols; manifest ngs_gamecenter_receivers_in_data_repo.csv
+2026-10-19 18:51:09 [INFO] ngs_data_build: gamecenter_receivers 2026: unchanged on nfl_ngs_gamecenter_receivers -- skipped
+2026-10-19 18:51:09 [INFO] ngs_data_build: gamecenter_receivers 2026: done -- 1388 rows x 31 cols in 0.6s
+2026-10-19 18:51:09 [INFO] ngs_data_build: gamecenter_receivers 2026: season complete -- 1388 rows
+stage gamecenter_receivers elapsed=3s
 ::endgroup::
 ::group::ngs_data_build gamecenter_pass_rushers 2026
-2026-10-19 11:52:26 [INFO] ngs_data_build: gamecenter_pass_rushers 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
-2026-10-19 11:52:26 [INFO] ngs_data_build: wrote ngs_gamecenter_pass_rushers_2026.parquet (47.3KB), ngs_gamecenter_pass_rushers_2026.csv (284.2KB), 1128 rows x 28 cols; manifest ngs_gamecenter_pass_rushers_in_data_repo.csv
-2026-10-19 11:52:27 [INFO] ngs_data_build: uploading ngs_gamecenter_pass_rushers_2026.csv (284.2KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_pass_rushers
-2026-10-19 11:52:28 [INFO] ngs_data_build: uploading ngs_gamecenter_pass_rushers_in_data_repo.csv (1.2KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_pass_rushers
-2026-10-19 11:52:30 [INFO] ngs_data_build: uploading ngs_gamecenter_pass_rushers_2026.parquet (47.3KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_pass_rushers
-2026-10-19 11:52:37 [INFO] ngs_data_build: stamped nfl_ngs_gamecenter_pass_rushers with timestamp.txt, timestamp.json, package_function.txt, package_function.json
-2026-10-19 11:52:37 [INFO] ngs_data_build: gamecenter_pass_rushers 2026: done -- 1128 rows x 28 cols in 11.2s
-2026-10-19 11:52:37 [INFO] ngs_data_build: gamecenter_pass_rushers 2026: season complete -- 1128 rows
-stage gamecenter_pass_rushers elapsed=13s
+2026-10-19 18:51:11 [INFO] ngs_data_build: gamecenter_pass_rushers 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
+2026-10-19 18:51:11 [INFO] ngs_data_build: wrote ngs_gamecenter_pass_rushers_2026.parquet (47.3KB), ngs_gamecenter_pass_rushers_2026.csv (284.2KB), 1128 rows x 28 cols; manifest ngs_gamecenter_pass_rushers_in_data_repo.csv
+2026-10-19 18:51:12 [INFO] ngs_data_build: gamecenter_pass_rushers 2026: unchanged on nfl_ngs_gamecenter_pass_rushers -- skipped
+2026-10-19 18:51:12 [INFO] ngs_data_build: gamecenter_pass_rushers 2026: done -- 1128 rows x 28 cols in 0.5s
+2026-10-19 18:51:12 [INFO] ngs_data_build: gamecenter_pass_rushers 2026: season complete -- 1128 rows
+stage gamecenter_pass_rushers elapsed=2s
 ::endgroup::
 ::group::ngs_data_build gamecenter_leaders 2026
-2026-10-19 11:52:39 [INFO] ngs_data_build: gamecenter_leaders 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
-2026-10-19 11:52:39 [INFO] ngs_data_build: wrote ngs_gamecenter_leaders_2026.parquet (41.0KB), ngs_gamecenter_leaders_2026.csv (185.2KB), 803 rows x 24 cols; manifest ngs_gamecenter_leaders_in_data_repo.csv
-2026-10-19 11:52:40 [INFO] ngs_data_build: uploading ngs_gamecenter_leaders_2026.csv (185.2KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_leaders
-2026-10-19 11:52:42 [INFO] ngs_data_build: uploading ngs_gamecenter_leaders_in_data_repo.csv (1.2KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_leaders
-2026-10-19 11:52:43 [INFO] ngs_data_build: uploading ngs_gamecenter_leaders_2026.parquet (41.0KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_gamecenter_leaders
-2026-10-19 11:52:51 [INFO] ngs_data_build: stamped nfl_ngs_gamecenter_leaders with timestamp.txt, timestamp.json, package_function.txt, package_function.json
-2026-10-19 11:52:51 [INFO] ngs_data_build: gamecenter_leaders 2026: done -- 803 rows x 24 cols in 11.5s
-2026-10-19 11:52:51 [INFO] ngs_data_build: gamecenter_leaders 2026: season complete -- 803 rows
-stage gamecenter_leaders elapsed=13s
+2026-10-19 18:51:14 [INFO] ngs_data_build: gamecenter_leaders 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
+2026-10-19 18:51:14 [INFO] ngs_data_build: wrote ngs_gamecenter_leaders_2026.parquet (41.0KB), ngs_gamecenter_leaders_2026.csv (185.2KB), 803 rows x 24 cols; manifest ngs_gamecenter_leaders_in_data_repo.csv
+2026-10-19 18:51:14 [INFO] ngs_data_build: gamecenter_leaders 2026: unchanged on nfl_ngs_gamecenter_leaders -- skipped
+2026-10-19 18:51:14 [INFO] ngs_data_build: gamecenter_leaders 2026: done -- 803 rows x 24 cols in 0.5s
+2026-10-19 18:51:14 [INFO] ngs_data_build: gamecenter_leaders 2026: season complete -- 803 rows
+stage gamecenter_leaders elapsed=3s
 ::endgroup::
 ::group::ngs_data_build highlights 2026
-2026-10-19 11:52:53 [INFO] ngs_data_build: highlights 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
-2026-10-19 11:52:56 [INFO] ngs_data_build: wrote ngs_highlights_2026.parquet (96.0KB), ngs_highlights_2026.csv (388.1KB), 1279 rows x 39 cols; manifest ngs_highlights_in_data_repo.csv
-2026-10-19 11:52:57 [INFO] ngs_data_build: uploading ngs_highlights_2026.csv (388.1KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_highlights
-2026-10-19 11:52:58 [INFO] ngs_data_build: uploading ngs_highlights_in_data_repo.csv (984B) -> sportsdataverse/sportsdataverse-data:nfl_ngs_highlights
-2026-10-19 11:53:00 [INFO] ngs_data_build: uploading ngs_highlights_2026.parquet (96.0KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_highlights
-2026-10-19 11:53:08 [INFO] ngs_data_build: stamped nfl_ngs_highlights with timestamp.txt, timestamp.json, package_function.txt, package_function.json
-2026-10-19 11:53:08 [INFO] ngs_data_build: highlights 2026: done -- 1279 rows x 39 cols in 15.2s
-2026-10-19 11:53:08 [INFO] ngs_data_build: highlights 2026: season complete -- 1279 rows
-stage highlights elapsed=17s
+2026-10-19 18:51:16 [INFO] ngs_data_build: highlights 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
+2026-10-19 18:51:20 [INFO] ngs_data_build: wrote ngs_highlights_2026.parquet (96.0KB), ngs_highlights_2026.csv (388.1KB), 1279 rows x 39 cols; manifest ngs_highlights_in_data_repo.csv
+2026-10-19 18:51:21 [INFO] ngs_data_build: highlights 2026: unchanged on nfl_ngs_highlights -- skipped
+2026-10-19 18:51:21 [INFO] ngs_data_build: highlights 2026: done -- 1279 rows x 39 cols in 4.1s
+2026-10-19 18:51:21 [INFO] ngs_data_build: highlights 2026: season complete -- 1279 rows
+stage highlights elapsed=6s
 ::endgroup::
 ::group::ngs_data_build highlight_participation 2026
-2026-10-19 11:53:10 [INFO] ngs_data_build: highlight_participation 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
-2026-10-19 11:56:27 [INFO] ngs_data_build: wrote ngs_highlight_participation_2026.parquet (757.7KB), ngs_highlight_participation_2026.csv (10.0MB), 28136 rows x 44 cols; manifest ngs_highlight_participation_in_data_repo.csv
-2026-10-19 11:56:28 [INFO] ngs_data_build: uploading ngs_highlight_participation_2026.csv (10.0MB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_highlight_participation
-2026-10-19 11:56:30 [INFO] ngs_data_build: uploading ngs_highlight_participation_in_data_repo.csv (993B) -> sportsdataverse/sportsdataverse-data:nfl_ngs_highlight_participation
-2026-10-19 11:56:31 [INFO] ngs_data_build: uploading ngs_highlight_participation_2026.parquet (757.7KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_highlight_participation
-2026-10-19 11:56:39 [INFO] ngs_data_build: stamped nfl_ngs_highlight_participation with timestamp.txt, timestamp.json, package_function.txt, package_function.json
-2026-10-19 11:56:39 [INFO] ngs_data_build: highlight_participation 2026: done -- 28136 rows x 44 cols in 209.5s
-2026-10-19 11:56:39 [INFO] ngs_data_build: highlight_participation 2026: season complete -- 28136 rows
-stage highlight_participation elapsed=212s
+2026-10-19 18:51:23 [INFO] ngs_data_build: highlight_participation 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
+2026-10-19 18:53:50 [INFO] ngs_data_build: wrote ngs_highlight_participation_2026.parquet (757.7KB), ngs_highlight_participation_2026.csv (10.0MB), 28136 rows x 44 cols; manifest ngs_highlight_participation_in_data_repo.csv
+2026-10-19 18:53:51 [INFO] ngs_data_build: highlight_participation 2026: unchanged on nfl_ngs_highlight_participation -- skipped
+2026-10-19 18:53:51 [INFO] ngs_data_build: highlight_participation 2026: done -- 28136 rows x 44 cols in 147.9s
+2026-10-19 18:53:51 [INFO] ngs_data_build: highlight_participation 2026: season complete -- 28136 rows
+stage highlight_participation elapsed=150s
 ::endgroup::
 ::group::ngs_data_build highlight_events 2026
-2026-10-19 11:56:41 [INFO] ngs_data_build: highlight_events 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
-2026-10-19 12:00:35 [INFO] ngs_data_build: wrote ngs_highlight_events_2026.parquet (57.8KB), ngs_highlight_events_2026.csv (924.0KB), 11929 rows x 9 cols; manifest ngs_highlight_events_in_data_repo.csv
-2026-10-19 12:00:35 [INFO] ngs_data_build: uploading ngs_highlight_events_2026.csv (924.0KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_highlight_events
-2026-10-19 12:00:37 [INFO] ngs_data_build: uploading ngs_highlight_events_in_data_repo.csv (993B) -> sportsdataverse/sportsdataverse-data:nfl_ngs_highlight_events
-2026-10-19 12:00:39 [INFO] ngs_data_build: uploading ngs_highlight_events_2026.parquet (57.8KB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_highlight_events
-2026-10-19 12:00:48 [INFO] ngs_data_build: stamped nfl_ngs_highlight_events with timestamp.txt, timestamp.json, package_function.txt, package_function.json
-2026-10-19 12:00:48 [INFO] ngs_data_build: highlight_events 2026: done -- 11929 rows x 9 cols in 246.8s
-2026-10-19 12:00:48 [INFO] ngs_data_build: highlight_events 2026: season complete -- 11929 rows
-stage highlight_events elapsed=248s
+2026-10-19 18:53:53 [INFO] ngs_data_build: highlight_events 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
+2026-10-19 18:56:41 [INFO] ngs_data_build: wrote ngs_highlight_events_2026.parquet (57.8KB), ngs_highlight_events_2026.csv (924.0KB), 11929 rows x 9 cols; manifest ngs_highlight_events_in_data_repo.csv
+2026-10-19 18:56:41 [INFO] ngs_data_build: highlight_events 2026: unchanged on nfl_ngs_highlight_events -- skipped
+2026-10-19 18:56:41 [INFO] ngs_data_build: highlight_events 2026: done -- 11929 rows x 9 cols in 168.4s
+2026-10-19 18:56:41 [INFO] ngs_data_build: highlight_events 2026: season complete -- 11929 rows
+stage highlight_events elapsed=170s
 ::endgroup::
 ::group::ngs_data_build highlight_tracking 2026
-2026-10-19 12:00:50 [INFO] ngs_data_build: highlight_tracking 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
-2026-10-19 12:01:10 [INFO] ngs_data_build: wrote ngs_highlight_tracking_2026.parquet (63.4MB), 8101254 rows x 15 cols; manifest ngs_highlight_tracking_in_data_repo.csv [release-only staging]
-2026-10-19 12:01:11 [INFO] ngs_data_build: uploading ngs_highlight_tracking_in_data_repo.csv (149B) -> sportsdataverse/sportsdataverse-data:nfl_ngs_highlight_tracking
-2026-10-19 12:01:12 [INFO] ngs_data_build: uploading ngs_highlight_tracking_2026.parquet (63.4MB) -> sportsdataverse/sportsdataverse-data:nfl_ngs_highlight_tracking
-2026-10-19 12:01:25 [INFO] ngs_data_build: stamped nfl_ngs_highlight_tracking with timestamp.txt, timestamp.json, package_function.txt, package_function.json
-2026-10-19 12:01:25 [INFO] ngs_data_build: highlight_tracking 2026: done -- 8101254 rows x 15 cols in 34.7s
-2026-10-19 12:01:25 [INFO] ngs_data_build: highlight_tracking 2026: season complete -- 8101254 rows
-stage highlight_tracking elapsed=37s
+2026-10-19 18:56:43 [INFO] ngs_data_build: highlight_tracking 2026: build starting (raw=https://raw.githubusercontent.com/sportsdataverse/nfl-ngs-raw/main via http)
+2026-10-19 18:57:05 [INFO] ngs_data_build: wrote ngs_highlight_tracking_2026.parquet (63.4MB), 8101254 rows x 15 cols; manifest ngs_highlight_tracking_in_data_repo.csv [release-only staging]
+2026-10-19 18:57:05 [INFO] ngs_data_build: highlight_tracking 2026: unchanged on nfl_ngs_highlight_tracking -- skipped
+2026-10-19 18:57:05 [INFO] ngs_data_build: highlight_tracking 2026: done -- 8101254 rows x 15 cols in 22.2s
+2026-10-19 18:57:05 [INFO] ngs_data_build: highlight_tracking 2026: season complete -- 8101254 rows
+stage highlight_tracking elapsed=25s
 ::endgroup::
 season 2026 EXIT=0
 pushed: NGS Data Update (Start: 2026 End: 2026) (attempt 1)
