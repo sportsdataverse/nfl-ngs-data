@@ -283,3 +283,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,6,2026101811,60269,10/18/2026,1800,GB,1200,DAL,visitor,1,PRE285723,1200,DAL,Dak Prescott,D.Prescott,https://static.www.nfl.com/image/upload/{formatInstructions}/league/yvscmqq1qki8zfsemmcd,QB,4,258,54,34,2,1,
 2026,REG,6,2026101900,60270,10/19/2026,4500,SF,5110,WAS,home,1,PUR243289,4500,SF,Brock Purdy,B.Purdy,https://static.www.nfl.com/image/upload/{formatInstructions}/league/xs2fyj1sqdgwvt9ihbri,QB,13,264,29,21,0,1,
 2026,REG,6,2026101900,60270,10/19/2026,4500,SF,5110,WAS,visitor,1,DAN567618,5110,WAS,Jayden Daniels,J.Daniels,https://static.www.nfl.com/image/upload/{formatInstructions}/league/gfz8k5onuqjrche9ogqc,QB,5,300,40,29,0,2,
+2026,REG,7,2026102200,60271,10/22/2026,0810,CHI,3200,NE,home,1,WIL176897,0810,CHI,Caleb Williams,C.Williams,https://static.www.nfl.com/image/upload/{formatInstructions}/league/h4qs11kutwiw7whekmyt,QB,18,308,33,22,0,2,
+2026,REG,7,2026102200,60271,10/22/2026,0810,CHI,3200,NE,visitor,1,MAY289639,3200,NE,Drake Maye,D.Maye,https://static.www.nfl.com/image/upload/{formatInstructions}/league/mkauzrg7vo8lfziigsbg,QB,10,321,31,24,1,2,
