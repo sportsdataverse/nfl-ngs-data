@@ -311,3 +311,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,7,2026102511,60283,10/25/2026,4600,SEA,2310,KC,visitor,1,MAH401939,2310,KC,Patrick Mahomes,P.Mahomes,https://static.www.nfl.com/image/upload/{formatInstructions}/league/wdckwtob1lybvkmxnf7p,QB,15,165,33,19,1,0,
 2026,REG,7,2026102600,60284,10/26/2026,3700,PHI,1200,DAL,home,1,MCK156404,3700,PHI,Tanner McKee,T.McKee,https://static.www.nfl.com/image/upload/{formatInstructions}/league/oveivzhzv13jrfvkp8zg,QB,16,211,35,23,1,1,
 2026,REG,7,2026102600,60284,10/26/2026,3700,PHI,1200,DAL,visitor,1,PRE285723,1200,DAL,Dak Prescott,D.Prescott,https://static.www.nfl.com/image/upload/{formatInstructions}/league/yvscmqq1qki8zfsemmcd,QB,4,212,27,15,0,3,
+2026,REG,8,2026102900,60285,10/29/2026,1800,GB,0750,CAR,home,1,LOV130776,1800,GB,Jordan Love,J.Love,https://static.www.nfl.com/image/upload/{formatInstructions}/league/thz8stjkbjwddxqnozi5,QB,10,288,41,30,1,3,
+2026,REG,8,2026102900,60285,10/29/2026,1800,GB,0750,CAR,visitor,1,YOU124763,0750,CAR,Bryce Young,B.Young,https://static.www.nfl.com/image/upload/{formatInstructions}/league/vcvhmxvxw2a3armle0af,QB,9,209,41,23,1,1,
