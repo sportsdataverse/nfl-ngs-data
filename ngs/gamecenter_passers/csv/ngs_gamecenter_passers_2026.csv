@@ -337,3 +337,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,8,2026110110,60296,11/01/2026,2700,MIA,3200,NE,visitor,1,MAY289639,3200,NE,Drake Maye,D.Maye,https://static.www.nfl.com/image/upload/{formatInstructions}/league/mkauzrg7vo8lfziigsbg,QB,10,199,20,16,0,2,
 2026,REG,8,2026110111,60297,11/01/2026,5110,WAS,3700,PHI,home,1,DAN567618,5110,WAS,Jayden Daniels,J.Daniels,https://static.www.nfl.com/image/upload/{formatInstructions}/league/gfz8k5onuqjrche9ogqc,QB,5,217,29,16,0,1,
 2026,REG,8,2026110111,60297,11/01/2026,5110,WAS,3700,PHI,visitor,1,MCK156404,3700,PHI,Tanner McKee,T.McKee,https://static.www.nfl.com/image/upload/{formatInstructions}/league/oveivzhzv13jrfvkp8zg,QB,16,212,34,23,1,0,
+2026,REG,8,2026110200,60298,11/02/2026,4600,SEA,0810,CHI,home,1,DAR466141,4600,SEA,Sam Darnold,S.Darnold,https://static.www.nfl.com/image/upload/{formatInstructions}/league/fyay8vruj0cqmhopufzk,QB,14,188,34,17,1,2,
+2026,REG,8,2026110200,60298,11/02/2026,4600,SEA,0810,CHI,visitor,1,WIL176897,0810,CHI,Caleb Williams,C.Williams,https://static.www.nfl.com/image/upload/{formatInstructions}/league/h4qs11kutwiw7whekmyt,QB,18,247,34,24,0,1,
