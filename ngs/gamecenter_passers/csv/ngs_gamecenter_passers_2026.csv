@@ -339,3 +339,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,8,2026110111,60297,11/01/2026,5110,WAS,3700,PHI,visitor,1,MCK156404,3700,PHI,Tanner McKee,T.McKee,https://static.www.nfl.com/image/upload/{formatInstructions}/league/oveivzhzv13jrfvkp8zg,QB,16,212,34,23,1,0,
 2026,REG,8,2026110200,60298,11/02/2026,4600,SEA,0810,CHI,home,1,DAR466141,4600,SEA,Sam Darnold,S.Darnold,https://static.www.nfl.com/image/upload/{formatInstructions}/league/fyay8vruj0cqmhopufzk,QB,14,188,34,17,1,2,
 2026,REG,8,2026110200,60298,11/02/2026,4600,SEA,0810,CHI,visitor,1,WIL176897,0810,CHI,Caleb Williams,C.Williams,https://static.www.nfl.com/image/upload/{formatInstructions}/league/h4qs11kutwiw7whekmyt,QB,18,247,34,24,0,1,
+2026,REG,9,2026110500,60299,11/05/2026,0325,BAL,2250,JAX,home,1,FAG628560,0325,BAL,Joe Fagnano,J.Fagnano,https://static.www.nfl.com/image/upload/{formatInstructions}/league/p8uqfsnpx153mn3gjtd3,QB,12,60,18,10,2,0,
+2026,REG,9,2026110500,60299,11/05/2026,0325,BAL,2250,JAX,visitor,1,LAW514099,2250,JAX,Trevor Lawrence,T.Lawrence,https://static.www.nfl.com/image/upload/{formatInstructions}/league/k9uzdernqkx7oquy7dkg,QB,16,242,26,16,0,1,
