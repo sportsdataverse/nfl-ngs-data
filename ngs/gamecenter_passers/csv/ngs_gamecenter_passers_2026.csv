@@ -367,3 +367,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,9,2026110811,60311,11/08/2026,4600,SEA,3800,AZ,visitor,1,MIN604610,3800,AZ,Gardner Minshew,G.Minshew,https://static.www.nfl.com/image/upload/{formatInstructions}/league/knlacyr7rqfkcxiriudj,QB,15,166,30,21,0,0,
 2026,REG,9,2026110812,60312,11/08/2026,0810,CHI,4900,TB,home,1,WIL176897,0810,CHI,Caleb Williams,C.Williams,https://static.www.nfl.com/image/upload/{formatInstructions}/league/h4qs11kutwiw7whekmyt,QB,18,279,37,22,4,2,
 2026,REG,9,2026110812,60312,11/08/2026,0810,CHI,4900,TB,visitor,1,MAY483453,4900,TB,Baker Mayfield,B.Mayfield,https://static.www.nfl.com/image/upload/{formatInstructions}/league/gjb8e69jtt1ffqf1afue,QB,6,243,32,18,2,0,
+2026,REG,9,2026110900,60313,11/09/2026,3000,MIN,0610,BUF,home,1,WEN615770,3000,MIN,Carson Wentz,C.Wentz,https://static.www.nfl.com/image/upload/{formatInstructions}/league/azwdmcksvjva4tgaa8vm,QB,11,81,25,8,2,0,
+2026,REG,9,2026110900,60313,11/09/2026,3000,MIN,0610,BUF,visitor,1,ALL529264,0610,BUF,Josh Allen,J.Allen,https://static.www.nfl.com/image/upload/{formatInstructions}/league/ynrhq9iv30ysjpwmrfdv,QB,17,234,31,21,1,1,
