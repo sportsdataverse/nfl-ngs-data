@@ -369,3 +369,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,9,2026110812,60312,11/08/2026,0810,CHI,4900,TB,visitor,1,MAY483453,4900,TB,Baker Mayfield,B.Mayfield,https://static.www.nfl.com/image/upload/{formatInstructions}/league/gjb8e69jtt1ffqf1afue,QB,6,243,32,18,2,0,
 2026,REG,9,2026110900,60313,11/09/2026,3000,MIN,0610,BUF,home,1,WEN615770,3000,MIN,Carson Wentz,C.Wentz,https://static.www.nfl.com/image/upload/{formatInstructions}/league/azwdmcksvjva4tgaa8vm,QB,11,81,25,8,2,0,
 2026,REG,9,2026110900,60313,11/09/2026,3000,MIN,0610,BUF,visitor,1,ALL529264,0610,BUF,Josh Allen,J.Allen,https://static.www.nfl.com/image/upload/{formatInstructions}/league/ynrhq9iv30ysjpwmrfdv,QB,17,234,31,21,1,1,
+2026,REG,10,2026111200,60314,11/12/2026,3410,NYG,5110,WAS,home,1,MCC189531,3410,NYG,J.J. McCarthy,J.McCarthy,https://static.www.nfl.com/image/upload/{formatInstructions}/league/eeecyzrxuih3pv2sywvx,QB,18,293,36,23,1,1,
+2026,REG,10,2026111200,60314,11/12/2026,3410,NYG,5110,WAS,visitor,1,DAN567618,5110,WAS,Jayden Daniels,J.Daniels,https://static.www.nfl.com/image/upload/{formatInstructions}/league/gfz8k5onuqjrche9ogqc,QB,5,249,33,23,2,3,
