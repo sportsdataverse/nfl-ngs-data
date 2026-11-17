@@ -395,3 +395,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,10,2026111510,60325,11/15/2026,1200,DAL,4500,SF,visitor,1,PUR243289,4500,SF,Brock Purdy,B.Purdy,https://static.www.nfl.com/image/upload/{formatInstructions}/league/xs2fyj1sqdgwvt9ihbri,QB,13,389,28,22,0,3,
 2026,REG,10,2026111511,60326,11/15/2026,0920,CIN,3900,PIT,home,1,BUR679731,0920,CIN,Joe Burrow,J.Burrow,https://static.www.nfl.com/image/upload/{formatInstructions}/league/gnnvcgui1cijybukk2w7,QB,9,409,44,35,0,4,
 2026,REG,10,2026111511,60326,11/15/2026,0920,CIN,3900,PIT,visitor,1,ROD339293,3900,PIT,Aaron Rodgers,A.Rodgers,https://static.www.nfl.com/image/upload/{formatInstructions}/league/dypvakakxhccxs67tb0y,QB,8,143,29,15,0,2,
+2026,REG,10,2026111600,60327,11/16/2026,0325,BAL,4400,LAC,home,1,BRI516391,0325,BAL,Jacoby Brissett,J.Brissett,https://static.www.nfl.com/image/upload/{formatInstructions}/league/qjswiunczrn5xmdiqhlz,QB,11,340,49,33,1,0,
+2026,REG,10,2026111600,60327,11/16/2026,0325,BAL,4400,LAC,visitor,1,HER031169,4400,LAC,Justin Herbert,J.Herbert,https://static.www.nfl.com/image/upload/{formatInstructions}/league/jnkspnntgebegzp4ghve,QB,10,129,18,12,0,0,
