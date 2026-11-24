@@ -421,3 +421,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,11,2026112209,60338,11/22/2026,3700,PHI,3900,PIT,visitor,1,ROD339293,3900,PIT,Aaron Rodgers,A.Rodgers,https://static.www.nfl.com/image/upload/{formatInstructions}/league/dypvakakxhccxs67tb0y,QB,8,227,44,30,0,1,
 2026,REG,11,2026112210,60339,11/22/2026,4500,SF,3000,MIN,home,1,PUR243289,4500,SF,Brock Purdy,B.Purdy,https://static.www.nfl.com/image/upload/{formatInstructions}/league/xs2fyj1sqdgwvt9ihbri,QB,13,255,26,21,0,3,
 2026,REG,11,2026112210,60339,11/22/2026,4500,SF,3000,MIN,visitor,1,COU709400,3000,MIN,Kirk Cousins,K.Cousins,https://static.www.nfl.com/image/upload/{formatInstructions}/league/za7cynvpwlsro1tsaijk,QB,8,235,38,26,1,0,
+2026,REG,11,2026112300,60340,11/23/2026,5110,WAS,0920,CIN,home,1,DAN567618,5110,WAS,Jayden Daniels,J.Daniels,https://static.www.nfl.com/image/upload/{formatInstructions}/league/gfz8k5onuqjrche9ogqc,QB,5,289,35,23,0,0,
+2026,REG,11,2026112300,60340,11/23/2026,5110,WAS,0920,CIN,visitor,1,BUR679731,0920,CIN,Joe Burrow,J.Burrow,https://static.www.nfl.com/image/upload/{formatInstructions}/league/gnnvcgui1cijybukk2w7,QB,9,300,40,28,0,2,
