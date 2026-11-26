@@ -423,3 +423,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,11,2026112210,60339,11/22/2026,4500,SF,3000,MIN,visitor,1,COU709400,3000,MIN,Kirk Cousins,K.Cousins,https://static.www.nfl.com/image/upload/{formatInstructions}/league/za7cynvpwlsro1tsaijk,QB,8,235,38,26,1,0,
 2026,REG,11,2026112300,60340,11/23/2026,5110,WAS,0920,CIN,home,1,DAN567618,5110,WAS,Jayden Daniels,J.Daniels,https://static.www.nfl.com/image/upload/{formatInstructions}/league/gfz8k5onuqjrche9ogqc,QB,5,289,35,23,0,0,
 2026,REG,11,2026112300,60340,11/23/2026,5110,WAS,0920,CIN,visitor,1,BUR679731,0920,CIN,Joe Burrow,J.Burrow,https://static.www.nfl.com/image/upload/{formatInstructions}/league/gnnvcgui1cijybukk2w7,QB,9,300,40,28,0,2,
+2026,REG,12,2026112500,60341,11/25/2026,2510,LAR,1800,GB,home,1,STA134157,2510,LAR,Matthew Stafford,M.Stafford,https://static.www.nfl.com/image/upload/{formatInstructions}/league/jwpkjfrkzufdyh8u1mg7,QB,9,140,23,16,1,0,
+2026,REG,12,2026112500,60341,11/25/2026,2510,LAR,1800,GB,visitor,1,LOV130776,1800,GB,Jordan Love,J.Love,https://static.www.nfl.com/image/upload/{formatInstructions}/league/thz8stjkbjwddxqnozi5,QB,10,198,29,17,2,1,
