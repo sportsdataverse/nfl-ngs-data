@@ -431,3 +431,5 @@ season,season_type,week,game_id,game_key,game_date,home_team_id,home_team_abbr,v
 2026,REG,12,2026112601,60343,11/26/2026,1200,DAL,3700,PHI,visitor,1,MIL818788,3700,PHI,Joe Milton III,J.Milton,https://static.www.nfl.com/image/upload/{formatInstructions}/league/tsj9lobse1gxzanf39dt,QB,14,331,31,21,1,3,
 2026,REG,12,2026112602,60344,11/26/2026,0610,BUF,2310,KC,home,1,ALL529264,0610,BUF,Josh Allen,J.Allen,https://static.www.nfl.com/image/upload/{formatInstructions}/league/ynrhq9iv30ysjpwmrfdv,QB,17,81,21,10,2,0,
 2026,REG,12,2026112602,60344,11/26/2026,0610,BUF,2310,KC,visitor,1,MAH401939,2310,KC,Patrick Mahomes,P.Mahomes,https://static.www.nfl.com/image/upload/{formatInstructions}/league/wdckwtob1lybvkmxnf7p,QB,15,174,29,16,0,0,
+2026,REG,12,2026112700,60345,11/27/2026,3900,PIT,1400,DEN,home,1,RUD321216,3900,PIT,Mason Rudolph,M.Rudolph,https://static.www.nfl.com/image/upload/{formatInstructions}/league/oadtxde6hxz1jgrs618o,QB,2,142,15,9,0,1,
+2026,REG,12,2026112700,60345,11/27/2026,3900,PIT,1400,DEN,visitor,1,NIX118212,1400,DEN,Bo Nix,B.Nix,https://static.www.nfl.com/image/upload/{formatInstructions}/league/zvo9xatffmqn9lnukpgk,QB,10,169,40,22,2,0,
